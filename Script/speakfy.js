@@ -1,5 +1,5 @@
 /*
-讲话和翻译自行测试
+讲话和翻译Pro
 
 https://receipt-validator.herewetest.com/apple/verifyTransaction
 */
