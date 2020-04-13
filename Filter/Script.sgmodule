@@ -1,0 +1,356 @@
+#!name=Script
+#!desc=综合js
+#!system=ios
+
+[Script]
+#Splice app unlock pro.
+http-response https:\/\/splice\.oracle\.\w+\.com\/devices\/me requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Splice.js,script-update-interval=0
+
+#VUE Vlog app unlocks pro
+http-response https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,script-update-interval=0
+
+# 黄油相机解锁素材
+http-response https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js,script-update-interval=0
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js,script-update-interval=0
+
+# PicsArt app unlocks pro
+http-response https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js,script-update-interval=0
+
+#Keep app unlock private lessons and action libraries
+http-response https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Keep.js,script-update-interval=0
+
+http-response ^https?:\/\/m\.poizon\.com\/client\/init script-path=https://github.com/ConnersHua/Profiles/raw/master/Surge/Script/com.poizon.js,requires-body=true,script-update-interval=0
+http-response https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js,requires-body=true,script-update-interval=0
+http-response https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js,requires-body=true,script-update-interval=0
+http-response ^https?:\/\/apple\.fuliapps\.com requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js,script-update-interval=0
+
+# 丁香园 用药助手 VIP
+http-response ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js,script-update-interval=0
+
+# WPS国际版&大陆版
+http-response ^https?:\/\/account\.wps\.(cn|com)\/api\/users requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/Wps.js,script-update-interval=0
+
+#陆琪讲故事VIP
+http-response https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js,script-update-interval=0
+
+#Gyroscope unlock pro (Script author: @Maasea )
+http-response ^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/gyroscope.js,script-update-interval=0
+
+# 水印精灵VIP Watermark sprite vip （Author: Alex0510）
+http-response https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js,script-update-interval=0
+
+#大千世界VIP
+http-response ^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js,script-update-interval=0
+http-response http:\/\/mitaoapp\.yeduapp\.com\/\/index\.php\/api\/User\/userLogin requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bdmh.js,script-update-interval=0
+
+#JibJab App unlock
+http-response https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js,script-update-interval=0
+
+# 小影 VIP
+http-response ^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js,script-update-interval=0
+
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,requires-body=1,script-update-interval=0
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,requires-body=1,script-update-interval=0
+http-response https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/QQNews.js,script-update-interval=0
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js,script-update-interval=0
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|\!/photos/pic_recommend_status) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,script-update-interval=0
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,script-update-interval=0
+
+#微信去广告
+http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://Choler.github.io/Surge/Script/WeChat.js,script-update-interval=0
+http-request ^https://sp\.kaola\.com/api/openad$ script-path=https://Choler.github.io/Surge/Script/Kaola.js,script-update-interval=0
+http-response ^https://api\.rr\.tv/v3plus/index/(channel|todayChoice)$ requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/RRad.js,script-update-interval=0
+
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(start|myOrderInfo|orderTrackBusiness) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/primovist/ScriptsForSurge/master/Scripts/JDAdRemove.js,script-update-interval=0
+http-response ^https?:\/\/(h(aojia|omepage)|(articl|baik)e|s)-api\.smzdm\.com\/(home|sou) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/primovist/ScriptsForSurge/master/Scripts/SMZDM.js,script-update-interval=0
+http-response ^https?:\/\/ap(i|p).(live.)?bilibili.com\/x(live)?\/(resource\/show\/tab|v2\/(reply\/main|view\/material|account\/(mine|teenagers\/status)|view|feed\/index|show\/popular\/index|rank)|app-room/v1/index/getInfoByRoom)\?access_key requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/primovist/ScriptsForSurge/master/Scripts/Bilibili.js,script-update-interval=0
+http-response ^https?:\/\/(api|www)\.zhihu\.com\/(moments(\/recommend)?\?(action|feed_type)|topstory\/recommend|.*\/questions|market\/header|people|appview\/(v2|p)\/(answer\/)?\d{1,10}\?no\_image\=false(\&article\_fixed\_bottom\=1)?\&X\-SUGER\=) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/primovist/ScriptsForSurge/master/Scripts/Zhihu.js,script-update-interval=0
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts requires-body=1,script-path=https://raw.githubusercontent.com/primovist/ScriptsForSurge/master/Scripts/Lightroom.js,script-update-interval=0
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile\/nul\/v2$  requires-body=1,script-path=https://raw.githubusercontent.com/TingoLee/Scripting/master/photoshop.js,script-update-interval=0
+http-response https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Wangsc1/All/master/Surge/Scripts/Drafts.js,script-update-interval=0
+http-request ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
+http-response ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
+http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) requires-body=1,max-size=262144,script-path=https://raw.githubusercontent.com/Wangsc1/All/master/QuanX/Scripts/ClarityWallpaper.js,script-update-interval=0
+http-response ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Delecomp/Selfiles/Profiles/Script/Fantastical.js,script-update-interval=0
+http-response https:\/\/pocketlists\.com\/api\/v1\/pocketlists\.me\.get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/TingoLee/Scripting/master/pocketlists.js,script-update-interval=0
+http-response ^https:\/\/license\.pdfexpert\.com\/api\/.*\/(documents|pdfexpert6)\/subscription\/(refresh$|check$) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Wangsc1/All/master/Surge/Scripts/Documents%26PDFExpert.js,script-update-interval=0
+
+# 扫描全能王
+http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js,script-update-interval=0
+
+# 网易考拉 去广告 (By Choler)
+http-response ^https://sp\.kaola\.com/api/openad$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wykaola.js,script-update-interval=0
+
+# 微博国际版去除开屏广告及时间线广告 by hancj0528
+http-response ^https?:\/\/api\.weibo\.cn\/2\/(statuses|groups)\/(unread_hot_|friends_)?timeline requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/WeiboInt.js,script-update-interval=0
+
+# Undfold
+http-response ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Unfold.vip.js,script-update-interval=0
+
+# 内购恢复from Alex0510 ng.js & wubulaba allinone.js
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/sk/Script/ng.js,script-update-interval=0
+
+# 有道云笔记VIP功能
+http-response ^https:\/\/note.youdao.com\/yws\/(mapi\/payment|api\/self) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/ydybj.js,script-update-interval=0
+
+# 爱美剧 unlock vip（官网：xmj.app）
+http-response ^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js,script-update-interval=0
+
+# 🍌️视频（Made by Meeta）
+http-response https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js,script-update-interval=0
+
+# 小小影视VIP XiaoXiaoYingShi unlock Vip
+http-response https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js,script-update-interval=0
+
+# 91 short video unlock vip
+http-response ^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/91ShortVideo.js,script-update-interval=0
+
+# 网易考拉
+http-request ^https://sp\.kaola\.com/api/openad$ script-path=https://Choler.github.io/Surge/Script/Kaola.js,script-update-interval=0
+
+# KuWo music
+http-request https?:\/\/musicpay\.kuwo.cn\/music\.pay\?uid=\d+ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/KuWoMusicDownload.js,script-update-interval=0
+# Vip script:
+http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js,script-update-interval=0
+
+# 南瓜电影 VIP Pumpkin movie unlock vip
+http-response ^https:\/\/(p\.doras\.api\.vcinema\.cn|pay\.guoing\.com)\/(v5\.0\/user\/\d+$|d\/user\/get_user_info) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/ngdy.js,script-update-interval=0
+
+#京东签到
+cron "2 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+
+# 来客有礼签到
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/JDLK_sign.js,script-update-interval=0
+# 来客有礼 Cookie.
+http-request https:\/\/draw\.jdfcloud\.com\/\/api\/turncard\/sign\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/JDLK_cookie.js,script-update-interval=0
+
+# 京东到家签到
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
+# 获取京东到家 Cookie.
+http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
+
+#京东成长分签到
+cron "0 28 11 * * ?" script-path=https://raw.githubusercontent.com/hello1983/Files/master/Js/Surge/jdczf.js,script-update-interval=0
+http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFlow script-path=https://raw.githubusercontent.com/hello1983/Files/master/Js/Surge/jdczfcookie.js,script-update-interval=0
+
+# 人人视频去广告+原画 (勋章列表)
+# http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/rrtv.js
+
+
+# Reddit官方客户端去除时间线Promoted广告
+http-response ^https?:\/\/oauth\.reddit\.com\/api\/v1\/me\/prefs\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/Reddit.js,script-update-interval=0
+
+# Lensa人像修图解锁
+http-response ^https?:\/\/subscription-service\.neuralprisma\.com\/subscription_get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/Lensa.js,script-update-interval=0
+
+# Xmind Unlocks Pro
+http-response https:\/\/www\.xmind\.cn\/\_res\/devices requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Delecomp/Selfiles/Profiles/Script/XMind.js,script-update-interval=0
+
+#卡点视频
+http-response ^htt(ps|p):\/\/(t|k)a(v|dian).(easyfeng|nineton).(net|cn)/api\/(v1(|.user))/(info|folk/me) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/kdsp.js
+
+#unflod内购
+http-response ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/unflod.js,script-update-interval=0
+
+#马卡龙抠图神器Pro
+http-response ^https:\/\/app\.api\.versa-ai.com\/pay\/order\/iap\/check requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/mkl.js,script-update-interval=0
+
+#Airmail邮箱解锁Pro
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/6AF964F4-976A-4DB8-A0B5-C779AB661FA9 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/Airmail.js,script-update-interval=0
+
+#菜谱大全VIP
+http-response ^https?:\/\/api\.jiaonizuocai\.com requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/john-wx/scripting/master/john/cpdq.js,script-update-interval=0
+
+#智能证件照相机 (by @superuv)
+http-response ^https:\/\/app\.xunjiepdf\.com\/api\/v4\/virtualactregister requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/znzj.js,script-update-interval=0
+
+#幕布 (by @superuv)
+http-response ^https:\/\/mubu\.com\/api\/app\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mb.js,script-update-interval=0
+
+#all apps monkey
+http-response ^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/monkey.js,script-update-interval=0
+
+#planner5d
+http-response ^https:\/\/planner5d\.com\/api\/sets requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/planner5d.js,script-update-interval=0
+
+#endel
+http-response ^https:\/\/api-production\.endel\.io\/.*\/user$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/endel.js,script-update-interval=0
+
+#哎呀直播解锁收费房间，你懂的，开车软件
+http-response ^https:\/\/api\.hlo\.xyz/api\/public\/?service=Live\.checkLive requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/aiya.js,script-update-interval=0
+
+# 动画疯
+http-request https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js,script-update-interval=0
+http-response https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js,script-update-interval=0
+
+# Baidu netdisc unlocks online video play speed.
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js,script-update-interval=0
+
+#FaceApp
+http-response ^https?:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/FaceApp.js,script-update-interval=0
+
+# 万象直播 你懂的 download link：https://m.51168.tv/
+http-response https:\/\/u\.kanghuayun\.com\/api\/v2\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/wxzb.js,script-update-interval=0
+
+# 轻听英语VIP
+http-response ^https:\/\/sapi\.beingfine\.cn\/v1\/UserLaunchAppReport requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/qtyy.js,script-update-interval=0
+
+# quizlet解锁
+http-response ^https:\/\/api\.quizlet\.com\/3.4\/users requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/quizlet.js,script-update-interval=0
+
+# 实时天气解锁Pro
+http-response ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/sstq.js,script-update-interval=0
+
+# wash post邮票
+http-response ^https:\/\/login\.washingtonpost\.com\/identity\/oauth\/v1\/profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/wash.js,script-update-interval=0
+
+# 豌豆清单VIP
+http-response ^https:\/\/www\.40sishi\.com\/list\/user\/profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/wdqd.js,script-update-interval=0
+
+# 瑜伽TV解锁VIP及课程
+http-response ^http:\/\/ygec\.fit-time\.com\/ftec\/getPayMember requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/yjtv.js,script-update-interval=0
+
+# 语音转文字助手VIP
+http-response ^https:\/\/app\.xunjiepdf\.com\/api\/v4\/memprofile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/yzw.js,script-update-interval=0
+
+# 中国体育tv观看VIP视频
+http-response ^http:\/\/rest\.zhibo\.tv\/room\/get-room-info-v430 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/zgtytv.js,script-update-interval=0
+
+# 1:mix视频下载自动升级VIP
+# 2:沙拉视频点击恢复购买升级VIP
+# 3:小影视频登录就是VIP
+http-response https:\/\/(viva|bmall)\.(v21xy|camera360)\.com\/api\/(rest/u/vip(VerifyReceipt|InfoNew)|iap/check-receipt|mix/getinfo) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/Mixyslvideo.js,script-update-interval=0
+# http-response https:\/\/(viva|bmall)\.(v21xy|camera360)\.com\/api\/(rest/u/vip(VerifyReceipt|InfoNew)|iap/check-receipt|mix/getinfo) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/Mixyslvideo.js,script-update-interval=0
+
+# peak智客解锁Pro
+http-response ^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/Peak.js,script-update-interval=0
+
+# chicCam相机
+http-response ^https:\/\/chic\.mtlab\.meitu\.com\/parse\/functions\/validateReceipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/chicCam.js,script-update-interval=0
+
+# drops解锁Pro
+http-response ^https:\/\/lambda\.us-east-1\.amazonaws\.com\/2015-03-31\/functions\/prod-4-validatePurchases\/invocations requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/drops.js,script-update-interval=0
+
+# 利用 GitHub Education 解锁 Working Copy
+http-response ^https:\/\/education\.github\.com\/api\/user$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Wangsc1/All/master/Surge/Scripts/WorkingCopy.js,script-update-interval=0
+
+# 彩云小译解锁VIP
+http-response ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/cyxy.js,script-update-interval=0
+
+# 稿定视频(原小柿饼)解锁VIP
+http-response ^https:\/\/api\.xsbapp\.com\/users requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/gdsp.js,script-update-interval=0
+
+# 三款PDF APP解锁Pro
+# PDF Expret点睛和PDF Viewer及(Adbole Acrobat reader未测试）
+http-response ^https:\/\/(api|license|createpdf)\.(revenuecat|pdfexpert|acrobat)\.com\/(v1|api\/1.0\/pdfexpert6|createpdf\/api\/users\/me)\/subscri(bers\/|(ption(s|\/refresh))) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/pdf.js,script-update-interval=0
+
+# 石墨文档解锁VIP未测试，自行测试
+http-response ^https:\/\/api\.shimo\.im\/users requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/shimo.js,script-update-interval=0
+
+# Musixmatch unlock vip
+http-response ^https?:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/Musixmatch.js,script-update-interval=0
+
+# 魔板视频，通话录音，扫描王，秒拍证件照，文字识别五大APP同时解锁VIP
+http-response ^http:\/\/micro-tool-api\.foundao\.com\/orderPayCenterService\/user\/userInfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/moban.js,script-update-interval=0
+
+#altstore 
+http-response ^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/TingoLee/Scripting/master/altstore.js,script-update-interval=0
+
+# 网易蜗牛读书VIP (By yxiaocai and JO2EY)
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js,script-update-interval=0
+
+# M(西瓜视频:www.xg1.app) 
+http-response https?://api.gkaorlz.com/api/user/get script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/watermelonvideo.js,requires-body=true,script-update-interval=0
+http-response https?:\/\/api2\.gkaorlz\.com\:8080\/api\/user\/ script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/watermelonvideo.js,requires-body=true,script-update-interval=0
+
+# caml解锁免费听
+http-response ^https:\/\/api\.calm\.com\/(me|device|ios\/receipt) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/caml.js,script-update-interval=0
+
+# 轻颜相机蒸汽波相机vaporcam解锁VIP
+http-response ^https:\/\/(commerce-api|pay)\.(faceu|wecut)\.(com|mobi)\/(commerce|apple)\/(iosAppVerifyReceipt\.php|v1\/subscription\/user_info) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/qyxj.js,script-update-interval=0
+
+# instapaper解锁Pro
+http-response ^https:\/\/www\.instapaper\.com\/api\/subscription_status requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/instapaper.js,script-update-interval=0
+
+# 放松并睡个好觉musicalm解锁VIP
+http-response ^https:\/\/subscription\.aresframework\.com\/api\/purchase requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/musicalm.js,script-update-interval=0
+
+# pillow解锁高级版
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/pillow.js,script-update-interval=0
+
+# Sleepzy unlock PRO
+http-request ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ script-path=https://raw.githubusercontent.com/Delecomp/Selfiles/Profiles/Script/Sleepzy.js,script-update-interval=0
+
+# 花椒视频解锁VIP
+http-response ^http:\/\/user\.shywck\.com\/user\/userinfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/hjsp.js,script-update-interval=0
+
+# 解锁迅捷六款App：清爽视频编辑，迅捷文字识别，录音转文字助手，文字转语音助手，迅捷PDF转换器，迅捷论文查重
+http-response ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Wangsc1/All/master/QuanX/Scripts/XunJie.js,script-update-interval=0
+
+# 今日热榜tf版白嫖永久VIP，下载tf版后直接购买即可，不会扣费  
+# tf链接https://testflight.apple.com/join/51y2x3uo
+http-response ^http:\/\/api\.tophub\.today\/account\/sync requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/todaytop.js,script-update-interval=0
+
+# 咔咔弹幕解锁VIP限制
+http-response ^http:\/\/api\.bibishenqi\.com\/api requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/kakadm.js,script-update-interval=0
+
+# 不背单词解锁装备
+http-response ^https:\/\/sapi\.beingfine\.cn\/v3\/report\/launch requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/bbdc.js,script-update-interval=0
+
+# CPUdasher
+http-response ^https:\/\/p16-buy\.itunes\.apple\.com\/WebObjects\/MZFinance\.woa\/wa\/inAppRegrantPurchaseHistory requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/cpudasher.js,script-update-interval=0
+
+# noted解锁VIP
+http-response ^https:\/\/noted-prod\.herokuapp\.com\/api\/verifyReceipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/noted.js,script-update-interval=0
+
+# 小章鱼Pro
+http-response ^https:\/\/shimo\.im\/octopus-api\/users\/subscribe requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/xzy.js,script-update-interval=0
+
+# 新版115的App添加创建离线任务 by ikanam
+http-response ^https?:\/\/(webapi.|)115\.com\/(lx.*|user\/check_sign) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/115lx.js,script-update-interval=0
+
+# 提取115中的视频使用nPlayer进行播放
+http-request ^http:\/\/.*\.115\.com\/.*\.m3u8.*$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/115tonplayer.js,script-update-interval=0
+
+# 语音翻译器解锁Pro
+http-request ^https:\/\/app\.xunjiepdf\.com\/api\/v4\/memprofile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/yyfyq.js,script-update-interval=0
+
+# now冥想vip
+http-request ^https:\/\/nowapi\.navoinfo\.cn\/my_vip requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/now.js,script-update-interval=0
+
+# 奇热小说解锁VIP
+http-request ^https:\/\/api\.weiqire\.com\/api3\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/qire.js,script-update-interval=0
+
+# 手机硬件管家VIP Pro
+http-request ^http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/sjyjgj.js,script-update-interval=0
+
+# 解锁白描黄金会员 by LTribe
+http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wubulaba/surgescript/master/Script/Baimiao.js,script-update-interval=0
+
+# PDF转换器解锁VIP自行测试
+http-response ^https:\/\/createpdf\.acrobat\.com\/createpdf\/api\/users\/me\/subscriptions requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/PDFzhq.js,script-update-interval=0
+
+# 闪电下载地址http://bbs.flashdown365.com/download.html
+http-response ^http:\/\/app\.flashdown365\.com\/ios\/login requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/sdxx.js,script-update-interval=0
+
+# 知音漫客更新解锁VIP全部限制及VIP付费限制
+http-response ^https:\/\/get(user|comic)info-globalapi\.zymk\.cn\/app_api\/v5\/get(user|comic)info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Script/zymk.js,script-update-interval=0
+
+#JAV101无限观看 (By 凉意)
+http-response ^https\:\/\/api\.gao1gps\.cn\/v1\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js,script-update-interval=0
+
+#gk扫描仪(by @superuv)
+http-response ^https:\/\/api\.gkocr\.com\/api\/userlogin1.php requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/smy.js,script-update-interval=0
+
+#洪恩双语绘本 (By 军哥哥)
+http-response https:\/\/bookapi\.ihuman\.com\/(v1\/get\_user\_info|v1\/get\_purchase\_list) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hnsyhb.js,script-update-interval=0
+
+# 飒漫画 (By @u18888)
+http-response ^https:\/\/m\.samh\.xndm\.tech\/userapi\/info\/v1\/getuserinfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/Smh.js,script-update-interval=0
+
+#美颜相机一次性解锁内购（by黑黑酱）
+http-response ^https:\/\/api\.meiyan\.com\/iap\/verify\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js,script-update-interval=0
+ 
+[MITM]
+hostname = %APPEND% api.meiyan.com,api.gkocr.com,bookapi.ihuman.com,m.samh.xndm.tech,api.gao1gps.cn,*.zymk.cn,app.flashdown365.com,baimiao.uzero.cn,api.591master.com,api.weiqire.com,nowapi.navoinfo.cn,app.xunjiepdf.com,webapi.115.com,shimo.im,noted-prod.herokuapp.com,p16-buy.itunes.apple.com,sapi.beingfine.cn,api.bibishenqi.com,api.tophub.today,*.xunjie*.com,user.shywck.com,api.revenuecat.com,subscription.aresframework.com,www.instapaper.com,commerce-api.faceu.mobi,pay.wecut.com,api.calm.com,api-hdcj.9w9.com,www.xg1.app,ms.jr.jd.com,www.patreon.com,micro-tool-api.foundao.com,apic.musixmatch.com,ap*.intsig.net,daojia.jd.com,api.shimo.im,license.pdfexpert.com,api.revenuecat.com,createpdf.acrobat.com,api.xsbapp.com,api.interpreter.caiyunai.com,education.github.com,lambda.us-east-1.amazonaws.com,chic.mtlab.meitu.com,billing.peakcloud.org,bmall.camera360.com,viva.v21xy.com,rest.zhibo.tv,ygec.fit-time.com,www.40sishi.com,login.washingtonpost.com,subs.platforms.team,api.quizlet.co,sapi.beingfine.cn,u.kanghuayun.com,api.gamer.com.tw,api-production.endel.io,planner5d.com,www.api.monkeyuni.net,mubu.com,api.jiaonizuocai.com,api.revenuecat.com,app.api.versa-ai.com,api.unfold.app,tav.easyfeng.net,kadian.nineton.cn,www.xmind.cn,subscription-service.neuralprisma.com,oauth.reddit.com,api.rr.tv,draw.jdfcloud.com,pay.guoing.com, p.doras.api.vcinema.cn,vip1.kuwo.cn,sp.kaola.com,*.xiaoxiao*.com,ios.fuliapps.com, apple.fuliapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com,api.bjxkhc.com,note.youdao.com,buy.itunes.apple.com,api.unfold.app,weibointl.api.weibo.cn, api.weibo.cn,buy.itunes.apple.com,*.smzdm.com,pocketlists.com,photos.adobe.io,lcs-mobile-cops.adobe.io,ios.prod.ftl.netflix.com,claritywallpaper.com,backend.getdrafts.com,api.flexibits.com,license.pdfexpert.com,*.360buyimg.com, *.amemv.com, *.chelaile.net.cn, *.cnbetacdn.com, *.didistatic.com, *.doubanio.com, *.google-analytics.com, *.iydsj.com, *.k.sohu.com, *.kfc.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pixiv.net, *.pstatp.com, *.uve.weibo.com, *.wikipedia.org, *.wikiwand.com, *.ydstatic.com, *.youdao.com, *.youtube.com, *.zhuishushenqi.com, *.zymk.cn, 101.201.62.22, 113.105.222.132, 113.96.109.*, 118.178.214.118, 119.18.193.135, 121.14.89.216, 121.9.212.178, 123.59.31.1, 14.21.76.30, 153.3.236.81, 180.101.212.22, 183.232.237.194, 183.232.246.225, 183.60.159.227, 218.11.3.70, 59.151.53.6, 59.37.96.220, 789.kakamobi.cn, a.apicloud.com, a.applovin.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, aarkissltrial.secure2.footprint.net, acs.m.taobao.com, act.vip.iqiyi.com, activity2.api.ofo.com, adm.10jqka.com.cn, adproxy.autohome.com.cn, adse.ximalaya.com, afd.baidu.com, api*.musical.ly, api*.tiktokv.com, api.abema.io, api.app.vhall.com, api.bilibili.com, api.chelaile.net.cn, api.daydaycook.com.cn, api.douban.com, api.feng.com, api.fengshows.com, api.gotokeep.com, api.huomao.com, api.intsig.net, api.jr.mi.com, api.jxedt.com, api.k.sohu.com, api.kkmh.com, api.laifeng.com, api.live.bilibili.com, api.m.mi.com, api.mddcloud.com.cn, api.mgzf.com, api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.wallstreetcn.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api.zhuishushenqi.com, api5.futunn.com, api-mifit.huami.com, api-mifit-cn.huami.com, api-release.wuta-cam.com, app.10086.cn, app.58.com, app.api.ke.com, app.bilibili.com, app.m.zj.chinamobile.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, app2.autoimg.cn, appsdk.soku.com, atrace.chelaile.net.cn, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.douyucdn.cn, capi.mwee.cn, cdn.kuaidi100.com, cdn.moji.com, channel.beitaichufang.com, classbox2.kechenggezi.com, client.mail.163.com, cms.daydaycook.com.cn, connect.facebook.net, consumer.fcbox.com, creatives.ftimg.net, creditcard.ecitic.com, d.1qianbao.com, daoyu.sdo.com, dapis.mting.info, dl.app.gtja.com, dongfeng.alicdn.com, dsp-impr2.youdao.com, dspsdk.abreader.com, e.dangdang.com, erebor.douban.com, fdfs.xmcdn.com, fm.fenqile.com, frodo.douban.com, fuss10.elemecdn.com, g1.163.com, gateway.shouqiev.com, gorgon.youdao.com, gw.alicdn.com, gw-passenger.01zhuanche.com, hm.xiaomi.com, hui.sohu.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, i1.hoopchina.com.cn, iapi.bishijie.com, iface.iqiyi.com, iface2.iqiyi.com, img*.doubanio.com, img.jiemian.com, img.zuoyebang.cc, img01.10101111cdn.com, img1.126.net, img1.doubanio.com, img3.doubanio.com, impservice.dictapp.youdao.com, impservice.youdao.com, interface.music.163.com, ios.prod.ftl.netflix.com, ios.wps.cn, kano.guahao.cn, lives.l.qq.com, m*.amap.com, m.aty.sohu.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.yap.yahoo.com, m5.amap.com, ma.ofo.com, mage.if.qidian.com, mapi.appvipshop.com, mapi.mafengwo.cn, mapi.weibo.com, mbl.56.com, media.qyer.com, mi.gdt.qq.com, mimg.127.net, mmg.aty.sohu.com, mmgr.gtimg.com, mob.mddcloud.com.cn, mobile-api2011.elong.com, mp.weixin.qq.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, newsso.map.qq.com, nex.163.com, nnapp.cloudbae.cn, open.qyer.com, p.kuaidi100.com, p1.music.126.net, pic.k.sohu.com, pic1.chelaile.net.cn, pic1cdn.cmbchina.com, pic2.zhimg.com, portal-xunyou.qingcdn.com, pss.txffp.com, r.inews.qq.com, render.alipay.com, resource.cmbchina.com, res-release.wuta-cam.com, ress.dxpmedia.com, richmanapi.jxedt.com, rm.aarki.net, rtbapi.douyucdn.cn, service.4gtv.tv, slapi.oray.net, smkmp.96225.com, snailsleep.net, ssl.kohsocialapp.qq.com, sso.ifanr.com, static.api.m.panda.tv, static.vuevideo.net, static1.keepcdn.com, staticlive.douyucdn.cn, storage.wax.weibo.com, support.you.163.com, supportda.ofo.com, thor.weidian.com, ups.youku.com, wapwenku.baidu.com, wenku.baidu.com, www.dandanzan.com, www.facebook.com, www.flyertea.com, www.ft.com, www.oschina.net, www.zhihu.com, youtubei.googleapis.com, zhidao.baidu.com, *.alicdn.com, splice.oracle.*.com, pan.baidu.com, api.picsart.c*, api.meiease.c*, mp.bybutter.com, api.vuevideo.net, mobile-api.adguard.com, getuserinfo-globalapi.zymk.cn, api.weibo.cn, mapi.weibo.com, api.mvmtv.com, interface.music.163.com, oauth.secure.pixiv.net, app-api.pixiv.net, testflight.apple.com, weibointl. origin-prod-phoenix.jibjab.com, oauth.secure.pixiv.net, api1.dobenge.cn, api.gyrosco.pe, www.luqijianggushi.com, account.wps.co,account.wps.cn, api.faceapp.io, newdrugs.dxy.cn, apple.fuliapps.com, api.vnision.com, vsco.co, *byteoversea.com, *musical.ly, *tiktokv.com, ads30.adcolony.com, afd.baidu.com, amdc.m.taobao.com, api.m.taobao.com, api.o2bra.com.cn, api.vungle.com, api.wodidashi.com, api.xiaoyi.com, apiv2.douyucdn.cn, app.lizhi.fm, bbs.nga.cn, capi.douyucdn.cn, dl.app.gtja.com, gorgon.youdao.com,lives.l.qq.com, m.mynj.cn, mbd.baidu.com, net.rayjump.com, news.l.qq.com, otheve.beacon.qq.com, passenger.01zhuanche.com, qde.qunar.com, rtbapi.douyucdn.cn, sdkapp.mobile.sina.cn, static.api.m.panda.tv, www.51zhangdan.com, www.baidu.com, www.xiaohongchun.com, *.kakamobi.cn, *.musical.ly, *.uve.weibo.com, *.ydstatic.com, *pi.feng.com, 4gimg.map.qq.com, a.apicloud.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, acs.m.taobao.com, act.vip.iqiyi.com, api.21jingji.com, api.caijingmobile.com, api.chelaile.net.cn, api.daydaycook.com.cn, api.douban.com, api.haohaozhu.cn, api.huomao.com,api.izuiyou.com, api.jr.mi.com, api.jxedt.com, api.kkmh.com, api.m.jd.com, api.mgzf.com,api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.vistopia.com.cn, api.wallstreetcn.com, api.xiachufang.com, api.zhuishushenqi.com, api*.tiktokv.com, api5.futunn.com, api-mifit*.huami.com, api-release.wuta-cam.com, app.58.com, app.api.ke.com, app.bilibili.com, appconf.mail.163.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, app.yinxiang.com, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.mwee.cn, cdn.moji.com, channel.beitaichufang.com, clientaccess.10086.cn, client.mail.163.com, cms.daydaycook.com.cn, consumer.fcbox.com, creditcard.ecitic.com, daoyu.sdo.com, dxy.com, e.dangdang.com, easyreadfs.nosdn.127.net, gateway.shouqiev.com, guide-acs.m.taobao.com, gw.alicdn.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, iapi.bishijie.com, iface.iqiyi.com, ih2.ireader.com, img01.10101111cdn.com, img.jiemian.com, ios.lantouzi.com, ios.wps.cn, m*.amap.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.poizon.com, m.yap.yahoo.com, mapi.mafengwo.cn, media.qyer.com, mlife.jf365.boc.cn, mob.mddcloud.com.cn, mobi.360doc.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, pic1cdn.cmbchina.com, pic*.chelaile.net, portal-xunyou.qingcdn.com, pss.txffp.com, render.alipay.com, restapi.iyunmai.com, resrelease.wuta-cam.com, richmanapi.jxedt.com, service.4gtv.tv, smkmp.96225.com, slapi.oray.net, snailsleep.net, ss0.bdstatic.com, ssl.kohsocialapp.qq.com, static1.keepcdn.com, status.boohee.com, support.you.163.com, s.youtube.com, thor.weidian.com, tiku.zhan.com, weibointl. www.bodivis.com.cn, www.dandanzan.com, www.flyertea.com, www.youtube.com, www.zhihu.com, www.zybang.com, youtubei.googleapis.com, zhidao.baidu.com, ulogs.umeng.com, ulogs.umengcloud.com, alogs.umeng.com, alogs.umeng.co, *.byteoversea.com, *.cnbetacdn.com, *.doubanio.com, 101.201.62.22, 113.105.222.132, 113.96.109.*, 118.178.214.118, 121.14.89.216, 121.9.212.178, 14.21.76.30, 183.232.237.194, 183.232.246.225, 183.60.159.227, 59.37.96.220, 789.kakamobi.cn, aarkissltrial.secure2.footprint.net, activity2.api.ofo.com, adm.10jqka.com.cn, adproxy.autohome.com.cn, api.app.vhall.com, api.fengshows.com, api.k.sohu.com, api.laifeng.com, api.m.mi.com, api.mddcloud.com.cn, api-mifit.huami.com, api-mifit-cn.huami.com, app.10086.cn, app.m.zj.chinamobile.com, app2.autoimg.cn, appsdk.soku.com, atrace.chelaile.net.cn, cdn.kuaidi100.com, classbox2.kechenggezi.com, connect.facebook.net, creatives.ftimg.net, d.1qianbao.com, dapis.mting.info, dongfeng.alicdn.com, dsp-impr2.youdao.com, erebor.douban.com, fm.fenqile.com, frodo.douban.com, fuss10.elemecdn.com, g1.163.com, hm.xiaomi.com, hui.sohu.com, i1.hoopchina.com.cn, img.zuoyebang.cc, img1.126.net, img1.doubanio.com, img3.doubanio.com, impservice.dictapp.youdao.com, impservice.youdao.com, kano.guahao.cn, m.aty.sohu.com, m5.amap.com, ma.ofo.com, mage.if.qidian.com, mapi.appvipshop.com, mbl.56.com, mimg.127.net, mmg.aty.sohu.com, mmgr.gtimg.com, nex.163.com, oimagea4.ydstatic.com, oimagec2.ydstatic.com, p.kuaidi100.com, p1.music.126.net, pic.k.sohu.com, pic1.chelaile.net.cn, pic2.zhimg.com, resource.cmbchina.com, ress.dxpmedia.com, rm.aarki.net, sso.ifanr.com, staticlive.douyucdn.cn, storage.wax.weibo.com, supportda.ofo.com, ups.youku.com, wapwenku.baidu.com, www.facebook.com, www.ft.com, www.oschina.net, *.applovin.com, *.iydsj.com, *.k.sohu.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pstatp.com, *.youtube.com, a.apicloud.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, act.vip.iqiyi.com, api.21jingji.com, api.caijingmobile.com, api.daydaycook.com.cn, api.haohaozhu.cn,api.izuiyou.com, api.jxedt.com, api.mgzf.com, api.rr.tv, api.vistopia.com.cn, api.wallstreetcn.com, api.zhihu.com, api*.tiktokv.com, api-mifit*.huami.com, app.58.com, app.api.ke.com, app.bilibili.com, app.variflight.com, app.yinxiang.com, cap.caocaokeji.cn, channel.beitaichufang.com, clientaccess.10086.cn, cms.daydaycook.com.cn, creditcard.ecitic.com, dxy.com, easyreadfs.nosdn.127.net, gateway.shouqiev.com, gw.alicdn.com, gw-passenger.01zhuanche.com, i.ys7.com, iapi.bishijie.com, ih2.ireader.com, img*.doubanio.com, interfac*.music.163.com, ios.lantouzi.com, m*.amap.com, m.creditcard.ecitic.com, media.qyer.com, mlife.jf365.boc.cn, mob.mddcloud.com.cn, mobile-api2011.elong.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, msspjh.emarbox.com, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, pic*.chelaile.net, portal-xunyou.qingcdn.com, pss.txffp.com, render.alipay.com, resrelease.wuta-cam.com, richmanapi.jxedt.com, status.boohee.com, thor.weidian.com, tiku.zhan.com, www.dandanzan.com, www.flyertea.com, www.zybang.com, zhidao.baidu.com, app.stoneread.com, api.mh.163.com, api.bilibili.com, i.weiread.qq.com, github.com, gist.github.com, shimo.im, ios.prod.ftl.netflix.com, p.du.163.com, *.applovin.com, i.weread.qq.com, m.poizon.com, ss0.bdstatic.com, s.youtube.com, www.youtube.com, 123.59.31.1, 119.18.193.135, qidian.qpic.cn, a.applovin.com, api-163.biliapi.net, mg.meituan.net, s3plus.meituan.net, pan-api.bitqiu.com, 4gimg.map.qq.com, restapi.iyunmai.com, www.bodivis.com.cn, api.feng.com, m.tuniu.com, img.meituan.net, sdkapp.uve.weibo.com, ptmpcap.caocaokeji.cn, creditcardapp.bankcomm.com, newapp.szsmk.com, client.qunar.com, mpcs.suning.com, api2.helper.qq.com, cdnfile1.msstatic.com, res.xiaojukeji.com, cube.elemecdn.com, dimg04.c-ctrip.com, prom.mobile.gome.com.cn, y.gtimg.cn, du.hupucdn.com, *.360buyimg.com, *.zymk.cn, iface2.iqiyi.com, res-release.wuta-cam.com, b.bdstatic.com, ios.wps.cn,wenku.baidu.com, youtubei.googleapis.com
