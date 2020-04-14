@@ -30,7 +30,7 @@ cookie_baidu_tieba_app.js = type=http-request,pattern=^https?:\/\/c\.tieba\.baid
 smzdm.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js,type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?
 
 # 获取喜马拉雅极速版 Cookie.
-http-request https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/xmspeed.js
+http-request https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin script-path=https://raw.githubusercontent.com/songyangzz/QxSrcipts/master/Task/xmspeed.js
 
 [MITM]
 hostname = %APPEND% m.ximalaya.com,api.m.jd.com,www.smzdm.com, music.163.com,tieba.baidu.com, c.tieba.baidu.com,draw.jdfcloud.com,daojia.jd.com,ms.jr.jd.com
