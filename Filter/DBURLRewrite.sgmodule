@@ -80,9 +80,6 @@
 ^http://m.wangyin.com/basic/version.* - reject
 //京东金融
 ^https://ms.jr.jd.com\/gw\/generic\/base\/na\/m\/adInfo.* - reject
-//京东启动
-^https://api.m.jd.com\/client.action\?functionId=.* - reject
-^https://ms.jr.jd.com/\gw\/generic\/base\/n\a/m\/ad.* - reject
 
 //搜狐
 ^http://api.tv.sohu.com/v4/mobile/albumdetail.json\?poid=.* _ reject
