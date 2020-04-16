@@ -1,10 +1,10 @@
-#!name=逗bi极客REJECT
-#!desc=逗bi极客REJECT规则
+#!name=逗bi极客REJECT&URL Rewrite 合并
+#!desc=逗bi极客规则
 #!system=ios
 
 #逗bi极客制作
 #QQ裙:817167
-#转载请附带作者及网址，严禁商业用途！https://up.qingjie.me/15732932057259.html#more
+#转载请附带作者及网址，严禁商业用途！https://cdn.qingjie.me/surge3/rules_ios/Surge_Rules_WK.conf
 #19.2.27更新直连默认为代理
 #19.3.22增加抖音海外版支持 、 默认开启MITM附加功能
 #19.4.3更新虎牙、知乎、喜马拉雅开屏、部分内文、统计分析
@@ -466,3 +466,274 @@ URL-REGEX,http://r.cnews.qq.com\/getSubNewsRelate\?id=.*,REJECT // 天天快报�
 URL-REGEX,http://pica-juicy.picacomic.com\/ios\/comic_detail,REJECT //天猫排除
 URL-REGEX,http://pica-juicy.picacomic.com\/ios\/font,REJECT //天猫排除
 URL-REGEX,http://pica-juicy.picacomic.com\/ios\/home_banner,REJECT //天猫排除
+
+[URL Rewrite]
+^http://www.google.cn http://www.google.com header
+^http://mp.weixin.qq.com/mp/report _ reject
+
+^http://www.baidu.com https://www.baidu.com/?tn=simple 302
+^http://baidu.com https://www.baidu.com/?tn=simple 302
+^http://m.baidu.com https://www.baidu.com/?tn=simple 302
+
+//APP
+^.*\?resource=article\/recommend\&accessToken=.* - reject
+^.*/allOne.php\?ad_name=main_splash_ios - reject
+^.*m.360buyimg.com\/mobilecms\/s640x1136_jfs\/.* - reject
+^.*163\.com\/madr\?app=\b.*platform=\b.*uid.* _ reject
+
+^.*adse.*\.com\/[a-z]{4}\/loading\?appid=.* _ reject
+
+^http://sdkapp.mobile.sina.cn/interface/sdk/sdkad.php _ reject
+^http://s1.api.tv.itc.cn/v4/mobile/feeling/list.json\?api_key=.* _ reject
+^http://api.tv.sohu.com/v4/mobile/albumdetail.json\?poid=.* _ reject
+^http://baichuan.baidu.com/rs/adpmobile/launch.* _ reject
+^http://c.tieba.baidu.com/c/s/logtogether\?cmd=.* _ reject
+^http://imgsrc.baidu.com\/forum\/pic\/item/.* _ reject
+^http://s1.api.tv.itc.cn/v4/mobile/feeling/list.json\?.* _ reject
+^http://s3.pstatp.com/inapp/TTAdblock.css _ reject
+^https://capi.douyucdn.cn\/.*\/appapi\/getinfo\?.* _ reject
+^https://staticlive.douyucdn\.cn/.*\/getStartSend\?.* _ reject
+^https://capi.douyucdn.cn/lapi/sign/appapi/getinfo?aid=.* _ reject
+^http://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
+^http://api.zhuishushenqi.com/splashes/ios - reject
+^http://mi.gdt.qq.com\/gdt_mview.fcg\?posid=.* - reject
+^http://api.zhuishushenqi.com\/advert\?platform=.* - reject
+^http://exp.3g.ifeng.com\/coverAdversApi\?gv=.* - reject
+^http://api.weibo.cn\/2\/statuses\/publisher_extinfo\?gsid=.* - reject
+^http://wbapp.mobile.sina.cn\/wbapplua\/wbpullad.lua\?wm=.* - reject
+^http://adse.ximalaya.com\/ting\/feed\?appid=.* - reject
+^http://adse.ximalaya.com\/ting\?appid=.* - reject
+^http://iis1.deliver.ifeng.com\/getmcode\?adid=.* - reject
+^http://ifengad.3g.ifeng.com\/ad\/pv.php\?stat=.* - reject
+^http://api.newad.ifeng.com\/ClientAdversApi1508\?adids=.* - reject
+^http://s.go.sohu.com\/adgtr\/\?gbcode=\&appchn=.* - reject
+^http://adse.ximalaya.com/ting/feed\?appid=.* - reject
+^http://adse.ximalaya.com\/ting\/loading\?appid=.* - reject
+^http://news.l.qq.com\/app\?.* - reject
+^http://r.inews.qq.com/getSplash\?apptype=ios\&startarticleid=\&__qnr=.* - reject
+^http://r.domob.cn/a - reject
+^http://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
+^http://api.zhuishushenqi.com/splashes/ios - reject
+^https://lf.snssdk.com\/service\/12\/app_ad\/\?iid=\b.*os_version.* - reject //内涵
+^http://is.snssdk.com\/service\/12\/app_ad\/\?iid=\b.*os_version.* - reject //内涵
+^https://m.mynj.cn:13002/znmh_FEP/configure/getAllConfig.action - reject //我的南京
+^https://gorgon.youdao.com\/gorgon\/request\.s\?v=.* - reject
+^https://impservice.youdao.com\/imp\/request\.s\?req=.* - reject
+^https://mlife.cmbchina.com/ClientFace/preCacheAdvertise.json - reject
+^https://cdnfile1.msstatic.com\/cdnfile\/appad\/*.zip - reject //huya
+
+
+//腾讯视频
+^https://news.l.qq.com\/app\? - reject
+#^https://lives.l.qq.com\/livemsg\?sdtfrom=v3004&pu=1&style=0&guid=.* - reject
+#^http://vv.video.qq.com\/getvinfo\?otype=xml&platform=10403&newplatform=10403&appVer=6.2.1.21751&qqlog=\(null\)&device=21&vid=&charge=1&fhdswitch=0&fp2p=3&defn=auto&clip=0&dtype=3&sdtfrom=v3000&encryptVer=5.2&cKey=.* - reject //视频内文
+
+//知乎
+^https://api.zhihu.com\/appview\/api\/v\d\/answers\/\d{9,}\/recommendations - reject //zhihu
+
+//bilibili
+^https://app.bilibili.com\/x\/v2\/splash\?build=\b.*mobi_app=iphone\&ver=&width=.* - reject
+
+//有道
+^https://gorgon.youdao.com\/gorgon\/request\.s\?v=.* - reject
+^https://impservice.youdao.com\/imp\/request\.s\?req=.* - reject
+
+
+//京东威联
+^https://gw.smart.jd.com\/c\/service\/getLoadingLinks\?plat=iPhone\&hard_platform=.* - reject
+//京东钱包
+^http://m.wangyin.com/basic/version.* - reject
+//京东金融
+^https://ms.jr.jd.com\/gw\/generic\/base\/na\/m\/adInfo.* - reject
+
+//搜狐
+^http://api.tv.sohu.com/v4/mobile/albumdetail.json\?poid=.* _ reject
+
+//联通客户端
+^http://m.client.10010.com\/mobileService\/activity\/get_start.* - reject
+
+//移动客户端
+#^https://clientaccess.10086.cn\/biz-orange\/DN\/welcomeAdvService\/getWelcomeAdv.* - reject
+
+//新浪微博启动
+^http(s)?://wbapp.uve.weibo.com\/wbapplua\/wbpullad.lua\?wm=.* - reject
+^http(s)?:\/\/api.weibo.cn\/2\/statuses\/publisher_extinfo\?gsid=.* - reject
+^http(s)?:\/\/(sdkapp.mobile.sina.cn|sdkapp.uve.weibo.com)\/interface\/sdk\/sdkad.php - reject
+
+//QQ分析
+^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* - reject
+
+//去哪儿
+^https://support.you.163.com\/appversync\/check.do\?app_ver=.* - reject
+
+//浦发
+^https://mbank.spdbccc.com.cn\/spdbcccMbank\/load\/queryActivityConfig.* - reject
+
+//顺丰优选
+^https://mapi.sfbest.com\/brokerservice-server\/cms\/getPositionById.* - reject
+
+//网易云音乐
+^https://only\b.*nstool.netease.com\/info.js\?referer=https:\/\/nstool.netease.com\/info.js - reject
+
+
+//网易严选
+^https://support.you.163.com\/appversync\/check.do\?app_ver=.* - reject
+
+
+//腾讯手机管家
+^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* - reject
+
+
+//斗鱼
+^https://rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo\?client_sys=ios&mdid=iphone&uid= - reject //douyu_sd
+^https://rtbapi.douyucdn.cn\/japi\/sign\/app\/getmaterial\?client_sys=ios - reject //douyu_sd
+^https://capi.douyucdn.cn\/api\/v1\/getStartSend\?client_sys=ios - reject //douyu_sd
+#^https://apiv2.douyucdn.cn\/live\/room\/info\/\d{5,7}\?client_sys=ios - reject //douyuroom
+
+//BILIBILI
+^https://app.bilibili.com\/x\/v2\/splash\?build=\b.*mobi_app=iphone\&ver=&width=.* - reject
+
+//360
+^http://commercial.shouji.360.cn\/Commercial - reject
+^http://adapi.shouji.360.cn\/IOSCommercial - reject
+^http://jia.360.cn\/conf\/btm-ad.json - reject
+^https://mad.ireader.com\/api\/internal.do\?zysid=.* - reject
+
+//豆瓣
+^https://api.douban.com\b.*\/common_ads\?.* _ reject
+
+
+//闲鱼 飞猪 票票 淘宝 千牛
+^http(s)?:\/\/\b.*alicdn.com\/(tfs|tps|mt|bao)\/((i\d{1}\/|uploaded\/)?)TB.*\b(750-1334|1242-2208|640-1136|1000-800|1125-1602|750-1094)*.(jpg|png)(_960x960.*webp)? - reject
+
+//淘票票
+^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* - reject
+
+//千牛
+^https://qngateway.taobao.com\/gw\/api\/multi_screen_adv_get - reject
+
+
+//荔枝
+^https://app.lizhi.fm\/ad\/boot\/\b.*\?tag=.* - reject
+^http://cdnimg101.lizhi.fm\/ad_cover\/.*.jpg - reject
+
+
+//NGA
+^https://bbs.nga.cn\/app_api.php\?__lib=home\&__act=ad - reject
+
+
+//网易邮箱
+^https://client.mail.163.com\/apptrack\/confinfo\/searchMultiAds.do\?appver=.* - reject
+^https://client.mail.163.com\/apptrack\/confinfo\/showAds.do.* - reject
+
+
+//玩吧
+^https://api.wodidashi.com\/api\/remoteConfig - reject
+^http://restapi.amap.com\/v3\/iasdkauth\?key=.* - reject
+
+
+//网易云阅读
+^http://easyread.163.com\/ad/.* - reject
+
+
+//氧气
+^https://api.o2bra.com.cn\/api\/splashes - reject
+
+//小红唇
+^https://www.xiaohongchun.com\/api2\/index\/get_index_nurl\?stack_info.* - reject
+^https://graph.instagram.com\/logging_client_events - reject
+
+
+//格瓦拉生活
+#^https://openapi.gewara.com\/router\/rest\? - reject
+
+//51
+^https://www.51zhangdan.com\/configcenter\-web\/splash\/getValidSplashInfo.do\?.* - reject
+^https://www.51zhangdan.com\/configcenter\-web\/splash\/getValidSplashInfo.do\?province=.* - reject
+
+//修正qq空间
+^http:\/\/.*:80\/gdt\/0\/\b.*.jpg\/0\?ck=\w{32}(\&w5=\b.*h5=.*)? - reject
+
+//雪球
+^http(s)?:\/\/101.201.62.22\/promotion\/display_cache.json\?date=\b.*screen_type=.* - reject
+
+//小米商城
+^http://api.m.mi.com/v1/app/start - reject
+http(s):\/\/passenger.01zhuanche.com\/car-rest\/webservice\/passenger\/recommendADs - reject
+
+//首约
+http(s):\/\/passenger.01zhuanche.com\/car-rest\/webservice\/passenger\/recommendADs - reject
+
+//京东启动备用
+https://106.39.169.231\/client.action\?functionId=start - reject
+
+//易道
+http:\/\/i\d{1}.yongche.name\/media\/\b.*rBEBP1lBDe6\w{35}.jpg - reject
+
+//老子搜书
+^http://com-eonsun-owl.oss-cn-hangzhou.aliyuncs.com\/res\/AD.*.json - reject
+
+//国泰君安
+^https://dl.app.gtja.com\/operation\/config\/startupConfig.json - reject
+
+//小蚁
+^https://api.xiaoyi.com\/v5\/app\/mobile\/ads - reject
+^https://api.xiaoyi.com\/v5\/app\/config\?userid=.* - reject
+
+//马蜂窝
+^https://mapi.mafengwo.cn\/ad\/get_launch_ad_list\/v2\?app_code=cn.mafengwo.www&app_ver=8.1.9&channel_id=.* - reject
+
+//建行
+^http://adv.ccb.com\/advall\?z=advccb\&c=.* - reject
+
+//掌阅
+^https://mad.ireader.com\/api\/internal.do\?zyeid=.* - reject
+
+//猫眼
+^http://p1.meituan.net\/640.1136\/movie\/.*.jpg.webp - reject
+
+//avn
+^https://net.rayjump.com\/openapi\/ad\/v3\?ad_num=.* - reject
+
+//iwavn
+^https://api.vungle.com\/api\/v3\/requestAd - reject
+^https://ads30.adcolony.com\/configure - reject
+
+//百度网盘/手机百度/贴吧
+^https://www.baidu.com\/\?action=static&ms=1&version=css_page_2@0.* - reject //搜索底端AD
+
+
+//熊猫直播
+^https://static.api.m.panda.tv\/index.php\?method=clientconf.firstscreen&__version=(\d+\.){0,3}\d+&__plat=ios&__channel=appstore - reject
+
+//芒果
+^https://mobile.da.mgtv.com\/m\/page - reject
+^https://mobile.da.mgtv.com\/json\/app\/boot - reject
+^https://mobile.da.mgtv.com/app/player - reject
+
+//片源网
+^http://pianyuan.la\/slade.js - reject
+
+//Switch
+^https://sf3-ttcdn-tos.pstatp.com\/obj\/ad-pattern\/.* - reject
+^https://is.snssdk.com\/api\/ad/.* - reject
+
+#^https://mobilegw.alipay.com\/mgw.htm - reject //暂定
+^https://amdc.m.taobao.com\/amdc\/mobileDispatch - reject
+^http://amdc.m.taobao.com\/amdc\/mobileDispatch\?appkey=.* - reject
+^https://api.m.taobao.com\/api3.do\?api=mtop.common.getTimestamp.* - reject
+
+//抖音,仅支持Surge3 如果想使用请将下方#删除即可
+^(.*version_code=)\d{2}\.\d{1}\.\d{1}(.*) $18.9.0$2 307
+^(.*app_version=)\d{2}\.\d{1}\.\d{1}(.*) $18.9.0$2 307
+^(.*carrier_region=)CN(.*) $1JP$2 307
+^(.*region=)CN(.*) $1JP$2 307
+^(.*sys_region=)CN(.*) $1JP$2 307
+^(.*language=)zh(.*) $1jp$2 307
+
+
+[MITM]
+hostname =  %APPEND% *byteoversea.com, *.alicdn.com, acs.m.taobao.com, ads30.adcolony.com, afd.baidu.com, amdc.m.taobao.com, api.douban.com, api.m.taobao.com, api.o2bra.com.cn, api.vungle.com, api.weibo.cn, api.wodidashi.com, api.wodidashi.com, api.xiaoyi.com, api.zhihu.com, apiv2.douyucdn.cn, app.lizhi.fm, bbs.nga.cn, capi.douyucdn.cn, client.mail.163.com, client.qunar.com, dl.app.gtja.com, gorgon.youdao.com, impservice.youdao.com, lf.snssdk.com, lives.l.qq.com, m.mynj.cn, mapi.mafengwo.cn, mbd.baidu.com, mlife.cmbchina.com, net.rayjump.com, news.l.qq.com, otheve.beacon.qq.com, pan.baidu.com, passenger.01zhuanche.com, qde.qunar.com, rtbapi.douyucdn.cn, sdkapp.mobile.sina.cn, sdkapp.uve.weibo.com, static.api.m.panda.tv, support.you.163.com, www.51zhangdan.com, www.baidu.com, www.xiaohongchun.com, *.pstatp.com, is.snssdk.com, api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com, *musical.ly, *tiktokv.com
+
+
+
