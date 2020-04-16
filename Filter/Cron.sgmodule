@@ -11,7 +11,7 @@ cron "3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/lkyl.js,script-update-interval=0
 
 # 京东到家签到
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js,script-update-interval=0
+cron "6 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js,script-update-interval=0
 
 #京东成长分签到
 cron "0 28 11 * * ?" script-path=https://raw.githubusercontent.com/hello1983/Files/master/Js/Surge/jdczf.js,script-update-interval=0
@@ -23,10 +23,10 @@ cron "30 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scrip
 cron "31 9 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/sazs34/task/sign_baidu_tieba_v2.js,script-update-interval=0
 
 # > 什么值得买
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
+cron "6 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
 
 # 本脚本仅适用于喜马拉雅极速版开启宝箱金币  无签到功能
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QxSrcipts/master/Task/xmspeed.js
+cron "6 9 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QxSrcipts/master/Task/xmspeed.js
 
 
 [MITM]
