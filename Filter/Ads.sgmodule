@@ -1,8 +1,0 @@
-#!name=privacy-protection-tools去广告
-#!desc=privacy-protection-tools
-#!system=ios
-
-## https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt,REJECT,update-interval=10800
