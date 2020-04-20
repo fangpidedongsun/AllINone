@@ -1,4 +1,5 @@
 /*
+drops
 https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/prod-4-validatePurchases/invocations
 */
 

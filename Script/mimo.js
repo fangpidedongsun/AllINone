@@ -1,42 +1,35 @@
+
 /*
-MIMO解锁Pro自行测试
+mimo
 https://api.getmimo.com/v1/subscriptions
 */
 
 var obj = JSON.parse($response.body);
 
 obj = {
+  "isActive": true,
   "source": "ios",
   "status": "active",
-  "interval": "yearly",
   "trialEndAt": "2029-04-17T10:04:16+00:00",
   "subscriptions": [
     {
+      "isActive": true,
       "source": "ios",
       "status": "active",
-      "interval": "yearly",
       "trialEndAt": "2029-04-17T10:04:16+00:00",
-      "billingInfo": {
-        "currency": "TWD",
-        "paymentPending": false,
-        "nextBillingPrice": 2690
-      },
+      "interval": "yearly",
       "intervalCount": 1,
-      "activeUntil": "2020-04-17T10:04:16+00:00",
+      "activeUntil": "2029-04-17T10:04:16+00:00",
       "createdAt": "2020-04-10T10:04:16+00:00",
       "clientSecret": "",
-      "isActive": true
+      "canceledAt": "2020-04-10T11:33:26.5370818+00:00"
     }
   ],
-  "billingInfo": {
-    "currency": "TWD",
-    "paymentPending": false,
-    "nextBillingPrice": 2690
-  },
+  "interval": "yearly",
   "intervalCount": 1,
-  "activeUntil": "2020-04-17T10:04:16+00:00",
+  "activeUntil": "2029-04-17T10:04:16+00:00",
   "createdAt": "2020-04-10T10:04:16+00:00",
   "clientSecret": "",
-  "isActive": true
+  "canceledAt": "2020-04-10T11:33:26.5370818+00:00"
 }
 $done({body: JSON.stringify(obj)});
