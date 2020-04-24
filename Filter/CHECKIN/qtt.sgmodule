@@ -5,7 +5,7 @@
 [Script]
 #趣头条
 cron "3 10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
-cron "52 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
 cron "1 10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
+cron "23 10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
  # 每5分执行一次
 cron "*/5 * * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
