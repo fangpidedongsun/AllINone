@@ -166,7 +166,7 @@ $httpClient.get(nCoVdata, function(error, response, data){
         var province_status = "现存确诊: " + obj.results[0].currentConfirmedCount + "  累计确诊: " + obj.results[0].confirmedCount + "  治愈: " + obj.results[0].curedCount + "  死亡: " + obj.results[0].deadCount + "\n";
         var cities_status = "";
         for (var i = 0; i < obj.results[0].cities.length; i++) {
-        var cities_status = cities_status + "地级市: " + obj.results[0].cities[i].cityName + "  现存确诊: " + obj.results[0].cities[i].currentConfirmedCount + "  累计确诊: " + obj.results[0].cities[i].confirmedCount + "  治愈: " + obj.results[0].cities[i].curedCount + "  死亡: " + obj.results[0].cities[i].deadCount + "\n";}
+        var cities_status = cities_status + "+ obj.results[0].cities[i].cityName + "  现存确诊: " + obj.results[0].cities[i].currentConfirmedCount + "  累计确诊: " + obj.results[0].cities[i].confirmedCount + "  治愈: " + obj.results[0].cities[i].curedCount + "  死亡: " + obj.results[0].cities[i].deadCount + "\n";}
         let nCoV = [province,province_status,cities_status];
         $notification.post(nCoV[0], nCoV[1],nCoV[2]);
         $done();
