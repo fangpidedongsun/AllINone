@@ -3,3 +3,4 @@
 
 [Rule]
 DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/DouB.list,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/DouB.list,REJECT
