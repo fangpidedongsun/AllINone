@@ -1,4 +1,4 @@
-#!name=广告屏蔽
+#!name=01广告屏蔽
 #!desc=使用surge新功能DOMAIN-SET
 
 [Rule]
