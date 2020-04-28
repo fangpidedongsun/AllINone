@@ -1,6 +1,6 @@
-#!name=DouB屏蔽
+#!name=广告屏蔽
 #!desc=使用surge新功能DOMAIN-SET
 
 [Rule]
-DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/DouB.list,REJECT
-DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/DouB.list,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/ADlist/DouB.txt,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/ADlist/anti-ad-surge.txt,REJECT

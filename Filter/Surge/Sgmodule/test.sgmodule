@@ -1,0 +1,5 @@
+#!name=lhie1广告屏蔽
+#!desc=使用surge新功能DOMAIN-SET
+
+[Rule]
+DOMAIN-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list,REJECT
