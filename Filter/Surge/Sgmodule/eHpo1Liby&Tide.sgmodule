@@ -1,9 +1,0 @@
-#!name=eHpo1Liby&Tide
-#!desc=eHpo1Liby&Tide
-
-## https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
-## https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list,REJECT,update-interval=10800
-RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list,REJECT,update-interval=10800
