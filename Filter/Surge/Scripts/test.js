@@ -89,7 +89,7 @@ obj = {
       {"goodId": "fimoPortra160NC",
       "goodName": "PortraNC 160NC",
       "goodPrice": 12,
-      "pay": "apple",\
+      "pay": "apple",
       "photo": 0,
       "time": "1998-10-15 14:33:00"
       },
