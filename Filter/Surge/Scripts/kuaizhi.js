@@ -5,8 +5,8 @@ hostname：kz.sync163.com
 */
 
 
-let obj = JSON.parse($response.body);
-obj.data={
+var obj = JSON.parse($response.body);
+obj = {
         "experiencer":1,
         "vip_expired":false,
         "vip":1,
