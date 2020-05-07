@@ -142,3 +142,4 @@ obj = {
       "photo": 0,
       "time": "1999-08-10 10:35:00"}
     ]}
+$done({body: JSON.stringify(obj)});
