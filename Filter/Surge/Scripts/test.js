@@ -107,6 +107,20 @@ obj = {
       "photo": 0,
       "time": "1807-11-13 19:00:00"
       },
+      {"goodId": "fimoTSE50",
+      "goodName": "TSE 50",
+      "goodPrice": 12,
+      "pay": "apple",
+      "photo": 0,
+      "time": "1807-11-13 19:00:00"
+      },
+      {"goodId": "fimoXMas25T",
+      "goodName": "XMas 25T",
+      "goodPrice": 8,
+      "pay": "apple",
+      "photo": 0,
+      "time": "1807-11-13 19:00:00"
+      },
       {"goodId": "fimoNatura1600",
       "goodName": "Natura 1600",
       "goodPrice": 1,
