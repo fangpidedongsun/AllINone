@@ -8,10 +8,7 @@ hostname：server.yoyiapp.com
 var obj = JSON.parse($response.body);
 
 obj = {
-      "action" : "body",
-      "matchField" : "",
-      "field" : "",
-      "value" : "films":
+      "films":
       [{
       "goodId": "fimoAesthetic400",
       "goodName": "Aesthetic 400",
