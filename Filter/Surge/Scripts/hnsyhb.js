@@ -27,7 +27,9 @@ let key = {"expire":7955110875,"vip_type":1};
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(path1) != -1){
-	obj.result["vip_status"] = key;
+	  obj = {
+      "vip_status": {"vip_type": 1}
+    }
 }
 if ($request.url.indexOf(path2) != -1){
   obj = {
