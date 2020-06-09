@@ -6,5 +6,5 @@ hostname：linnk.net
 
 var obj = JSON.parse($response.body);
 
-obj = {"level":1"}
+obj = {"level":1}
 $done({body: JSON.stringify(obj)});
