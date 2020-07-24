@@ -1,7 +1,0 @@
-#!name=趣头条签到
-#!desc=趣头条签到js
-#!system=ios
-
-[Script]
-cron "15 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
-cron "53 12 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
