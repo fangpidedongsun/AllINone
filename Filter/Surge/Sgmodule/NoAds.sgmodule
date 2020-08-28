@@ -1,6 +1,5 @@
-#!name=01广告屏蔽
-#!desc=使用surge新功能DOMAIN-SET
+#!name=逗B广告屏蔽
 
 [Rule]
-DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/ADlist/DouB.txt,REJECT
-DOMAIN-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/ADlist/anti-ad-surge.txt,REJECT
+RULE-SET,https://cdn.qingjie.me/surge3/rules_ios/reject/D%3FDS%3FDK%3F-REJECT.list,REJECT
+RULE-SET,https://cdn.qingjie.me/surge3/rules_ios/url-regex/UR-REJECT.list,REJECT
