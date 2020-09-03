@@ -1,5 +1,0 @@
-#!name=逗B广告屏蔽
-
-[Rule]
-RULE-SET,https://cdn.qingjie.me/surge3/rules_ios/reject/D%3FDS%3FDK%3F-REJECT.list,REJECT
-RULE-SET,https://cdn.qingjie.me/surge3/rules_ios/url-regex/UR-REJECT.list,REJECT
