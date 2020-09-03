@@ -1,5 +1,5 @@
 #!name=ALL广告屏蔽
-#!desc=使用逗B&anti-AD&ByDa的策略
+#!desc=使用逗B&anti-AD&ByDa&Hackl0us的策略
 
 [Rule]
 RULE-SET,https://cdn.qingjie.me/surge3/rules_ios/reject/D%3FDS%3FDK%3F-REJECT.list,REJECT
@@ -7,3 +7,4 @@ RULE-SET,https://cdn.qingjie.me/surge3/rules_ios/url-regex/UR-REJECT.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt,REJECT
 DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt,REJECT
 RULE-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Add.txt,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Basic/common-ad-keyword.list,REJECT-TINYGIF
