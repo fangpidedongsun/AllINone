@@ -1,4 +1,5 @@
-#!name=逗B&anti-AD&ByDa广告屏蔽
+#!name=ALL广告屏蔽
+#!desc=使用逗B&anti-AD&ByDa的策略
 
 [Rule]
 RULE-SET,https://cdn.qingjie.me/surge3/rules_ios/reject/D%3FDS%3FDK%3F-REJECT.list,REJECT
