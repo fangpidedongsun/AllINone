@@ -1,5 +1,5 @@
-#!name=HH广告屏蔽
-#!desc=使用Hackl0us的策略
+#!name=v广告屏蔽
+#!desc=使用anti-AD的策略
 
 [Rule]
 RULE-SET,https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Basic/common-ad-keyword.list,REJECT-TINYGIF
