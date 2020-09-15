@@ -1,0 +1,427 @@
+DOMAIN,ad.api.3g.youku.com
+DOMAIN,ad.mobile.youku.com
+DOMAIN,hz.youku.com
+DOMAIN,stat.youku.com
+DOMAIN,e.stat.ykimg.com
+DOMAIN,p-log.ykimg.com
+DOMAIN,v.l.youku.com
+DOMAIN,ykatr.youku.com
+DOMAIN,hudong.pl.youku.com
+DOMAIN,msg.youku.com
+DOMAIN,p.l.youku.com
+DOMAIN,ad.api.3g.tudou.com
+DOMAIN,adcontrol.tudou.com
+DOMAIN,adplay.tudou.com
+DOMAIN,stat.tudou.com
+DOMAIN,stats.tudou.com
+DOMAIN,acjs.aliyun.com
+DOMAIN,pindao.huoban.taobao.com
+DOMAIN,hydra.alibaba.com
+DOMAIN,rj.m.taobao.com
+DOMAIN,apoll.m.taobao.com
+DOMAIN,ark.letv.com
+DOMAIN,ad.qingting.fm
+DOMAIN,letv.irs01.com
+DOMAIN,stat.letv.com
+DOMAIN,letv.allyes.com
+DOMAIN,dc.letv.com
+DOMAIN,fz.letv.com
+DOMAIN,plog.dc.letv.com
+DOMAIN,dev.dc.letv.com
+DOMAIN,pro.letv.com
+DOMAIN,pro.hoye.letv.com
+DOMAIN,g3.letv.com
+DOMAIN,minisite.letv.com
+DOMAIN,asimgs.pplive.cn
+DOMAIN,gug.ku6cdn.com
+DOMAIN,pq.stat.ku6.com
+DOMAIN,st.vq.ku6.cn
+DOMAIN,static.ku6.com
+DOMAIN,static.diditaxi.com.cn
+DOMAIN,data.vod.itc.cn
+DOMAIN,imp.optaim.com
+DOMAIN,mmg.aty.sohu.com
+DOMAIN,vsohu.admaster.com.cn
+DOMAIN,push.mobile.meituan.com
+DOMAIN,lives.l.qq.com
+DOMAIN,omgmta.qq.com
+DOMAIN,pingma.qq.com
+DOMAIN,tajs.qq.com
+DOMAIN,tcss.qq.com
+DOMAIN,dsp.youdao.com
+DOMAIN,temp.163.com
+DOMAIN,nex.163.com
+DOMAIN,analytics.163.com
+DOMAIN,f1.p0y.cn
+DOMAIN,f2.p0y.cn
+DOMAIN,ad.ximalaya.com
+DOMAIN,adse.ximalaya.com
+DOMAIN,ad.test.ximalaya.com
+DOMAIN,g.kuwo.cn
+DOMAIN,log.kuwo.cn
+DOMAIN,updatepage.kuwo.cn
+DOMAIN,wa.kuwo.cn
+DOMAIN,webstat.kuwo.cn
+DOMAIN,g.koowo.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,wa.koowo.com
+DOMAIN,yes1.feng.com
+DOMAIN,push.feng.com
+DOMAIN,s.polkoa.com
+DOMAIN,api.newad.ifeng.com
+DOMAIN,duiba.com.cn
+DOMAIN,dui88.com
+DOMAIN,mp4.res.hunantv.com
+DOMAIN,p2.hunantv.com
+DOMAIN,x.da.hunantv.com
+DOMAIN,ad.12306.cn
+DOMAIN,e.domob.com.cn
+DOMAIN,e.domob.cn
+DOMAIN,sm.domobcdn.com
+DOMAIN,erebor.douban.com
+DOMAIN,msg.video.qiyi.com
+DOMAIN,msg2.video.qiyi.com
+DOMAIN,eclick.baidu.com
+DOMAIN,entry.baidu.com
+DOMAIN,hm.baidu.com,DIRECT
+DOMAIN,hmma.baidu.com
+DOMAIN,mobads-logs.baidu.com
+DOMAIN,mobads.baidu.com
+DOMAIN,mtj.baidu.com
+DOMAIN,nsclick.baidu.com
+DOMAIN,spcode.baidu.com
+DOMAIN,ucstat.baidu.com
+DOMAIN,union.baidu.com
+DOMAIN,imageplus.baidu.com
+DOMAIN,ps.map.baidu.com
+DOMAIN,sv.map.baidu.com
+DOMAIN,offnavi.map.baidu.com
+DOMAIN,newvector.map.baidu.com
+DOMAIN,ulog.imap.baidu.com
+DOMAIN,newloc.map.n.shifen.com
+DOMAIN,res.limei.com
+DOMAIN,res.cocounion.com
+DOMAIN,backend.weathercn.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,adash-c.ut.taobao.com
+DOMAIN,ads.ookla.com
+DOMAIN,cdn.ads.ookla.com
+DOMAIN,qqvideo.tc.qq.com
+DOMAIN,ad.toutiao.com
+DOMAIN,gma.alicdn.com
+DOMAIN,ads.wasu.tv
+DOMAIN,afp.wasu.cn
+DOMAIN,afpcreative.wasu.cn
+DOMAIN,mi.gdt.qq.com
+DOMAIN,bj.imp.voiceads.cn
+DOMAIN,m.madthumbs.com
+DOMAIN,adm0.autoimg.cn
+DOMAIN,adm1.autoimg.cn
+DOMAIN,adm2.autoimg.cn
+DOMAIN,adm3.autoimg.cn
+DOMAIN,33.autohome.com.cn
+DOMAIN,c.autohome.com.cn
+DOMAIN,pcd.autohome.com.cn
+DOMAIN,csi.gstatic.com
+DOMAIN,static.googleadsserving.cn
+DOMAIN,ads.google.com
+DOMAIN,afd.l.google.com
+DOMAIN,mobileads.google.com
+DOMAIN,pagead-tpc.l.google.com
+DOMAIN,pagead.google.com
+DOMAIN,pagead.l.google.com
+DOMAIN,partnerad.l.google.com
+DOMAIN,ads.youtube.com
+DOMAIN,ads.gmodules.com
+DOMAIN,badad.googleplex.com
+DOMAIN,www.googlecommerce.com
+DOMAIN,www.googletagmanager.com
+DOMAIN,service.urchin.com
+DOMAIN,ad.csdn.net
+DOMAIN,ads.csdn.net
+DOMAIN,counter.csdn.net
+DOMAIN,img.ads.csdn.net
+DOMAIN,img.tbcdn.cn
+DOMAIN,csdnim.qtmojo.com
+DOMAIN,ad.dedecms.com
+DOMAIN,stat.dedecms.com
+DOMAIN,168.it168.com
+DOMAIN,adshownew.it168.com
+DOMAIN,g.168.it168.com
+DOMAIN,stat.it168.com
+DOMAIN,stat.10jqka.com.cn
+DOMAIN,fund.10jqka.com.cn
+DOMAIN,eq.10jqka.com.cn
+DOMAIN,vaserviece.10jqka.com.cn
+DOMAIN,d.dropbox.com
+DOMAIN,dl-debug.dropbox.com
+DOMAIN,syndication.twitter.com
+DOMAIN,dsp.lomark.cn
+DOMAIN,stream-hk.viu.com,PROXY
+DOMAIN,global.adserver.yahoo.com
+DOMAIN,init.icloud-analysis.com
+DOMAIN,zhihu-analytics.zhihu.com
+DOMAIN,log.cmbchina.com
+DOMAIN,api.segment.io
+DOMAIN,api.instabug.com
+DOMAIN,adlog.flurry.com
+DOMAIN,ads.flurry.com
+DOMAIN,v.gdt.qq.com
+DOMAIN,sd.domob.cn
+DOMAIN,pub.funshion.com
+DOMAIN,adm.funshion.com
+DOMAIN,aw01.pub.funshion.com
+DOMAIN,jobsfe.funshion.com
+DOMAIN,po.funshion.com,DIRECT
+DOMAIN,pv.funshion.com
+DOMAIN,stat.funshion.net
+DOMAIN,ai0.pub.funshion.com,DIRECT
+DOMAIN,slb.gedawang.com
+DOMAIN,img.shentus.com
+DOMAIN,aos.prf.hn
+DOMAIN,c.duomai.com
+DOMAIN,p.yiqifa.com
+DOMAIN,go.fcwr8.com
+DOMAIN,wm.makeding.com
+DOMAIN,router.gwdang.com
+DOMAIN,gridsum-vd.cntv.cn
+DOMAIN,terren.cntv.cn
+DOMAIN,myip.lizhi.fm
+DOMAIN,cntv.wrating.com
+DOMAIN,go.10086.cn
+DOMAIN,navi.gd.chinamobile.com
+DOMAIN,144.dragonparking.com
+DOMAIN,track.dragonparking.com
+DOMAIN,cdn.dragonstatic.com
+DOMAIN,sddnserror2.wo.com.cn
+DOMAIN,sddnserror3.wo.com.cn
+DOMAIN,sddnserror4.wo.com.cn
+DOMAIN,sddnserror7.wo.com.cn
+DOMAIN,sddnserror9.wo.com.cn
+DOMAIN,daohang.114so.cn
+DOMAIN,www.114so.cn
+DOMAIN,cm.l.qq.com
+DOMAIN,btrace.video.qq.com
+DOMAIN,rcgi.video.qq.com
+DOMAIN,adjust.com
+DOMAIN,adjust.io
+DOMAIN,pd.dopa.com.cn
+DOMAIN,cloudcdn.yousee.com
+DOMAIN,pd.ok365.com
+DOMAIN,alexa.links.cn
+DOMAIN,app.sysdigcloud.com
+DOMAIN,bi-collector.oneapm.com
+DOMAIN,cdn.mxpnl.com
+DOMAIN,collector.githubapp.com
+DOMAIN,counter.kingsoft.com
+DOMAIN,pixel.redditmedia.com
+DOMAIN,pixel.wp.com
+DOMAIN,sfsapi.micloud.xiaomi.net
+DOMAIN,stat.m.jd.com
+DOMAIN,ads.mopub.com
+DOMAIN,analytics.mopub.com
+DOMAIN,api.tapstream.com
+DOMAIN,api.adform.com
+DOMAIN,e.apsalar.com
+DOMAIN,acsystem.wasu.cn
+DOMAIN,www.gridsum.com
+DOMAIN,g.gridsum.com
+DOMAIN,recv-wd.gridsumdissector.com
+DOMAIN,static.gridsumdissector.com
+DOMAIN,syndication.streamads.yahoo.com
+DOMAIN,adsapi.manhuaren.com // 漫画人内文
+DOMAIN,caclick.baidu.com
+DOMAIN,cdn.huilanke.com
+DOMAIN,js.union-wifi.com // wifi营销
+DOMAIN,iwantapi.com
+DOMAIN,setting.rayjump.com
+
+#NEW
+DOMAIN,adse.ximalaya.com //xima
+DOMAIN,adse.wsa.ximalaya.com //xima
+DOMAIN,statwup.huya.com //huya
+DOMAIN,zhihu-web-analytics.zhihu.com //zhihu
+
+DOMAIN-SUFFIX,crittercism.com //诊断分析
+DOMAIN-SUFFIX,oneway.mobi
+DOMAIN-SUFFIX,51.la
+DOMAIN-SUFFIX,beacon.tingyun.com
+DOMAIN-SUFFIX,cmcore.com
+DOMAIN-SUFFIX,coremetrics.com
+DOMAIN-SUFFIX,madmini.com
+DOMAIN-SUFFIX,optimizelyapis.com
+DOMAIN-SUFFIX,sitemeter.com
+DOMAIN-SUFFIX,wrating.com
+DOMAIN-SUFFIX,99click.com
+DOMAIN-SUFFIX,acs86.com
+DOMAIN-SUFFIX,adchina.com
+DOMAIN-SUFFIX,adcome.cn
+DOMAIN-SUFFIX,adinfuse.com
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,ads.yahoo.com
+DOMAIN-SUFFIX,adsage.cn
+DOMAIN-SUFFIX,adsage.com
+DOMAIN-SUFFIX,adsmogo.org
+DOMAIN-SUFFIX,aduu.cn
+DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,adview.cn
+DOMAIN-SUFFIX,adwhirl.com
+DOMAIN-SUFFIX,adwo.com
+DOMAIN-SUFFIX,adxmi.com
+DOMAIN-SUFFIX,adzerk.net
+DOMAIN-SUFFIX,allyes.com
+DOMAIN-SUFFIX,anquan.org
+DOMAIN-SUFFIX,appads.com
+DOMAIN-SUFFIX,applifier.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,aoodoo.feng.com
+DOMAIN-SUFFIX,biddingx.com
+DOMAIN-SUFFIX,chartboost.com
+DOMAIN-SUFFIX,clicktracks.com
+DOMAIN-SUFFIX,clickzs.com
+DOMAIN-SUFFIX,duomeng.cn
+DOMAIN-SUFFIX,duomeng.net
+DOMAIN-SUFFIX,duomeng.org
+DOMAIN-SUFFIX,guohead.com
+DOMAIN-SUFFIX,guomob.com
+DOMAIN-SUFFIX,immob.cn
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,inmobicdn.net
+DOMAIN-SUFFIX,intely.cn
+DOMAIN-SUFFIX,ipinyou.com
+DOMAIN-SUFFIX,kejet.net
+DOMAIN-SUFFIX,localytics.com
+DOMAIN-SUFFIX,mediav.com
+DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,mobclix.com
+DOMAIN-SUFFIX,oadz.com
+DOMAIN-SUFFIX,optaim.com
+DOMAIN-SUFFIX,optimix.asia
+DOMAIN-SUFFIX,quantserve.com
+DOMAIN-SUFFIX,reachmax.cn
+DOMAIN-SUFFIX,responsys.net
+DOMAIN-SUFFIX,serving-sys.com
+DOMAIN-SUFFIX,smartmad.com
+DOMAIN-SUFFIX,smartadserver.com
+DOMAIN-SUFFIX,sponsorpay.com
+DOMAIN-SUFFIX,switchadhub.com
+DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,thoughtleadr.com
+DOMAIN-SUFFIX,unimhk.com
+DOMAIN-SUFFIX,uyunad.com
+DOMAIN-SUFFIX,vamaker.com
+DOMAIN-SUFFIX,waps.cn
+DOMAIN-SUFFIX,wiyun.com
+DOMAIN-SUFFIX,wooboo.com.cn
+DOMAIN-SUFFIX,wqmobile.com
+DOMAIN-SUFFIX,youmi.net
+DOMAIN-SUFFIX,zhiziyun.com
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,admaster.com.cn
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,simaba.taobao.com
+DOMAIN-SUFFIX,de.as.pptv.com
+DOMAIN-SUFFIX,jp.as.pptv.com
+DOMAIN-SUFFIX,ht55.cn
+DOMAIN-SUFFIX,aty.sohu.com
+DOMAIN-SUFFIX,statcounter.com
+DOMAIN-SUFFIX,beacon.qq.com,DIRECT
+DOMAIN-SUFFIX,pingtcss.qq.com
+DOMAIN-SUFFIX,report.qq.com
+DOMAIN-SUFFIX,union.youdao.com
+DOMAIN-SUFFIX,kukuplay.com
+DOMAIN-SUFFIX,fastapi.net
+DOMAIN-SUFFIX,beep-bc.yahoo.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,caclick.baidu.com
+DOMAIN-SUFFIX,baichuan.baidu.com
+DOMAIN-SUFFIX,tuisong.baidu.com
+DOMAIN-SUFFIX,g.uusee.com
+DOMAIN-SUFFIX,traffic.uusee.com
+DOMAIN-SUFFIX,static.g.ppstream.com
+DOMAIN-SUFFIX,splashqqlive.gtimg.com
+DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn
+DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,ad.doubleclick.net
+DOMAIN-SUFFIX,files.adform.net
+DOMAIN-SUFFIX,secure-ds.serving-sys.com
+DOMAIN-SUFFIX,pubmatic.com
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,mixpanel.com
+
+DOMAIN-KEYWORD,trace
+DOMAIN-KEYWORD,traffic
+DOMAIN-KEYWORD,usage
+DOMAIN-KEYWORD,openx
+DOMAIN-KEYWORD,admob
+DOMAIN-KEYWORD,qtmojo
+
+URL-REGEX,http://conf.tvesou.com\/app_conf\?nwtime=.*
+URL-REGEX,http://api.yuntu.live.nagezan.net\/cgi-bin\/get_.*
+
+//云图电视 看看
+URL-REGEX,http://conf.tvesou.com\/app_conf\?nwtime=.*
+URL-REGEX,http://api.yuntu.live.nagezan.net\/cgi-bin\/get_.*
+//云图电视 iad 测试
+URL-REGEX,http://yuntutv.tvesou.com\/yuntu_play_half\/index.html\?1&uid=\d+
+URL-REGEX,http://nowtv.tvesou.com\/epg_tvnow_iphone_ids.php\?ids=.*
+
+URL-REGEX,http://iphone.v0.mgtv.com\/(buffer|click).php\?abroad=0&act=(buffer|vl)&.* //芒果
+URL-REGEX,http://map.r5itf5.cn\/statics\/images\/erweima.gif
+URL-REGEX,http://m.wgewj.cn\/sz\/15667\?token8=.*
+#URL-REGEX,http://c.tieba.baidu.com\/c\/s\/rnSync //贴吧开屏,待测试
+#URL-REGEX,http://c.tieba.baidu.com\/c\/.* //贴吧内文，待测试
+URL-REGEX,http://\w+.d(omob|uomeng).*(cn|org|net)\/a // 在意空气
+URL-REGEX,http://iadmat.nosdn.127.net\/ad.bid.material_.* // 网易云音乐开屏
+URL-REGEX,http://music.163.com\/eapi\/ad\/.* // 网易云音乐开屏
+URL-REGEX,http://mangaapi.manhuaren.com\/v1\/public\/getStartPageAds2\?gak=ios_manhuaren2&gat=.* //漫画人
+URL-REGEX,http://mangaapi.manhuaren.com\/v1\/public\/getAds\?gak=ios_manhuaren2&gat=.* //漫画人
+URL-REGEX,http://lives.l.qq.com\/livemsg\?sdtfrom=v3004\&adaptor=1\&v=TADIOSPlayerV1.0\&.* //腾讯体育
+URL-REGEX,http://cdnfile1.msstatic.com\/cdnfile\/appad\/resource_\d{10}.zip //虎牙直播
+URL-REGEX,http://anduril.platform.zongheng.com\/v1\/advert\/banner3\?&imei=.* //熊猫看书
+URL-REGEX,.*\/music\/common\/upload\/(t_splash_info|tip)\/(\d{6}|\d{4}\b.+\d{5}).jpg\?fromtag.* //QQ音乐
+URL-REGEX,http://mapiv2.yinyuetai.com\/ad\/getByPlaceId.json\?dataId=.* //音悦台
+URL-REGEX,http://.*\/www\/default\/base.js //移动悬浮
+URL-REGEX,http://.*:80\/gdt\/0\/.* // QQ空间
+URL-REGEX,http://ams.rmcnmv.naver.com\/item\/create\/\d{4}\/SMR\?ams_ctgr=.* //NAVER TV
+URL-REGEX,http://adm.10jqka.com.cn\/interface\/getads.php\?platform=.* // 同花顺
+URL-REGEX,http://api.jiayuan.com\/mobile\/ios_qdhm.php\?action=ios_qdhm.*
+URL-REGEX,http://w.jiayuan.com\/mkt\/appyxwz\?channel=1\&channelID=1\&channelid=.*
+URL-REGEX,http://m.client.10010.com\/mobileService\/activity\/*.htm // 联通客客户端
+URL-REGEX,http://rich.kuwo.cn\/AdService\/kaiping\/adinfo\?user=.* //酷我00
+URL-REGEX,http://113.200.76.*:16420\/sxtd.bike2.01|/getkey.do //自行车
+URL-REGEX,http://api.m.jd.com\/client.action\?functionId=start // 京东
+URL-REGEX,http://amdc.m.taobao.com\/amdc\/mobileDispatch // 淘票票
+URL-REGEX,http://adm.10jqka.com.cn\/interface\/getads.php\?platform=.* // 同花顺
+URL-REGEX,http://api.jiayuan.com\/mobile\/ios_qdhm.php\?action=ios_qdhm.* // jiayuan
+URL-REGEX,http://w.jiayuan.com\/mkt\/appyxwz\?channel=1\&channelID=1\&channelid=.*
+URL-REGEX,http://m.client.10010.com\/mobileService\/activity\/*.htm // 联通客客户端
+URL-REGEX,http://adse.ximalaya.com\/ting\/feed\?appid=.*  // 喜马拉雅
+URL-REGEX,http://adse.ximalaya.com\/ting\?appid=.* // 喜马拉雅
+URL-REGEX,http://adse.ximalaya.com\/ting\/loading\?appid=.* // 喜马拉雅开启
+URL-REGEX,http://iis1.deliver.ifeng.com\/getmcode\?adid=.*
+URL-REGEX,http://ifengad.3g.ifeng.com\/ad\/pv.php\?stat=.* // 凤凰新闻启动
+URL-REGEX,http://api.newad.ifeng.com\/ClientAdversApi1508\?adids=.* // 凤凰新闻
+URL-REGEX,http://exp.3g.ifeng.com\/coverAdversApi\?gv=.* // 凤凰启动
+URL-REGEX,.*\?resource=article\/recommend\&accessToken=.* // 新浪新闻内文
+URL-REGEX,http://s.go.sohu.com\/adgtr\/\?gbcode=\&appchn=.* // 搜狐新闻
+URL-REGEX,http://adse.ximalaya.com/ting/feed\?appid=.* // 喜马拉雅列表
+URL-REGEX,http://pos.baidu.com/bcym?rdid=.*\badblockplus.* // 追书神器百度网盟
+URL-REGEX,http://news.l.qq.com\/app\?.* // 腾讯新闻列表
+URL-REGEX,http://r.inews.qq.com/getSplash\?apptype=ios\&startarticleid=\&__qnr=.* // 腾讯新闻开启
+URL-REGEX,http://mi.gdt.qq.com\/gdt_mview.fcg\?posid=.* // 追书神器书架2
+URL-REGEX,http://api.zhuishushenqi.com\/advert\?platform=.* // 追书神器书架
+URL-REGEX,http://r.domob.cn/a // 天气软件
+URL-REGEX,.*/allOne.php\?ad_name=main_splash_ios // 直播8
+URL-REGEX,http://api.zhuishushenqi.com/advert?platform=ios&position=all // 书架广告
+URL-REGEX,http://api.zhuishushenqi.com/splashes/ios // 追书神器启动
+URL-REGEX,http://r.cnews.qq.com\/getSubNewsRelate\?id=.* // 天天快报内文
+URL-REGEX,http://pica-juicy.picacomic.com\/ios\/comic_detail //天猫排除
+URL-REGEX,http://pica-juicy.picacomic.com\/ios\/font //天猫排除
+URL-REGEX,http://pica-juicy.picacomic.com\/ios\/home_banner //天猫排除
