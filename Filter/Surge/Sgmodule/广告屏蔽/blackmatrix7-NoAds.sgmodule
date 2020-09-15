@@ -1,5 +1,5 @@
 #!name=去广告
-#!desc=汇总url复写和MITM
+#!desc=汇总url复写和MIT,Mhttps://github.com/blackmatrix7/ios_rule_script/blob/master/rule/advertising/advertising.sgmodule
 
 [URL Rewrite]
 
