@@ -418,7 +418,6 @@ URL-REGEX,http://r.inews.qq.com/getSplash\?apptype=ios\&startarticleid=\&__qnr=.
 URL-REGEX,http://mi.gdt.qq.com\/gdt_mview.fcg\?posid=.* // 追书神器书架2
 URL-REGEX,http://api.zhuishushenqi.com\/advert\?platform=.* // 追书神器书架
 URL-REGEX,http://r.domob.cn/a // 天气软件
-URL-REGEX,.*/allOne.php\?ad_name=main_splash_ios // 直播8
 URL-REGEX,http://api.zhuishushenqi.com/advert?platform=ios&position=all // 书架广告
 URL-REGEX,http://api.zhuishushenqi.com/splashes/ios // 追书神器启动
 URL-REGEX,http://r.cnews.qq.com\/getSubNewsRelate\?id=.* // 天天快报内文
