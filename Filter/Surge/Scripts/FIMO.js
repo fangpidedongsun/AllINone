@@ -159,7 +159,7 @@ obj = {
       "photo": 0,
       "time": "2000-02-10 17:00:00"  },
       {"goodId": "fimoUnicolor125",
-      "goodName": "Unicolor125",
+      "goodName": "Unicolor 125",
       "goodPrice": 12,
       "pay": "apple",
       "photo": 0,
