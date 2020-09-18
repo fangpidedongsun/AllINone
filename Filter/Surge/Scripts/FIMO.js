@@ -151,6 +151,18 @@ obj = {
       "goodPrice": 6,
       "pay": "apple",
       "photo": 0,
-      "time": "1999-08-10 10:35:00"}
+      "time": "1999-08-10 10:35:00"},
+      {"goodId": "fimoRDP3",
+      "goodName": "RDP 3",
+      "goodPrice": 12,
+      "pay": "apple",
+      "photo": 0,
+      "time": "2000-02-10 17:00:00"  },
+      {"goodId": "fimoUnicolor125",
+      "goodName": "Unicolor125",
+      "goodPrice": 12,
+      "pay": "apple",
+      "photo": 0,
+      "time": "2000-02-10 17:00:00"  }
     ]}
 $done({body: JSON.stringify(obj)});
