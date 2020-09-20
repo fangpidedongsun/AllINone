@@ -10,7 +10,6 @@ DOMAIN-SET,https://raw.githubusercontent.com/maicoo-l/Surge/master/rules/Filters
 DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt,REJECT
 RULE-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Add.txt,REJECT
 DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Plus.txt,REJECT
-RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRuleRegex.list,REJECT
 
 #eHpo1
 RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list,REJECT
