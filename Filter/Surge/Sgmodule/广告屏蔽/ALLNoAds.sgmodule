@@ -2,9 +2,6 @@
 #!desc=使用多人的策略
 
 [Rule]
-#maicoo
-DOMAIN-SET,https://raw.githubusercontent.com/maicoo-l/Surge/master/rules/Filters.txt,REJECT
-
 
 #NobyDa
 DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt,REJECT
