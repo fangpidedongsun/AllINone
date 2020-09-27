@@ -114,13 +114,7 @@ obj = {
       "photo": 0,
       "time": "1807-11-13 19:00:00"
       },
-      {"goodId": "fimoXMas25T",
-      "goodName": "XMas 25T",
-      "goodPrice": 8,
-      "pay": "apple",
-      "photo": 0,
-      "time": "1807-11-13 19:00:00"
-      },
+
       {"goodId": "fimoNatura1600",
       "goodName": "Natura 1600",
       "goodPrice": 1,
@@ -152,17 +146,31 @@ obj = {
       "pay": "apple",
       "photo": 0,
       "time": "1999-08-10 10:35:00"},
+#新增
+      {"goodId": "fimoXMas25T",
+      "goodName": "X-Mas 25T",
+      "goodPrice": 12,
+      "pay": "apple",
+      "photo": 0,
+      "time": "2019-12-10 17:00:00"},
+
       {"goodId": "fimoRDP3",
       "goodName": "RDP 3",
       "goodPrice": 12,
       "pay": "apple",
       "photo": 0,
-      "time": "2000-02-10 17:00:00"  },
+      "time": "2000-07-10 17:00:00"},
       {"goodId": "fimoUnicolor125",
       "goodName": "Unicolor 125",
       "goodPrice": 12,
       "pay": "apple",
       "photo": 0,
-      "time": "2000-02-10 17:00:00"  }
+      "time": "2000-07-10 17:00:00"},
+      {"goodId": "fimoCenturia100",
+      "goodName": "Centuria 100",
+      "goodPrice": 12,
+      "pay": "apple",
+      "photo": 0,
+      "time": "2000-07-10 17:00:00"}
     ]}
 $done({body: JSON.stringify(obj)});
