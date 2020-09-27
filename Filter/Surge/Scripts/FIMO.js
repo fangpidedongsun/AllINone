@@ -2,6 +2,8 @@
 FIMO 复古胶片相机 解锁限制
 https:\/\/server\.yoyiapp\.com\/fimo-user\/user\/sync
 hostname：server.yoyiapp.com
+govo.yy.com
+filter/common
 */
 
 
@@ -147,7 +149,7 @@ obj = {
       "photo": 0,
       "time": "1999-08-10 10:35:00"},
 #新增
-      {"goodId": "fimoXMas25T",
+      {"goodId": "fimoXMAS25T",
       "goodName": "X-Mas 25T",
       "goodPrice": 12,
       "pay": "apple",
@@ -155,20 +157,36 @@ obj = {
       "time": "2019-12-10 17:00:00"},
 
       {"goodId": "fimoRDP3",
-      "goodName": "RDP 3",
+      "goodName": "RDP 100",
       "goodPrice": 12,
       "pay": "apple",
       "photo": 0,
       "time": "2000-07-10 17:00:00"},
+
       {"goodId": "fimoUnicolor125",
-      "goodName": "Unicolor 125",
+      "goodName": "Unicolor 125 iOS",
       "goodPrice": 12,
       "pay": "apple",
       "photo": 0,
       "time": "2000-07-10 17:00:00"},
+
       {"goodId": "fimoCenturia100",
-      "goodName": "Centuria 100",
+      "goodName": "Konika Centuria 100",
       "goodPrice": 12,
+      "pay": "apple",
+      "photo": 0,
+      "time": "2000-07-10 17:00:00"},
+
+      {"goodId": "fimoNewYear2020",
+      "goodName": "New Year 2020",
+      "goodPrice": 0,
+      "pay": "apple",
+      "photo": 0,
+      "time": "2000-07-10 17:00:00"},
+
+      {"goodId": "fimoNewYear2020Lunar",
+      "goodName": "New Year 2020 Lunar",
+      "goodPrice": 0,
       "pay": "apple",
       "photo": 0,
       "time": "2000-07-10 17:00:00"}
