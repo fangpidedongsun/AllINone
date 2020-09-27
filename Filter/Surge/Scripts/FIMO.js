@@ -148,7 +148,7 @@ obj = {
       "pay": "apple",
       "photo": 0,
       "time": "1999-08-10 10:35:00"},
-#新增
+      
       {"goodId": "fimoXMAS25T",
       "goodName": "X-Mas 25T",
       "goodPrice": 12,
