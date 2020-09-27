@@ -148,14 +148,13 @@ obj = {
       "pay": "apple",
       "photo": 0,
       "time": "1999-08-10 10:35:00"},
-      
+
       {"goodId": "fimoXMAS25T",
       "goodName": "X-Mas 25T",
       "goodPrice": 12,
       "pay": "apple",
       "photo": 0,
       "time": "2019-12-10 17:00:00"},
-
       {"goodId": "fimoRDP3",
       "goodName": "RDP 100",
       "goodPrice": 12,
