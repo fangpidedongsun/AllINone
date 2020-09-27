@@ -172,7 +172,7 @@ obj = {
 
       {"goodId": "fimoCenturia100",
       "goodName": "Konika Centuria 100",
-      "goodPrice": 12,
+      "goodPrice": 6,
       "pay": "apple",
       "photo": 0,
       "time": "2000-07-10 17:00:00"},
