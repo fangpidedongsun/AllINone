@@ -7,7 +7,7 @@
 #签到脚本35 5 0 * * *
 
 # 来客有礼签到
-lkyl.js = type=cron,cronexp="18 10 * * *",script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,script-update-interval=0
+lkyl.js = type=cron,cronexp="20 10 * * *",script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,script-update-interval=0
 
 
 #京东签到
