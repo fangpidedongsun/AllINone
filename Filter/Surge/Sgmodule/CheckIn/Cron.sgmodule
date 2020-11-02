@@ -18,4 +18,4 @@ cron "0 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/script
 
 进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js
 
-hostname = %APPEND%  act.10010.com, m.client.10010.com,api.1sapp.com,api.m.jd.com,www.smzdm.com, music.163.com,draw.jdfcloud.com,daojia.jd.com,ms.jr.jd.com
+hostname = %APPEND%  act.10010.com, m.client.10010.com,api.m.jd.com,draw.jdfcloud.com,ms.jr.jd.com
