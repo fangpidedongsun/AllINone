@@ -1,8 +1,0 @@
-#!name=blackmatrix7去广告
-#!desc=最后更新时间 2020-11-19 17:35:13
-#!github=https://github.com/blackmatrix7/ios_rule_script
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT
-
-DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Domain.list,REJECT
