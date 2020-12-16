@@ -724,7 +724,7 @@ async function Main(){
         // 获取加密手机号
         let encryptMobile = /encryptmobile=([a-zA-Z0-9]*)/.exec(magicJS.request.url)[1];
         let hisEncryptMobile = magicJS.read(encryptMobileKey, 'default');
-        let cityCode = /city=([0-9]*)/.exec(magicJS.request.headers['Cookie'])[1]
+        let cityCode = /u_areaCode=([0-9]*)/.exec(magicJS.request.headers['Cookie'])[1]
         // 获取城市代码
         let hisCityCode = magicJS.read(cityCodeKey, 'default');
         let notifyContent = '';
