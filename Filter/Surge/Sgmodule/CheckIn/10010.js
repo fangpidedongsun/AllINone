@@ -793,8 +793,8 @@ async function Main(){
         }
         magicJS.notify(scriptName, '', notifyContent);
       //}
-      catch (err){
-        magicJS.logError(`获取联通手机营业厅Cookie出现异常，异常信息：${err}`);
+      //catch (err){
+      //  magicJS.logError(`获取联通手机营业厅Cookie出现异常，异常信息：${err}`);
       }
     //}
     magicJS.done();
