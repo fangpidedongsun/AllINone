@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-联通_签到与抽奖 = type=cron,cronexp=20 0 * * *,timeout=60,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/CheckIn/Achive/10010.js
+联通_签到与抽奖 = type=cron,cronexp=00 15 * * *,timeout=60,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/CheckIn/Achive/10010.js
 联通_获取cookie = type=http-request,pattern=^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/CheckIn/Achive/10010.js
 
 [MITM]
