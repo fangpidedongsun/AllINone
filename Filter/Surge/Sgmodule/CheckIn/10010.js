@@ -23,7 +23,7 @@ let userLoginOptions = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "zh-cn",
-    "Connection": "close",
+    "Connection": "keep-alive",
     "Cookie": "",
     "Host": "m.client.10010.com",
     "Upgrade-Insecure-Requests": "1",
