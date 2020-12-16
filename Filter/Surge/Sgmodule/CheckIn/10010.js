@@ -720,7 +720,7 @@ async function Main(){
         //magicJS.request.headers['Cookie'];
         let hisCookie = magicJS.read(unicomCookieKey, 'default');
         // 获取手机号
-        let mobile = /c_mobile=(^[0-9]*${11})/.exec(cookie)[1];
+        let mobile = /c_mobile=([0-9]{11})/.exec(cookie)[1];
         let hisMobile = magicJS.read(mobileKey, 'default');
         // 获取加密手机号
         let encryptMobile = /encryptmobile=([a-zA-Z0-9]*)/.exec(magicJS.request.url)[1];
