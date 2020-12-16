@@ -713,14 +713,13 @@ function GetMeituanCoupon(){
 
 async function Main(){
   if (magicJS.isRequest){
-    //if(getLotteryCookieRegex.test(magicJS.request.url) && magicJS.request.headers.hasOwnProperty('savedata') == false){
-      //try{
+    if(getLotteryCookieRegex.test(magicJS.request.url) && magicJS.request.headers.hasOwnProperty('savedata') == false){
+      try{
         // 获取cookie
-        let cookie = 't3_token=b14c6d8961dfee7dcfcf5e2bbfce1671; ecs_token=eyJkYXRhIjoiNWVjMzc1MzNjZDhiYmJhZTEwYWQ1NDMzYjIyNDJkODc2M2Q4ZWU2M2U4ZjAxYTk5OGEzNTQ2NDcwMDFmNzI3NGUxMDg3NjUwZDRhNzNkNzY0MDhlNDM1YjkwYWVlNjVhYmViNTFjMzYyN2JkNzU3M2M2YTUxZDZhZjg1ZTcxMGZlYTg1YjU1MjYwY2FhNGNlNTAzODMyN2U1ZGRjMmJiMzQ0MWRkNTcxZjBmOGI0MWIyMTNjMWUzY2JkYmMwNDRmIiwidmVyc2lvbiI6IjAwIn0=; cw_mutual=7064d003eb3c8934e769e430ecf3d64a00ad11e7e1f9c80a856fe8f938241dfad3234fcdd950fce4284b2ad2e6e3a6b22e80f0a415aaad6e9772d2bf78cfe788; login_type=06; c_mobile=13261786407; c_id=e4122da2696d36d2a1b4a8ebb3c3bb289f345f7af8c0c1d85c622324d39a5bf2; u_areaCode=110; c_version=iphone_c@8.0004; jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGUiOiIxMzI2MTc4NjQwNyIsInBybyI6IjAxMSIsImNpdHkiOiIxMTAiLCJpZCI6IjUyMTRlNzJkMzM3MDc1NDY5OTMwYWE0Y2YyYjIxOGRkIn0.5nT0DDX0SdKoNvkOmUC-VhWM_NWsU27UHDItm4xKhXA; wo_family=0; u_account=13261786407; invalid_at=723b4515d526e1df3f48f97d7b1421c6efaf1fc88cf8f5a859847dfdae5a9448; third_token=eyJkYXRhIjoiMTMyYzJlNGFmOTFiOWU0ZTRmMmMyMDQwOWVkNWU5NDIxOTk3MzU4MWRjNTYwYzk5ZjIyNzk1Y2Q0ODg0MmNlY2NhNTg3NzE4YTBkNzZmYzI1OGZmMzIwZDE1ZjFlODY0MmRmYWU3YTZlOGQ4M2MwMTc1NTM2MDNjNjdlNTQwZmI4Yzc2ZmE5ODc3NTI5YTEzY2QzZTkwYWYxNTEzZTk0OCIsInZlcnNpb24iOiIwMCJ9; random_login=0; a_token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDgyNTI3NDMsInRva2VuIjp7ImxvZ2luVXNlciI6IjEzMjYxNzg2NDA3IiwicmFuZG9tU3RyIjoieWhhY2M0OGUxNjA3NjQ3OTQzIn0sImlhdCI6MTYwNzY0Nzk0M30.Mv5v89Y0AevLu7ThOBxwoIwffd_zJXDRyksQgCERlcUKyyk-Xcn7E8xnYQji1p3rDO1H24Knpef47O2494UKxg; enc_acc=JBojMkwVcnwMBH9bREEzxHP5UUOqJ5kbEH/VY/qt24YX+wLaSj25gCPyDjIOz4IekmN+R1JOCEkjwnr3MRrTpvSrsIzInu0aQGjlQpC/k32e4OwYPNQxjO2LsqZY0mP6+oxmnTqfaGP0SpV7fSc4oDBIxx1mmUEYrgzv7rXoUQA=; ecs_acc=ZXbj1dDVXjaUKoi1D6dfnZvDD9hIq3YUKXGh5I6iGlSEAeTI88pWQEIufwr2HOsDeCf1+bNX4qhQHwR1WyLyz5NSno+/7mueHlziKKiCvhC1W0XJkaHVnVyoyPtcNm+yFzJr/3pVB1xhyakL0Fnc0eSuFCy0esHuFx9UcuRbAeI=; channel=GGPD; devicedId=9CF95E90-762F-44CE-876C-A6469F34C46B; city=011|110;'
-        //magicJS.request.headers['Cookie'];
+        let cookie = magicJS.request.headers['Cookie'];
         let hisCookie = magicJS.read(unicomCookieKey, 'default');
         // 获取手机号
-        let mobile = /c_mobile=([0-9]{11})/.exec(cookie)[1];
+        let mobile = /c_mobile=(^[0-9]*${11})/.exec(cookie)[1];
         let hisMobile = magicJS.read(mobileKey, 'default');
         // 获取加密手机号
         let encryptMobile = /encryptmobile=([a-zA-Z0-9]*)/.exec(magicJS.request.url)[1];
@@ -793,11 +792,11 @@ async function Main(){
           notifyContent += ' 🌃城市:没有变化';
         }
         magicJS.notify(scriptName, '', notifyContent);
-      //}
-      //catch (err){
-      //  magicJS.logError(`获取联通手机营业厅Cookie出现异常，异常信息：${err}`);
       }
-    //}
+      catch (err){
+        magicJS.logError(`获取联通手机营业厅Cookie出现异常，异常信息：${err}`);
+      }
+    }
     magicJS.done();
   }
   else{
