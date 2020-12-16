@@ -713,7 +713,7 @@ function GetMeituanCoupon(){
 
 async function Main(){
   if (magicJS.isRequest){
-    if(getLotteryCookieRegex.test(magicJS.request.url) && magicJS.request.headers.hasOwnProperty('savedata') == false){
+    //if(getLotteryCookieRegex.test(magicJS.request.url) && magicJS.request.headers.hasOwnProperty('savedata') == false){
       try{
         // 获取cookie
         let cookie = magicJS.request.headers['Cookie'];
@@ -796,7 +796,7 @@ async function Main(){
       catch (err){
         magicJS.logError(`获取联通手机营业厅Cookie出现异常，异常信息：${err}`);
       }
-    }
+    //}
     magicJS.done();
   }
   else{
