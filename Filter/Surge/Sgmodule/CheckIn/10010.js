@@ -714,7 +714,7 @@ function GetMeituanCoupon(){
 async function Main(){
   if (magicJS.isRequest){
     //if(getLotteryCookieRegex.test(magicJS.request.url) && magicJS.request.headers.hasOwnProperty('savedata') == false){
-      try{
+      //try{
         // 获取cookie
         let cookie = magicJS.request.headers['Cookie'];
         let hisCookie = magicJS.read(unicomCookieKey, 'default');
@@ -792,7 +792,7 @@ async function Main(){
           notifyContent += ' 🌃城市:没有变化';
         }
         magicJS.notify(scriptName, '', notifyContent);
-      }
+      //}
       catch (err){
         magicJS.logError(`获取联通手机营业厅Cookie出现异常，异常信息：${err}`);
       }
