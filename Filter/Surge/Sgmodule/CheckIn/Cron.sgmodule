@@ -1,5 +1,5 @@
-#!name=Cron
-#!desc=签到js
+#!name=综合固定签到
+#!desc=固定签到脚本
 #!system=ios
 
 [Script]
