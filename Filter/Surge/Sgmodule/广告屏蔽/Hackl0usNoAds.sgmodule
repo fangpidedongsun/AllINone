@@ -1,0 +1,6 @@
+#!name=Hackl0us去广告
+#!github=https://github.com/Hackl0us/SS-Rule-Snippet
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/CN-ad.list,REJECT-TINYGIF
