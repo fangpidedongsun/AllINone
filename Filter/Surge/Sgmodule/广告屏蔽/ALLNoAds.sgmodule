@@ -1,10 +1,22 @@
-#!name=All广告屏蔽
+#!name=多人去广告
 #!desc=使用多人的策略
 
 [Rule]
+#blackmatrix7去广告
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Domain.list,REJECT
+
 #NobyDa
 DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt,REJECT
 RULE-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Add.txt,REJECT
+
+#Hackl0us
+RULE-SET,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/CN-ad.list,REJECT-TINYGIF
+
+#Cuttlefish去广告
+RULE-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Cuttlefish/Filter/Advertising.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Cuttlefish/Filter/MyAdRule.list,REJECT
 
 #eHpo1
 RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list,REJECT
