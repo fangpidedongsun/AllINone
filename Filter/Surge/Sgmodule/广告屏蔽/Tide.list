@@ -1,6 +1,12 @@
 # Tide.list
 # Strong Stain Removal
 # 0~9
+
+URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/BaseService\/startAppForV5\.json$
+URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$
+URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
+URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
+
 # > 21经济
 URL-REGEX,^https?+:\/\/api\.21jingji\.com\/ad\/
 # > 55海淘
