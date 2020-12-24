@@ -6,4 +6,4 @@ RULE-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filte
 
 
 [MITM]
-hostname = %APPEND% mlife.cmbchina.com,resource.cmbchina.com
+hostname = %APPEND% resource.cmbchina.com
