@@ -5,10 +5,6 @@
 ^https:\/\/bookapi.ihuman.com:443\/v3\/get_book_info
 [mitm]
 bookapi.ihuman.com
-
-var obj = JSON.parse($response.body);
-body = $response.body.replace(/"is_vip":\{[^}]+\}/g /,"is_vip":0);
-obj = {"is_vip": 0}
 */
 
 body = $response.body.replace(/\"is_vip\":1/g, "\"is_vip\":0")
