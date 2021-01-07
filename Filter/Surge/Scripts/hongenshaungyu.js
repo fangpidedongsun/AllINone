@@ -7,11 +7,12 @@
 bookapi.ihuman.com
 
 var obj = JSON.parse($response.body);
-
+body = $response.body.replace(/"is_vip":\{[^}]+\}/g /,"is_vip":0);
 obj = {"is_vip": 0}
 */
 
+var obj = JSON.parse($response.body);
 
-body = $response.body.replace(/"is_vip":\{[^}]+\}/g /,"is_vip":0);
+obj = {"is_vip": 0}
 
-$done({body});
+$done({body: JSON.stringify(obj)});
