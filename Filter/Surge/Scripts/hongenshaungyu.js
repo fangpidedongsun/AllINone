@@ -11,8 +11,5 @@ body = $response.body.replace(/"is_vip":\{[^}]+\}/g /,"is_vip":0);
 obj = {"is_vip": 0}
 */
 
-var obj = JSON.parse($response.body);
-
-obj = {"is_vip": 0}
-
-$done({body: JSON.stringify(obj)});
+body = $response.body.replace(/\"is_vip\":1/g, "\"is_vip\":0")
+$done({body});
