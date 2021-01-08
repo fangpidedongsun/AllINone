@@ -9,6 +9,6 @@ obj.status=false;
 let obj=JSON.parse($response.body);
 obj['data']['resource'] = null;
 obj['data']['countdown'] = 0;
-obj['data']['url'] = null;
+obj['data']['resources']['url'] = null;
 
 $done({body: JSON.stringify(obj)})
