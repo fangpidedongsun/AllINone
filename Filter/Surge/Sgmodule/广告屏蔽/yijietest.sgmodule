@@ -3,7 +3,6 @@
 [Rule]
 URL-REGEX,^https:\/\/bjapi\.ejoy\.sinopec\.com\/api\/advertisement-service\/advertisement\/hotspot\/app-list,REJECT
 URL-REGEX,^https:\/\/bjapi\.ejoy\.sinopec\.com\/api\/usercenter-service\/api\/v1\/user\/card\/coupon?,REJECT
-URL-REGEX,^http:\/\/oak-storage\.oss-cn-beijing\.aliyuncs\.com\/oak\/?\/?.jpg$,REJECT
 URL-REGEX,https:\/\/bjapi\.ejoy\.sinopec\.com\/api\/advertisement-service\/advertisement\/app\/-1$,REJECT
 
 [Script]
