@@ -3,6 +3,7 @@
 [Rule]
 URL-REGEX,^https:\/\/bjapi\.ejoy\.sinopec\.com\/api\/advertisement-service\/advertisement\/hotspot\/app-list,REJECT
 URL-REGEX,^https:\/\/bjapi\.ejoy\.sinopec\.com\/api\/usercenter-service\/api\/v1\/user\/card\/coupon?,REJECT
+URL-REGEX,^http:\/\/oak-storage\.oss-cn-beijing\.aliyuncs\.com\/oak\/?\/?.jpg$,REJECT
 
 [Script]
 http-response https:\/\/bjapi\.ejoy\.sinopec\.com\/api\/advertisement-service\/start-module\/app\/flashScreen requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/yijiejiayou.js,script-update-interval=0
