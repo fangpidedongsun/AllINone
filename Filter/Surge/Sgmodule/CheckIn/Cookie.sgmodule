@@ -5,7 +5,7 @@
 [Script]
 # 签到脚本获取cookie
 #> 京东
-# 浏览器登录 https://bean.m.jd.com/bean/signIndex.action 点击签到并且出现签到日历
+#https://bean.m.jd.com/bean/signIndex.action
 http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # 京东白条提额
