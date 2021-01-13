@@ -3,6 +3,12 @@
 #!system=ios
 
 [Script]
+#京东签到NobyDa
+#https://bean.m.jd.com/bean/signIndex.action
+cron "2 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=2000,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car_exchange.js
+
+
 # 京东白条提额
 京东白条提额 = type=cron,cronexp="20 15 * * *",script-path=https://raw.githubusercontent.com/cyubuchen/scripts/master/task/jdBaiTiao.js
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=京喜
