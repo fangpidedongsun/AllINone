@@ -147,7 +147,7 @@ cron "15 14 * * *" script-path=https://raw.githubusercontent.com/fangpidedongsun
 
 京东秒秒币 = type=cron,cronexp="1 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_ms.js
 
-盲盒抽京豆 = type=cron,cronexp="45 11 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js
+盲盒抽京豆 = type=cron,cronexp="14 14 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js
 
 宝洁美发屋 = type=cron,cronexp="11 14 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js
 
