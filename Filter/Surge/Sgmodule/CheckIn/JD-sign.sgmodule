@@ -153,5 +153,10 @@ cron "15 14 * * *" script-path=https://raw.githubusercontent.com/fangpidedongsun
 
 神券京豆 = type=cron,cronexp="1 7 13 1 *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_super_coupon.js
 
+京喜财富岛 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js
+京喜农场cookie = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.cookie.js
+京喜财富岛兑换提醒 = type=cron,cronexp="30 6,12,22 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd_exchange.js
+
+
 [MITM]
 hostname = %APPEND%  wq.jd.com,www.didapinche.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn,www.didapinche.com,act.10010.com, m.client.10010.com,api.m.jd.com,draw.jdfcloud.com,ms.jr.jd.com,as.xiaojukeji.com,h5.ele.me
