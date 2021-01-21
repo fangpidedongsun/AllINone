@@ -74,6 +74,9 @@
       "config": "0 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js, tag=京东炸年兽🧨"
     },
     {
+      "config": "0 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_ar.js, tag=京东炸年兽AR🧨, enabled=true"
+    },
+    {
       "config": "11 1 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
@@ -174,19 +177,19 @@
       "config": "44 12 * * 6 https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_unbind.js, tag=注销京东店铺会员卡, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_unbind.png"
     },
     {
-      "config": "30 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy.js, tag=crazyJoy任务, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "30 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy.js, tag=crazyJoy任务, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_crazy_joy.png"
     },
     {
       "config": "0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png"
     },
     {
-      "config": "0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
       "config": "5 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
     },
     {
-      "config": "2 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "2 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
       "config": "1 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
