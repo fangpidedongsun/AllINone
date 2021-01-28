@@ -68,143 +68,143 @@
       "config": "11 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js, tag=京东排行榜, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
-      "config": "0 9,12,20,21 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js, tag=京东炸年兽🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
+      "config": "0 9,12,20,21 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nian.js, tag=京东炸年兽🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
     },
     {
-      "config": "50 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js, tag=京东收🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nianCollect.png, enabled=true"
+      "config": "50 * * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nianCollect.js, tag=京东收🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nianCollect.png, enabled=true"
     },
     {
-      "config": "0 9 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_ar.js, tag=京东炸年兽AR🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
+      "config": "0 9 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nian_ar.js, tag=京东炸年兽AR🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
     },
     {
-      "config": "30 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_sign.js, tag=京东炸年兽签到任务🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
+      "config": "30 8 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nian_sign.js, tag=京东炸年兽签到任务🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
     },
     {
-      "config": "50 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_wechat.js, tag=京东炸年兽小程序🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
+      "config": "50 8 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nian_wechat.js, tag=京东炸年兽小程序🧨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true"
     },
     {
       "config": "11 1 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
-      "config": "0 9,12,18 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png"
+      "config": "0 9,12,18 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png"
     },
 
     {
-      "config": "0 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal.js, tag=京东神仙书院, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
+      "config": "0 8 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_immortal.js, tag=京东神仙书院, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
-      "config": "1 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
+      "config": "1 * * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
-      "config": "10 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy_coin.js, tag=crazyJoy挂机, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
+      "config": "10 7 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_crazy_joy_coin.js, tag=crazyJoy挂机, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
-      "config": "5 6-18/6 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_fruit.js, tag=东东农场 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
+      "config": "5 6-18/6 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_fruit.js, tag=东东农场 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
     },
     {
-      "config": "20 7-19/6 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_pet.js, tag=东东萌宠 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png"
+      "config": "20 7-19/6 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_pet.js, tag=东东萌宠 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png"
     },
     {
-      "config": "10 7-21/2 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_plantBean.js, tag=京东种豆得豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png"
+      "config": "10 7-21/2 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_plantBean.js, tag=京东种豆得豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png"
     },
     {
-      "config": "15 1,7,9,12,18,21 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy.js, tag=宠汪汪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      "config": "15 1,7,9,12,18,21 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_joy.js, tag=宠汪汪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
-      "config": "12 */1 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_feedPets.js, tag=宠汪汪喂食 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      "config": "12 */1 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_joy_feedPets.js, tag=宠汪汪喂食 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
-      "config": "0 0,6 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      "config": "0 0,6 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
-      "config": "1 0,8,12,16 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_reward.js , tag=宠汪汪积分兑换奖品 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      "config": "1 0,8,12,16 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_joy_reward.js , tag=宠汪汪积分兑换奖品 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
-      "config": "8 */3 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_speed.js , tag=京东天天加速 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png"
+      "config": "8 */3 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_speed.js , tag=京东天天加速 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png"
     },
     {
-      "config": "15 */5 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_moneyTree.js , tag=京东摇钱树 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png"
+      "config": "15 */5 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_moneyTree.js , tag=京东摇钱树 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png"
     },
     {
-      "config": "5 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_club_lottery.js , tag=摇京豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png"
+      "config": "5 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_club_lottery.js , tag=摇京豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png"
     },
     {
-      "config": "11 1-23/5 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_superMarket.js , tag=京小超 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
+      "config": "11 1-23/5 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_superMarket.js , tag=京小超 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
     },
     {
-      "config": "0,30 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_blueCoin.js , tag=京小超兑换奖品 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
+      "config": "0,30 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_blueCoin.js , tag=京小超兑换奖品 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
     },
     {
-      "config": "55 23 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_unsubscribe.js , tag=取关京东店铺商品 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "55 23 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_unsubscribe.js , tag=取关京东店铺商品 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
     },
     {
-      "config": "10 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_shop.js , tag=进店领豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png"
+      "config": "10 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_shop.js , tag=进店领豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png"
     },
     {
-      "config": "15 10 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_run.js , tag=宠汪汪邀请助力与赛跑助力 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      "config": "15 10 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_joy_run.js , tag=宠汪汪邀请助力与赛跑助力 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
-      "config": "1 1 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_redPacket.js , tag=京东全民开红包 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png"
+      "config": "1 1 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_redPacket.js , tag=京东全民开红包 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png"
     },
     {
-      "config": "2 9 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_bean_change.js , tag=京豆变动通知 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "2 9 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_bean_change.js , tag=京豆变动通知 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
     },
     {
-      "config": "20 0,20 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_necklace.js , tag=点点券 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "20 0,20 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_necklace.js , tag=点点券 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
     },
     {
-      "config": "10 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_dreamFactory.js, tag=京喜工厂, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png"
+      "config": "10 * * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_dreamFactory.js, tag=京喜工厂, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png"
     },
     {
-      "config": "13 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_small_home.js, tag=东东小窝, img-url=https://github.com/58xinian/icon/raw/master/ddxw.png"
+      "config": "13 7 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_small_home.js, tag=东东小窝, img-url=https://github.com/58xinian/icon/raw/master/ddxw.png"
     },
     {
-      "config": "10 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jdfactory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png"
+      "config": "10 * * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_jdfactory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png"
     },
     {
-      "config": "0 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_syj.js, tag=十元街, img-url=https://github.com/58xinian/icon/raw/master/jd_syj.png"
+      "config": "0 7 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_syj.js, tag=十元街, img-url=https://github.com/58xinian/icon/raw/master/jd_syj.png"
     },
     {
-      "config": "10 6 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png"
+      "config": "10 6 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png"
     },
     {
-      "config": "0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_car.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_car.png"
+      "config": "0 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_car.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_car.png"
     },
     {
-      "config": "10 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png"
+      "config": "10 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png"
     },
     {
-      "config": "10-20/5 12 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_live.js, tag=京东直播, img-url= https://raw.githubusercontent.com/58xinian/icon/master/jd_live_redrain.png"
+      "config": "10-20/5 12 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_live.js, tag=京东直播, img-url= https://raw.githubusercontent.com/58xinian/icon/master/jd_live_redrain.png"
     },
     {
-      "config": "14 11 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png"
+      "config": "14 11 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png"
     },
     {
-      "config": "44 12 * * 6 https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_unbind.js, tag=注销京东店铺会员卡, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_unbind.png"
+      "config": "44 12 * * 6 https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_unbind.js, tag=注销京东店铺会员卡, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_unbind.png"
     },
     {
-      "config": "30 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy.js, tag=crazyJoy任务, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_crazy_joy.png"
+      "config": "30 8 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_crazy_joy.js, tag=crazyJoy任务, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_crazy_joy.png"
     },
     {
-      "config": "0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png"
+      "config": "0 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png"
     },
     {
-      "config": "0 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+      "config": "0 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
-      "config": "5 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "5 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
     },
     {
-      "config": "2 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+      "config": "2 0 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
-      "config": "1 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      "config": "1 7 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
     },
     {
       "config": "1 7 * * * https://raw.githubusercontent.com/vhzn/Loon/main/jd_opencard.js, tag=开卡活动, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
-      "config": "20 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_sgmh.js, tag=闪购盲盒, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+      "config": "20 8 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_sgmh.js, tag=闪购盲盒, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
       "config": "40 21 25 1 * https://raw.githubusercontent.com/vhzn/Loon/main/jd_super.js, tag=超级直播间任务赢京豆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
@@ -216,7 +216,10 @@
       "config": "0 0 * * * https://raw.githubusercontent.com/vhzn/Loon/main/jd_coupon.js, tag=源头好物红包, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_coupon.jpg, enabled=true"
     },
     {
-      "config": "20 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal_answer.js, tag=京东神仙书院答题, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+      "config": "20 8 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_immortal_answer.js, tag=京东神仙书院答题, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+    },
+    {
+      "config": "20 7 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_super_box.js, tag=京东超级盒子, enabled=true"
     },
   ]
 }
