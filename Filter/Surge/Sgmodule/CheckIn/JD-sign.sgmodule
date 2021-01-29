@@ -68,6 +68,7 @@
 工业品爱消除 = type=cron,cronexp="30 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/vhzn/Loon/main/jd_gyec.js
 
 #京东炸年兽
+全民炸年兽 = type=cron,cronexp=5 * * * *,wake-system=1,timeout=500,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_nianBeast.js
 京东收🧨 = type=cron,cronexp="/60 * * * *",wake-system=1,timeout=36000,script-path=https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nianCollect.js
 京东炸年兽签到任务🧨 = type=cron,cronexp="30 8 * * *",wake-system=1,timeout=36000,script-path=https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_nian_sign.js
 全民炸年兽🧨 = type=cron,cronexp=5 0-22/2 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_nianBeast.js
