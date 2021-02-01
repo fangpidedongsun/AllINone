@@ -93,7 +93,7 @@
     },
 
     {
-      "config": "0 8 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js, tag=京东神仙书院, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
+      "config": "20 8,12,22 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js, tag=京东神仙书院, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
     },
     {
       "config": "1 * * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png"
@@ -239,5 +239,9 @@
     {
       "config": "20 8,12 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_newYearMoney.js, tag=京东压岁钱, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
+    {
+      "config": "15 0-23/1 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
+    },
+
   ]
 }

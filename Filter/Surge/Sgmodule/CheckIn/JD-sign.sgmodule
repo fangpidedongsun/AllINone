@@ -15,7 +15,7 @@
 东东萌宠 = type=cron,cronexp="15 6-18/6 * * *",wake-system=1,timeout=120,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_pet.js
 京东种豆得豆 = type=cron,cronexp="1 7-21/2 * * *",wake-system=1,timeout=120,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_plantBean.js
 京东宠汪汪 = type=cron,cronexp="15 */2 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy.js
-京东宠汪汪喂食 = type=cron,cronexp="15 */1 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_feedPets.js
+京东宠汪汪喂食 = type=cron,cronexp="15 0-23/1 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_feedPets.js
 宠汪汪偷好友积分与狗粮 = type=cron,cronexp="0 0,6 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_steal.js
 宠汪汪积分兑换奖品 = type=cron,cronexp="0 0-16/8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js
 天天加速 = type=cron,cronexp="8 */3 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_speed.js
@@ -85,7 +85,7 @@
 小鸽有礼 = type=cron,cronexp="5 7 * * *",wake-system=1,timeout=36000,script-path=https://raw.githubusercontent.com/vhzn/Loon/main/jd_xg.js
 超级直播间红包雨 = type=cron,cronexp="30,31 20-23/1 25 1 *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/vhzn/Loon/main/jd_live_redrain.js
 年货直播红包雨 = type=cron,cronexp="0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 * ",wake-system=1,timeout=36000,script-path=https://raw.githubusercontent.com/vhzn/Loon/main/jd_live_redrain_nian.js
-京东神仙书院 = type=cron,cronexp="0 8 * * *",wake-system=1,timeout=360000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
+京东神仙书院 = type=cron,cronexp="20 8,12,22 * * *",wake-system=1,timeout=360000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
 超级直播间任务赢京豆 = type=cron,cronexp="40 21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/vhzn/Loon/main/jd_super.js
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_sgmh.js
 京东手机年终奖 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/vhzn/Loon/main/jd_festival.js
