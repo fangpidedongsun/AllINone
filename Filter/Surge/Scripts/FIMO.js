@@ -149,7 +149,6 @@ obj = {
       "photo": 0,
       "time": "1999-08-10 10:35:00"},
 
-
       {"goodId": "fimoXMAS25T",
       "goodName": "X-Mas 25T",
       "goodPrice": 12,
@@ -157,7 +156,7 @@ obj = {
       "photo": 0,
       "time": "1807-11-13 19:00:00"},
       {"goodId": "fimoRDP3",
-      "goodName": "RDP 100",
+      "goodName": "RDP 3",
       "goodPrice": 12,
       "pay": "apple",
       "photo": 0,
