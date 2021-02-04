@@ -120,7 +120,7 @@
       "config": "0 0,6 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
-      "config": "1 0,8,12,16 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js , tag=宠汪汪积分兑换奖品 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      "config": "1 0,8,12,16 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_joy_reward.js, tag=宠汪汪积分兑换奖品 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
       "config": "8 */3 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_speed.js , tag=京东天天加速 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png"
