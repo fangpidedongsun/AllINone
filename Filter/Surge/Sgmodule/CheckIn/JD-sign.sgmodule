@@ -3,6 +3,8 @@
 #!system=ios
 
 [Script]
+京东云 = type=cron,cronexp="0 7 * * *",wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/shylocks/for-own-use/main/jdc.js
+顺丰速运 = type=cron,cronexp="0 9 * * *",wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js
 京东压岁钱 = type=cron,cronexp="20 8,12 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_newYearMoney.js
 京东压岁钱抢百元卡 = type=cron,cronexp="0 0 9,12,16,20 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_newYearMoney_lottery.js
 小鸽有礼2 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_xgyl.js
@@ -91,4 +93,4 @@
 个护爱消除 = type=cron,cronexp="40 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/vhzn/Loon/main/jd_xxl_gh.js
 
 [MITM]
-hostname = %APPEND%  wq.jd.com,www.didapinche.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn,www.didapinche.com,act.10010.com, m.client.10010.com,api.m.jd.com,draw.jdfcloud.com,ms.jr.jd.com,as.xiaojukeji.com,h5.ele.me
+hostname = %APPEND%  mcs-mimp-web.sf-express.com,router-app-api.jdcloud.com,wq.jd.com,www.didapinche.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn,www.didapinche.com,act.10010.com, m.client.10010.com,api.m.jd.com,draw.jdfcloud.com,ms.jr.jd.com,as.xiaojukeji.com,h5.ele.me

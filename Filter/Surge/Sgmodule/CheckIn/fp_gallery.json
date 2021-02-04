@@ -225,6 +225,13 @@
     {
       "config": "15 0-23/1 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
     },
-
+    {
+      "config": "0 7 * * * https://raw.githubusercontent.com/shylocks/for-own-use/main/jdc.js, tag=京东云, img-url=https://raw.githubusercontent.com/shylocks/for-own-use/main/Icon/jdc.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/shylocks/for-own-use/main/quantumultx/jdc.qxrewrite, tag=jdc_COOKIE"
+    },
+    {
+      "config": "0 9 * * * https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/shylocks/for-own-use/main/Icon/sf.png, enabled=true",
+      "addons": "https://raw.githubusercontent.com/shylocks/for-own-use/main/quantumultx/sf.qxrewrite, tag=sf_COOKIE"
+    },
   ]
 }
