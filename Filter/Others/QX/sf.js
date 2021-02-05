@@ -12,18 +12,18 @@ hostname = mcs-mimp-web.sf-express.com
 
 ================Qx==============
 [task_local]
-0 9 * * * https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/shylocks/for-own-use/main/Icon/sf.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/shylocks/for-own-use/main/Icon/sf.png, enabled=true
 [rewrite_local]
-https:\/\/mcs-mimp-web\.sf-express\.com\/home url script-request-header https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js
+https:\/\/mcs-mimp-web\.sf-express\.com\/home url script-request-header https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js
 
 ================Loon==============
 [Script]
-http-request https:\/\/mcs-mimp-web\.sf-express\.com\/home script-path=https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js, requires-body=true, timeout=100, tag=顺丰速运获取ck
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js, tag=顺丰速运
+http-request https:\/\/mcs-mimp-web\.sf-express\.com\/home script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js, requires-body=true, timeout=100, tag=顺丰速运获取ck
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js, tag=顺丰速运
 
 ===============Surge=================
-顺丰速运获取ck = type=http-request,pattern=https:\/\/mcs-mimp-web\.sf-express\.com\/home ,script-path=https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js
-顺丰速运 = type=cron,cronexp="0 9 * * *",wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/shylocks/for-own-use/main/sf.js
+顺丰速运获取ck = type=http-request,pattern=https:\/\/mcs-mimp-web\.sf-express\.com\/home ,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js
+顺丰速运 = type=cron,cronexp="0 9 * * *",wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js
 
 */
 
