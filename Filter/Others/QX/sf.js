@@ -12,7 +12,7 @@ hostname = mcs-mimp-web.sf-express.com
 
 ================Qx==============
 [task_local]
-0 9 * * * https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/shylocks/for-own-use/main/Icon/sf.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/Icon/sf.png, enabled=true
 [rewrite_local]
 https:\/\/mcs-mimp-web\.sf-express\.com\/home url script-request-header https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js
 
