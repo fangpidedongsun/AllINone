@@ -1,0 +1,135 @@
+# > Apple API
+HOST-SUFFIX,aaplimg.com
+HOST-SUFFIX,apple.co
+HOST-SUFFIX,apple.com
+HOST-SUFFIX,apple-cloudkit.com
+HOST-SUFFIX,apple-mapkit.com
+HOST-SUFFIX,appsto.re
+HOST-SUFFIX,cdn-apple.com
+HOST-SUFFIX,icloud.com
+HOST-SUFFIX,icloud-content.com
+HOST-SUFFIX,itunes.com
+HOST-SUFFIX,me.com
+HOST-SUFFIX,mzstatic.com
+IP-CIDR,17.0.0.0/8
+IP-CIDR,63.92.224.0/19
+IP-CIDR,65.199.22.0/23
+IP-CIDR,139.178.128.0/18
+IP-CIDR,144.178.0.0/19
+IP-CIDR,144.178.36.0/22
+IP-CIDR,144.178.48.0/20
+IP-CIDR,192.35.50.0/24
+IP-CIDR,198.183.17.0/24
+IP-CIDR,205.180.175.0/24
+
+# > Apple News
+HOST-SUFFIX,apple.news
+
+# > Apple Maps
+PROCESS-NAME,com.apple.geod
+
+# > Dler Cloud
+HOST-SUFFIX,dler.cloud
+
+# > Apple CDN
+USER-AGENT,*storedownloadd*
+USER-AGENT,com.apple.appstored*
+HOST,aod.itunes.apple.com
+HOST,api.smoot.apple.cn
+HOST,appldnld.apple.com
+HOST,apptrailers.itunes.apple.com
+HOST,gs-loc-cn.apple.com
+HOST,iosapps.itunes.apple.com
+HOST,music.apple.com
+HOST,mvod.itunes.apple.com
+HOST,osxapps.itunes.apple.com
+HOST,supportdownload.apple.com
+HOST,swcdn.apple.com
+HOST,updates-http.cdn-apple.com
+HOST-SUFFIX,ls.apple.com
+HOST-SUFFIX,mzstatic.com
+
+# > Epic
+USER-AGENT,*epicgames*
+
+# > Google
+HOST,safebrowsing.googleapis.com
+HOST-SUFFIX,dl.google.com
+
+# > Microsoft
+HOST-SUFFIX,msftconnecttest.com
+HOST-SUFFIX,windows.com
+HOST-SUFFIX,windows.net
+HOST-SUFFIX,windowsupdate.com
+HOST-SUFFIX,xbox.com
+HOST-SUFFIX,xboxlive.com
+
+# > Mugglepay
+HOST-SUFFIX,invoice.mugglepay.com
+
+# > Proxy plugin
+PROCESS-NAME,v2ray
+PROCESS-NAME,ss-local
+
+# > Spotify
+HOST-SUFFIX,ap.spotify.com
+
+# > Steam
+USER-AGENT,Steam*
+HOST-SUFFIX,pinyuncloud.com
+HOST-SUFFIX,steamcontent.com
+
+# > Tesla
+HOST-SUFFIX,tesla.cn
+HOST-SUFFIX,tesla-cdn.thron.cn
+
+# > UUBooster
+PROCESS-NAME,UUBooster
+
+# > Windows
+HOST-SUFFIX,windows.com
+HOST-SUFFIX,windows.net
+HOST-SUFFIX,windowsupdate.com
+
+# > Xunlei
+USER-AGENT,%E8%BF%85%E9%9B%B7
+HOST-SUFFIX,xunlei.com
+
+# > Download
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
+
+# > Private Tracker
+HOST-SUFFIX,awesome-hd.me
+HOST-SUFFIX,broadcasthe.net
+HOST-SUFFIX,chdbits.co
+HOST-SUFFIX,classix-unlimited.co.uk
+HOST-SUFFIX,empornium.me
+HOST-SUFFIX,gazellegames.net
+HOST-SUFFIX,hdchina.org
+HOST-SUFFIX,hdsky.me
+HOST-SUFFIX,icetorrent.org
+HOST-SUFFIX,jpopsuki.eu
+HOST-SUFFIX,keepfrds.com
+HOST-SUFFIX,madsrevolution.net
+HOST-SUFFIX,m-team.cc
+HOST-SUFFIX,nanyangpt.com
+HOST-SUFFIX,ncore.cc
+HOST-SUFFIX,open.cd
+HOST-SUFFIX,ourbits.club
+HOST-SUFFIX,passthepopcorn.me
+HOST-SUFFIX,privatehd.to
+HOST-SUFFIX,redacted.ch
+HOST-SUFFIX,springsunday.net
+HOST-SUFFIX,tjupt.org
+HOST-SUFFIX,totheglory.im
+
+HOST-SUFFIX,smtp
