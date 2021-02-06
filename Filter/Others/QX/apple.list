@@ -26,7 +26,7 @@ IP-CIDR,205.180.175.0/24,Apple
 HOST-SUFFIX,apple.news,Apple
 
 # > Apple Maps
-PROCESS-NAME,com.apple.geod,Apple
+HOST,com.apple.geod,Apple
 
 # > Dler Cloud
 HOST-SUFFIX,dler.cloud,Apple
@@ -68,8 +68,8 @@ HOST-SUFFIX,xboxlive.com,Apple
 HOST-SUFFIX,invoice.mugglepay.com,Apple
 
 # > Proxy plugin
-PROCESS-NAME,v2ray,Apple
-PROCESS-NAME,ss-local,Apple
+USER-AGENT,v2ray,Apple
+USER-AGENT,ss-local,Apple
 
 # > Spotify
 HOST-SUFFIX,ap.spotify.com,Apple
@@ -84,7 +84,7 @@ HOST-SUFFIX,tesla.cn,Apple
 HOST-SUFFIX,tesla-cdn.thron.cn,Apple
 
 # > UUBooster
-PROCESS-NAME,UUBooster,Apple
+USER-AGENT,UUBooster,Apple
 
 # > Windows
 HOST-SUFFIX,windows.com,Apple
@@ -96,16 +96,16 @@ USER-AGENT,%E8%BF%85%E9%9B%B7,Apple
 HOST-SUFFIX,xunlei.com,Apple
 
 # > Download
-PROCESS-NAME,aria2c,Apple
-PROCESS-NAME,fdm,Apple
-PROCESS-NAME,Folx,Apple
-PROCESS-NAME,NetTransport,Apple
-PROCESS-NAME,qbittorrent,Apple
-PROCESS-NAME,Thunder,Apple
-PROCESS-NAME,Transmission,Apple
-PROCESS-NAME,uTorrent,Apple
-PROCESS-NAME,WebTorrent,Apple
-PROCESS-NAME,WebTorrent Helper,Apple
+USER-AGENT,aria2c,Apple
+USER-AGENT,fdm,Apple
+USER-AGENT,Folx,Apple
+USER-AGENT,NetTransport,Apple
+USER-AGENT,qbittorrent,Apple
+USER-AGENT,Thunder,Apple
+USER-AGENT,Transmission,Apple
+USER-AGENT,uTorrent,Apple
+USER-AGENT,WebTorrent,Apple
+USER-AGENT,WebTorrent Helper,Apple
 
 # > Private Tracker
 HOST-SUFFIX,awesome-hd.me,Apple
