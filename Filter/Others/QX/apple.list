@@ -1,135 +1,135 @@
 # > Apple API
-HOST-SUFFIX,aaplimg.com
-HOST-SUFFIX,apple.co
-HOST-SUFFIX,apple.com
-HOST-SUFFIX,apple-cloudkit.com
-HOST-SUFFIX,apple-mapkit.com
-HOST-SUFFIX,appsto.re
-HOST-SUFFIX,cdn-apple.com
-HOST-SUFFIX,icloud.com
-HOST-SUFFIX,icloud-content.com
-HOST-SUFFIX,itunes.com
-HOST-SUFFIX,me.com
-HOST-SUFFIX,mzstatic.com
-IP-CIDR,17.0.0.0/8
-IP-CIDR,63.92.224.0/19
-IP-CIDR,65.199.22.0/23
-IP-CIDR,139.178.128.0/18
-IP-CIDR,144.178.0.0/19
-IP-CIDR,144.178.36.0/22
-IP-CIDR,144.178.48.0/20
-IP-CIDR,192.35.50.0/24
-IP-CIDR,198.183.17.0/24
-IP-CIDR,205.180.175.0/24
+HOST-SUFFIX,aaplimg.com,Apple
+HOST-SUFFIX,apple.co,Apple
+HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,apple-mapkit.com,Apple
+HOST-SUFFIX,appsto.re,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
+HOST-SUFFIX,icloud.com,Apple
+HOST-SUFFIX,icloud-content.com,Apple
+HOST-SUFFIX,itunes.com,Apple
+HOST-SUFFIX,me.com,Apple
+HOST-SUFFIX,mzstatic.com,Apple
+IP-CIDR,17.0.0.0/8,Apple
+IP-CIDR,63.92.224.0/19,Apple
+IP-CIDR,65.199.22.0/23,Apple
+IP-CIDR,139.178.128.0/18,Apple
+IP-CIDR,144.178.0.0/19,Apple
+IP-CIDR,144.178.36.0/22,Apple
+IP-CIDR,144.178.48.0/20,Apple
+IP-CIDR,192.35.50.0/24,Apple
+IP-CIDR,198.183.17.0/24,Apple
+IP-CIDR,205.180.175.0/24,Apple
 
 # > Apple News
-HOST-SUFFIX,apple.news
+HOST-SUFFIX,apple.news,Apple
 
 # > Apple Maps
-PROCESS-NAME,com.apple.geod
+PROCESS-NAME,com.apple.geod,Apple
 
 # > Dler Cloud
-HOST-SUFFIX,dler.cloud
+HOST-SUFFIX,dler.cloud,Apple
 
 # > Apple CDN
-USER-AGENT,*storedownloadd*
-USER-AGENT,com.apple.appstored*
-HOST,aod.itunes.apple.com
-HOST,api.smoot.apple.cn
-HOST,appldnld.apple.com
-HOST,apptrailers.itunes.apple.com
-HOST,gs-loc-cn.apple.com
-HOST,iosapps.itunes.apple.com
-HOST,music.apple.com
-HOST,mvod.itunes.apple.com
-HOST,osxapps.itunes.apple.com
-HOST,supportdownload.apple.com
-HOST,swcdn.apple.com
-HOST,updates-http.cdn-apple.com
-HOST-SUFFIX,ls.apple.com
-HOST-SUFFIX,mzstatic.com
+USER-AGENT,*storedownloadd*,Apple
+USER-AGENT,com.apple.appstored*,Apple
+HOST,aod.itunes.apple.com,Apple
+HOST,api.smoot.apple.cn,Apple
+HOST,appldnld.apple.com,Apple
+HOST,apptrailers.itunes.apple.com,Apple
+HOST,gs-loc-cn.apple.com,Apple
+HOST,iosapps.itunes.apple.com,Apple
+HOST,music.apple.com,Apple
+HOST,mvod.itunes.apple.com,Apple
+HOST,osxapps.itunes.apple.com,Apple
+HOST,supportdownload.apple.com,Apple
+HOST,swcdn.apple.com,Apple
+HOST,updates-http.cdn-apple.com,Apple
+HOST-SUFFIX,ls.apple.com,Apple
+HOST-SUFFIX,mzstatic.com,Apple
 
 # > Epic
-USER-AGENT,*epicgames*
+USER-AGENT,*epicgames*,Apple
 
 # > Google
-HOST,safebrowsing.googleapis.com
-HOST-SUFFIX,dl.google.com
+HOST,safebrowsing.googleapis.com,Apple
+HOST-SUFFIX,dl.google.com,Apple
 
 # > Microsoft
-HOST-SUFFIX,msftconnecttest.com
-HOST-SUFFIX,windows.com
-HOST-SUFFIX,windows.net
-HOST-SUFFIX,windowsupdate.com
-HOST-SUFFIX,xbox.com
-HOST-SUFFIX,xboxlive.com
+HOST-SUFFIX,msftconnecttest.com,Apple
+HOST-SUFFIX,windows.com,Apple
+HOST-SUFFIX,windows.net,Apple
+HOST-SUFFIX,windowsupdate.com,Apple
+HOST-SUFFIX,xbox.com,Apple
+HOST-SUFFIX,xboxlive.com,Apple
 
 # > Mugglepay
-HOST-SUFFIX,invoice.mugglepay.com
+HOST-SUFFIX,invoice.mugglepay.com,Apple
 
 # > Proxy plugin
-PROCESS-NAME,v2ray
-PROCESS-NAME,ss-local
+PROCESS-NAME,v2ray,Apple
+PROCESS-NAME,ss-local,Apple
 
 # > Spotify
-HOST-SUFFIX,ap.spotify.com
+HOST-SUFFIX,ap.spotify.com,Apple
 
 # > Steam
 USER-AGENT,Steam*
-HOST-SUFFIX,pinyuncloud.com
-HOST-SUFFIX,steamcontent.com
+HOST-SUFFIX,pinyuncloud.com,Apple
+HOST-SUFFIX,steamcontent.com,Apple
 
 # > Tesla
-HOST-SUFFIX,tesla.cn
-HOST-SUFFIX,tesla-cdn.thron.cn
+HOST-SUFFIX,tesla.cn,Apple
+HOST-SUFFIX,tesla-cdn.thron.cn,Apple
 
 # > UUBooster
-PROCESS-NAME,UUBooster
+PROCESS-NAME,UUBooster,Apple
 
 # > Windows
-HOST-SUFFIX,windows.com
-HOST-SUFFIX,windows.net
-HOST-SUFFIX,windowsupdate.com
+HOST-SUFFIX,windows.com,Apple
+HOST-SUFFIX,windows.net,Apple
+HOST-SUFFIX,windowsupdate.com,Apple
 
 # > Xunlei
-USER-AGENT,%E8%BF%85%E9%9B%B7
-HOST-SUFFIX,xunlei.com
+USER-AGENT,%E8%BF%85%E9%9B%B7,Apple
+HOST-SUFFIX,xunlei.com,Apple
 
 # > Download
-PROCESS-NAME,aria2c
-PROCESS-NAME,fdm
-PROCESS-NAME,Folx
-PROCESS-NAME,NetTransport
-PROCESS-NAME,qbittorrent
-PROCESS-NAME,Thunder
-PROCESS-NAME,Transmission
-PROCESS-NAME,uTorrent
-PROCESS-NAME,WebTorrent
-PROCESS-NAME,WebTorrent Helper
+PROCESS-NAME,aria2c,Apple
+PROCESS-NAME,fdm,Apple
+PROCESS-NAME,Folx,Apple
+PROCESS-NAME,NetTransport,Apple
+PROCESS-NAME,qbittorrent,Apple
+PROCESS-NAME,Thunder,Apple
+PROCESS-NAME,Transmission,Apple
+PROCESS-NAME,uTorrent,Apple
+PROCESS-NAME,WebTorrent,Apple
+PROCESS-NAME,WebTorrent Helper,Apple
 
 # > Private Tracker
-HOST-SUFFIX,awesome-hd.me
-HOST-SUFFIX,broadcasthe.net
-HOST-SUFFIX,chdbits.co
-HOST-SUFFIX,classix-unlimited.co.uk
-HOST-SUFFIX,empornium.me
-HOST-SUFFIX,gazellegames.net
-HOST-SUFFIX,hdchina.org
-HOST-SUFFIX,hdsky.me
-HOST-SUFFIX,icetorrent.org
-HOST-SUFFIX,jpopsuki.eu
-HOST-SUFFIX,keepfrds.com
-HOST-SUFFIX,madsrevolution.net
-HOST-SUFFIX,m-team.cc
-HOST-SUFFIX,nanyangpt.com
-HOST-SUFFIX,ncore.cc
-HOST-SUFFIX,open.cd
-HOST-SUFFIX,ourbits.club
-HOST-SUFFIX,passthepopcorn.me
-HOST-SUFFIX,privatehd.to
-HOST-SUFFIX,redacted.ch
-HOST-SUFFIX,springsunday.net
-HOST-SUFFIX,tjupt.org
-HOST-SUFFIX,totheglory.im
+HOST-SUFFIX,awesome-hd.me,Apple
+HOST-SUFFIX,broadcasthe.net,Apple
+HOST-SUFFIX,chdbits.co,Apple
+HOST-SUFFIX,classix-unlimited.co.uk,Apple
+HOST-SUFFIX,empornium.me,Apple
+HOST-SUFFIX,gazellegames.net,Apple
+HOST-SUFFIX,hdchina.org,Apple
+HOST-SUFFIX,hdsky.me,Apple
+HOST-SUFFIX,icetorrent.org,Apple
+HOST-SUFFIX,jpopsuki.eu,Apple
+HOST-SUFFIX,keepfrds.com,Apple
+HOST-SUFFIX,madsrevolution.net,Apple
+HOST-SUFFIX,m-team.cc,Apple
+HOST-SUFFIX,nanyangpt.com,Apple
+HOST-SUFFIX,ncore.cc,Apple
+HOST-SUFFIX,open.cd,Apple
+HOST-SUFFIX,ourbits.club,Apple
+HOST-SUFFIX,passthepopcorn.me,Apple
+HOST-SUFFIX,privatehd.to,Apple
+HOST-SUFFIX,redacted.ch,Apple
+HOST-SUFFIX,springsunday.net,Apple
+HOST-SUFFIX,tjupt.org,Apple
+HOST-SUFFIX,totheglory.im,Apple
 
-HOST-SUFFIX,smtp
+HOST-SUFFIX,smtp,Apple
