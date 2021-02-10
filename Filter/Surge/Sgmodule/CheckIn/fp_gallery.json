@@ -203,5 +203,8 @@
       "config": "0 9 * * * https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/Icon/sf.png, enabled=true",
       "addons": "https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.qxrewrite, tag=sf_COOKIE"
     },
+    {
+      "config": "0 9,12,20,21 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_global.js, tag=环球挑战赛, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_global.png, enabled=true",
+    },
   ]
 }
