@@ -95,7 +95,7 @@
       "config": "12 */1 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_feedPets.js, tag=宠汪汪喂食 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
-      "config": "0 0,6 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      "config": "10 0-21/3 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
     },
     {
       "config": "1 0,8,12,16 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_joy_reward.js, tag=宠汪汪积分兑换奖品 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
@@ -155,9 +155,6 @@
       "config": "10 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png"
     },
     {
-      "config": "10-20/5 12 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live.js, tag=京东直播, img-url= https://raw.githubusercontent.com/58xinian/icon/master/jd_live_redrain.png"
-    },
-    {
       "config": "14 11 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png"
     },
     {
@@ -199,6 +196,12 @@
     },
     {
       "config": "0 9,12,20,21 2-22 2 *  https://gitee.com/lxk0301/jd_scripts/raw/master/jd_global.js, tag=环球挑战赛, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_global.png, enabled=true",
+    },
+    {
+      "config": "0 7 19-25 2 * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
+    },
+    {
+      "config": "1 7,12,19 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_beauty.js, tag=美丽研究院, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
     },
   ]
 }
