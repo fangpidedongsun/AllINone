@@ -1,0 +1,31 @@
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,GMedia
+USER-AGENT,Prime%20Video*,GMedia
+HOST-SUFFIX,aiv-cdn.net,GMedia
+HOST-SUFFIX,amazonaws.co.uk,GMedia
+HOST-SUFFIX,amazonaws.com,GMedia
+HOST-SUFFIX,amazonvideo.com,GMedia
+HOST-SUFFIX,llnwd.net,GMedia
+
+# > Disney Plus
+USER-AGENT,Disney*,GMedia
+HOST,cdn.registerdisney.go.com,GMedia
+HOST,cdn.cdn.unid.go.com,GMedia
+HOST-SUFFIX,bamgrid.com,GMedia
+HOST-SUFFIX,braze.com,GMedia
+HOST-SUFFIX,conviva.com,GMedia
+HOST-SUFFIX,disney.demdex.net,GMedia
+HOST-SUFFIX,disneyplus.com,GMedia
+HOST-SUFFIX,disney-plus.net,GMedia
+HOST-SUFFIX,dssott.com,GMedia
+HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,GMedia
+
+
+# > Hulu(フールー)
+HOST-SUFFIX,happyon.jp,GMedia
+HOST-SUFFIX,hulu.jp,GMedia
+
+# > Hulu
+HOST-SUFFIX,hulu.com,GMedia
+HOST-SUFFIX,huluim.com,GMedia
+HOST-SUFFIX,hulustream.com,GMedia
