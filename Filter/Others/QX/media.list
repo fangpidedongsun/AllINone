@@ -1,3 +1,4 @@
+
 # > ABC
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -10,14 +11,6 @@ HOST-SUFFIX,akamaized.net,GMedia
 HOST-SUFFIX,ameba.jp,GMedia
 HOST-SUFFIX,hayabusa.io,GMedia
 
-# > Amazon Prime Video
-USER-AGENT,InstantVideo.US*,GMedia
-USER-AGENT,Prime%20Video*,GMedia
-HOST-SUFFIX,aiv-cdn.net,GMedia
-HOST-SUFFIX,amazonaws.co.uk,GMedia
-HOST-SUFFIX,amazonaws.com,GMedia
-HOST-SUFFIX,amazonvideo.com,GMedia
-HOST-SUFFIX,llnwd.net,GMedia
 
 # > Apple News and Apple Map TOMTOM Version
 # USER-AGENT,AppleNews*,GMedia
