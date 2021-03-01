@@ -1,4 +1,4 @@
 hostname = sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com
 
-^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index url script-request-header sfexpress.cookie.js
-^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect url script-request-header sfexpress.cookie.js
+^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
