@@ -84,6 +84,7 @@ crazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,scrip
 小鸽有礼2 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xgyl.js
 京喜签到 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js
 京喜财富岛 = type=cron,cronexp="30 8,13,19 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cfd.js
+她的节享京豆 = type=cron,cronexp="0 8,21 1-8/1 3 *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_firecrackers.js
 
 [MITM]
 hostname = %APPEND%  me-api.jd.com,mcs-mimp-web.sf-express.com,router-app-api.jdcloud.com,wq.jd.com,www.didapinche.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn,www.didapinche.com,act.10010.com, m.client.10010.com,api.m.jd.com,draw.jdfcloud.com,ms.jr.jd.com,as.xiaojukeji.com,h5.ele.me
