@@ -38,6 +38,7 @@ HOST-SUFFIX,hulustream.com,GMedia
 
 
 # > HBO NOW & HBO GO
+HOST,CMAF.CF.US.HBOMAXCDN.COM,GMedia
 USER-AGENT,HBO%20NOW*,GMedia
 HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GMedia
 HOST-SUFFIX,hbo.com,GMedia
