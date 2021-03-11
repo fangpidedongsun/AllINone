@@ -1,3 +1,11 @@
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,GMedia
+USER-AGENT,Prime%20Video*,GMedia
+HOST-SUFFIX,aiv-cdn.net,GMedia
+HOST-SUFFIX,amazonaws.co.uk,GMedia
+HOST-SUFFIX,amazonaws.com,GMedia
+HOST-SUFFIX,amazonvideo.com,GMedia
+HOST-SUFFIX,llnwd.net,GMedia
 
 # > ABC
 HOST-SUFFIX,edgedatg.com,GMedia
@@ -22,20 +30,6 @@ USER-AGENT,Anime*,GMedia
 HOST-SUFFIX,bahamut.com.tw,GMedia
 HOST-SUFFIX,gamer.com.tw,GMedia
 HOST-SUFFIX,hinet.net,GMedia
-
-# > BBC iPlayer
-USER-AGENT,BBCiPlayer*,GMedia
-HOST-KEYWORD,bbcfmt,GMedia
-HOST,aod-dash-uk-live.akamaized.net,GMedia
-HOST,aod-hls-uk-live.akamaized.net,GMedia
-HOST,vod-dash-uk-live.akamaized.net,GMedia
-HOST,vod-thumb-uk-live.akamaized.net,GMedia
-HOST-SUFFIX,bbc.co,GMedia
-HOST-SUFFIX,bbc.co.uk,GMedia
-HOST-SUFFIX,bbc.com,GMedia
-HOST-SUFFIX,bbcfmt.hs.llnwd.net,GMedia
-HOST-SUFFIX,bbci.co,GMedia
-HOST-SUFFIX,bbci.co.uk,GMedia
 
 # > DAZN
 HOST-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
@@ -63,16 +57,6 @@ HOST-SUFFIX,akamaized.net,GMedia
 HOST-SUFFIX,foxplus.com,GMedia
 HOST-SUFFIX,theplatform.com,GMedia
 
-# > HBO NOW & HBO GO
-USER-AGENT,HBO%20NOW*,GMedia
-HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GMedia
-HOST-SUFFIX,hbo.com,GMedia
-HOST-SUFFIX,hboasia.com,GMedia
-HOST-SUFFIX,hbogo.com,GMedia
-HOST-SUFFIX,hbogoasia.com,GMedia
-HOST-SUFFIX,hbogoasia.hk,GMedia
-HOST-SUFFIX,hbonow.com,GMedia
-HOST-SUFFIX,hbomax.com,GMedia
 
 # > Japonx
 HOST-KEYWORD,japonx,GMedia
