@@ -50,7 +50,6 @@ HOST-SUFFIX,hbonow.com,GMedia
 HOST-SUFFIX,hbomax.com,GMedia
 USER-AGENT,HBOMAX*,GMedia
 
-
 # > HBO GO HKG
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GMedia
 DOMAIN-SUFFIX,hbogoasia.com,GMedia
@@ -66,3 +65,14 @@ DOMAIN,hboasia3-i.akamaihd.net,GMedia
 DOMAIN,hboasia4-i.akamaihd.net,GMedia
 DOMAIN,hboasia5-i.akamaihd.net,GMedia
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GMedia
+
+# > Discovery Plus
+USER-AGENT,DPlus*,GMedia
+DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com,GMedia
+DOMAIN-SUFFIX,disco-api.com,GMedia
+DOMAIN-SUFFIX,discoveryplus.com,GMedia
+DOMAIN-SUFFIX,fwmrm.net,GMedia
+DOMAIN-SUFFIX,getblueshift.com,GMedia
+DOMAIN-SUFFIX,litix.io,GMedia
+DOMAIN-SUFFIX,mobile-collector.newrelic.com,GMedia
+DOMAIN-SUFFIX,uplynk.com,GMedia
