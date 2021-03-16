@@ -76,3 +76,14 @@ DOMAIN-SUFFIX,getblueshift.com,GMedia
 DOMAIN-SUFFIX,litix.io,GMedia
 DOMAIN-SUFFIX,mobile-collector.newrelic.com,GMedia
 DOMAIN-SUFFIX,uplynk.com,GMedia
+# > Paramount+
+USER-AGENT,PPlus*,Streaming
+DOMAIN-SUFFIX,cbsi.com,Streaming
+DOMAIN-SUFFIX,cbsaavideo.com,Streaming
+DOMAIN-SUFFIX,cbsivideo.com,Streaming
+DOMAIN-SUFFIX,paramountplus.com,Streaming
+DOMAIN-SUFFIX,pplusstatic.com,Streaming
+DOMAIN,cbsi.live.ott.irdeto.com,Streaming
+# > PBS
+USER-AGENT,PBS*,Streaming
+DOMAIN-SUFFIX,pbs.org,Streaming
