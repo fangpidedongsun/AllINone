@@ -45,19 +45,6 @@ HOST-SUFFIX,encoretvb.com,GMedia
 HOST,content.jwplatform.com,GMedia
 HOST,videos-f.jwpsrv.com,GMedia
 
-# > Fox Now
-USER-AGENT,FOX%20NOW*,GMedia
-HOST-SUFFIX,fox.com,GMedia
-HOST-SUFFIX,foxdcg.com,GMedia
-HOST-SUFFIX,uplynk.com,GMedia
-
-# > Fox+ (HK|TW|SG)
-USER-AGENT,FOXPlus*,GMedia
-HOST-SUFFIX,akamaized.net,GMedia
-HOST-SUFFIX,foxplus.com,GMedia
-HOST-SUFFIX,theplatform.com,GMedia
-
-
 # > Japonx
 HOST-KEYWORD,japonx,GMedia
 HOST-KEYWORD,japronx,GMedia
