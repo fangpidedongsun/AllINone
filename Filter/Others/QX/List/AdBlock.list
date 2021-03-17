@@ -4189,7 +4189,7 @@ HOST-SUFFIX,impservice.youdao.com,AdBlock
 HOST-SUFFIX,impservice2.youdao.com,AdBlock
 HOST-SUFFIX,impservicetest.dictapp.youdao.com,AdBlock
 HOST-SUFFIX,impservice-test.dictapp.youdao.com,AdBlock
-# HOST-SUFFIX,imrworldwide.com,AdBlock
+HOST-SUFFIX,imrworldwide.com,AdBlock
 HOST-SUFFIX,in.gyeet.com,AdBlock
 HOST-SUFFIX,in.jxhcyc.com,AdBlock
 HOST-SUFFIX,in.mengpr.com,AdBlock
