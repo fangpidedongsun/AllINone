@@ -89,6 +89,15 @@ DOMAIN-SUFFIX,getblueshift.com,GMedia
 DOMAIN-SUFFIX,litix.io,GMedia
 DOMAIN-SUFFIX,mobile-collector.newrelic.com,GMedia
 DOMAIN-SUFFIX,uplynk.com,GMedia
+
+USER-AGENT,Disney+*,Streaming
+DOMAIN-SUFFIX,bamgrid.com,Streaming
+DOMAIN-SUFFIX,disneyplus.com,Streaming
+DOMAIN-SUFFIX,disney-plus.net,Streaming
+DOMAIN-SUFFIX,disneystreaming.com,Streaming
+DOMAIN-SUFFIX,dssott.com,Streaming
+DOMAIN,cdn.registerdisney.go.com,Streaming
+
 # > Paramount+
 USER-AGENT,PPlus*,Streaming
 DOMAIN-SUFFIX,cbsi.com,Streaming
@@ -97,6 +106,39 @@ DOMAIN-SUFFIX,cbsivideo.com,Streaming
 DOMAIN-SUFFIX,paramountplus.com,Streaming
 DOMAIN-SUFFIX,pplusstatic.com,Streaming
 DOMAIN,cbsi.live.ott.irdeto.com,Streaming
+
+# > CBS
+HOST-SUFFIX,cbs,CBS
+HOST-SUFFIX,cbs.com,CBS
+HOST-SUFFIX,cbsaavideo.com,CBS
+HOST-SUFFIX,cbscorporation.com,CBS
+HOST-SUFFIX,cbsi.com,CBS
+HOST-SUFFIX,cbsi.live.ott.irdeto.com,CBS
+HOST-SUFFIX,cbsi.video,CBS
+HOST-SUFFIX,cbsiam.com,CBS
+HOST-SUFFIX,cbsig.net,CBS
+HOST-SUFFIX,cbsimg.net,CBS
+HOST-SUFFIX,cbsinteractive.com,CBS
+HOST-SUFFIX,cbsistatic.com,CBS
+HOST-SUFFIX,cbsivideo.com,CBS
+HOST-SUFFIX,cbsnews.com,CBS
+HOST-SUFFIX,cbspressexpress.com,CBS
+HOST-SUFFIX,cbsradio.com,CBS
+HOST-SUFFIX,cbssports.com,CBS
+HOST-SUFFIX,cbsstatic.com,CBS
+HOST-SUFFIX,cbsstore.com,CBS
+HOST-SUFFIX,cbssvideo.com,CBS
+HOST-SUFFIX,cbstelevisioncity.com,CBS
+HOST-SUFFIX,paramount.com,CBS
+HOST-SUFFIX,paramountplus.com,CBS
+HOST-SUFFIX,pplusstatic.com,CBS
+HOST-SUFFIX,showtime.com,CBS
+HOST-SUFFIX,viacbs.com,CBS
+HOST-SUFFIX,viacom.com,CBS
+HOST-SUFFIX,viacomcbs.com,CBS
+HOST-SUFFIX,viacomcbspressexpress.com,CBS
+USER-AGENT,PPlus*,CBS
+
 # > PBS
 USER-AGENT,PBS*,Streaming
 DOMAIN-SUFFIX,pbs.org,Streaming
