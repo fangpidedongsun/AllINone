@@ -110,7 +110,9 @@ HOST-SUFFIX,z.moatads.com,Streaming
 HOST-SUFFIX,dpm.demdex.net,Streaming
 HOST-SUFFIX,branch.io,Streaming
 HOST-SUFFIX,braze.com,Streaming
+HOST-SUFFIX,iad-03.braze.com,Streaming
 HOST-SUFFIX,kochava.com,Streaming
+HOST-SUFFIX,api.kochava.com,Streaming
 HOST-SUFFIX,penthera.com,Streaming
 
 # > CBS
