@@ -2917,7 +2917,7 @@ HOST-SUFFIX,dotmore.com.tw,AdBlock
 HOST-SUFFIX,dou777.com,AdBlock
 HOST-SUFFIX,doubleclick.com,AdBlock
 HOST-SUFFIX,doubleclick.ctfile.com,AdBlock
-HOST-SUFFIX,doubleclick.net,AdBlock
+# HOST-SUFFIX,doubleclick.net,AdBlock
 HOST-SUFFIX,doubleclick.tv002.com,AdBlock
 HOST-SUFFIX,doubleplay-conf-yql.media.yahoo.com,AdBlock
 HOST-SUFFIX,doubleverify.com,AdBlock
