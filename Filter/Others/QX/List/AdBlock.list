@@ -2447,7 +2447,7 @@ HOST-SUFFIX,contentabc.com,AdBlock
 HOST-SUFFIX,contentrecommend-out.mobile.sina.cn,AdBlock
 HOST-SUFFIX,conv.youdao.com,AdBlock
 HOST-SUFFIX,conversion.pro.cn,AdBlock
-# HOST-SUFFIX,conviva.com,AdBlock
+HOST-SUFFIX,conviva.com,AdBlock
 HOST-SUFFIX,cooguo.com,AdBlock
 HOST-SUFFIX,cookiemapping.wrating.com,AdBlock
 HOST-SUFFIX,coolguang.com,AdBlock
