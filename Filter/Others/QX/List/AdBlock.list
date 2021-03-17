@@ -2447,7 +2447,7 @@ HOST-SUFFIX,contentabc.com,AdBlock
 HOST-SUFFIX,contentrecommend-out.mobile.sina.cn,AdBlock
 HOST-SUFFIX,conv.youdao.com,AdBlock
 HOST-SUFFIX,conversion.pro.cn,AdBlock
-HOST-SUFFIX,conviva.com,AdBlock
+# HOST-SUFFIX,conviva.com,AdBlock
 HOST-SUFFIX,cooguo.com,AdBlock
 HOST-SUFFIX,cookiemapping.wrating.com,AdBlock
 HOST-SUFFIX,coolguang.com,AdBlock
@@ -2909,7 +2909,7 @@ HOST-SUFFIX,dotmore.com.tw,AdBlock
 HOST-SUFFIX,dou777.com,AdBlock
 HOST-SUFFIX,doubleclick.com,AdBlock
 HOST-SUFFIX,doubleclick.ctfile.com,AdBlock
-HOST-SUFFIX,doubleclick.net,AdBlock
+# HOST-SUFFIX,doubleclick.net,AdBlock
 HOST-SUFFIX,doubleclick.tv002.com,AdBlock
 HOST-SUFFIX,doubleplay-conf-yql.media.yahoo.com,AdBlock
 HOST-SUFFIX,doubleverify.com,AdBlock
@@ -2945,7 +2945,7 @@ HOST-SUFFIX,downloadb.dewmobile.net,AdBlock
 HOST-SUFFIX,downmobile.kugou.com,AdBlock
 HOST-SUFFIX,dp.559.cc,AdBlock
 HOST-SUFFIX,dp3.qq.com,AdBlock
-HOST-SUFFIX,dpm.demdex.net,AdBlock
+# HOST-SUFFIX,dpm.demdex.net,AdBlock
 HOST-SUFFIX,dps.499.cn,AdBlock
 HOST-SUFFIX,dps.shouji56.com,AdBlock
 HOST-SUFFIX,dps.wtdtjs.com,AdBlock
