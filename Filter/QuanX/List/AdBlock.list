@@ -2,7 +2,7 @@
 # 原地址:https://github.com/lhie1/Rules/blob/master/QuantumultX/Tail.conf
 # 原地址2:https://cdn.jsdelivr.net/gh/GeQ1an/Rules@master/QuantumultX/Filter/AdBlock.list
 # 变更内容:去除一下地址,使用派拉蒙串流必用.
-# conviva.com,dpm.demdex.net,doubleclick.net,imrworldwide.com,kochava.com
+# conviva.com,dpm.demdex.net,doubleclick.net,imrworldwide.com,kochava.com,z.moatads.com
 
 
 # Ads in Video apps
@@ -8122,7 +8122,7 @@ HOST-SUFFIX,yzh360.com,AdBlock
 HOST-SUFFIX,yzygo.com,AdBlock
 HOST-SUFFIX,yzytb.com,AdBlock
 HOST-SUFFIX,z.clickvip.shop,AdBlock
-HOST-SUFFIX,z.moatads.com,AdBlock
+# HOST-SUFFIX,z.moatads.com,AdBlock
 HOST-SUFFIX,z.nowscore.com,AdBlock
 HOST-SUFFIX,z.sora.yoyi.com.cn,AdBlock
 HOST-SUFFIX,z1.zedo.com,AdBlock
