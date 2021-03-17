@@ -32,7 +32,7 @@ HOST,cdn.registerdisney.go.com,GMedia
 HOST,cdn.cdn.unid.go.com,GMedia
 HOST-SUFFIX,bamgrid.com,GMedia
 HOST-SUFFIX,braze.com,GMedia
-HOST-SUFFIX,conviva.com,GMedia
+HOST,*.conviva.com,GMedia
 HOST-SUFFIX,disney.demdex.net,GMedia
 HOST-SUFFIX,disneyplus.com,GMedia
 HOST-SUFFIX,disney-plus.net,GMedia
@@ -137,3 +137,4 @@ HOST-SUFFIX,viacom.com,CBS
 HOST-SUFFIX,viacomcbs.com,CBS
 HOST-SUFFIX,viacomcbspressexpress.com,CBS
 USER-AGENT,PPlus*,CBS
+HOST,*.imrworldwide.com,CBS
