@@ -106,6 +106,13 @@ DOMAIN-SUFFIX,paramountplus.com,Streaming
 DOMAIN-SUFFIX,pplusstatic.com,Streaming
 DOMAIN,cbsi.live.ott.irdeto.com,Streaming
 
+HOST-SUFFIX,z.moatads.com,Streaming
+HOST-SUFFIX,dpm.demdex.net,Streaming
+HOST-SUFFIX,branch.io,Streaming
+HOST-SUFFIX,braze.com,Streaming
+HOST-SUFFIX,kochava.com,Streaming
+HOST-SUFFIX,penthera.com,Streaming
+
 # > CBS
 HOST-SUFFIX,cbs,CBS
 HOST-SUFFIX,cbs.com,CBS
