@@ -89,7 +89,6 @@ DOMAIN-SUFFIX,getblueshift.com,GMedia
 DOMAIN-SUFFIX,litix.io,GMedia
 DOMAIN-SUFFIX,mobile-collector.newrelic.com,GMedia
 DOMAIN-SUFFIX,uplynk.com,GMedia
-
 USER-AGENT,Disney+*,Streaming
 DOMAIN-SUFFIX,bamgrid.com,Streaming
 DOMAIN-SUFFIX,disneyplus.com,Streaming
@@ -138,7 +137,3 @@ HOST-SUFFIX,viacom.com,CBS
 HOST-SUFFIX,viacomcbs.com,CBS
 HOST-SUFFIX,viacomcbspressexpress.com,CBS
 USER-AGENT,PPlus*,CBS
-
-# > PBS
-USER-AGENT,PBS*,Streaming
-DOMAIN-SUFFIX,pbs.org,Streaming

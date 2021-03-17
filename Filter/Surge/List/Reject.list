@@ -1,5 +1,12 @@
-# Ads in Video apps
 
+# 更新日期:2021-3-17
+# 原地址:https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
+# 变更内容:去除一下地址,使用派拉蒙串流必用.
+# conviva.com
+# dpm.demdex.net
+# doubleclick.net
+
+# Ads in Video apps
 # > iqiyi & pps
 DOMAIN-SUFFIX,a.ckm.iqiyi.com
 DOMAIN-SUFFIX,ad.m.iqiyi.com

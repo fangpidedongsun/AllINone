@@ -1,3 +1,11 @@
+# 更新日期:2021-3-17
+# 原地址:https://github.com/lhie1/Rules/blob/master/QuantumultX/Tail.conf
+# 原地址2:https://cdn.jsdelivr.net/gh/GeQ1an/Rules@master/QuantumultX/Filter/AdBlock.list
+# 变更内容:去除一下地址,使用派拉蒙串流必用.
+# conviva.com
+# dpm.demdex.net
+# doubleclick.net
+
 # Ads in Video apps
 # > iQiYi & PPS
 HOST-SUFFIX,a.ckm.iqiyi.com,AdBlock
@@ -2909,7 +2917,7 @@ HOST-SUFFIX,dotmore.com.tw,AdBlock
 HOST-SUFFIX,dou777.com,AdBlock
 HOST-SUFFIX,doubleclick.com,AdBlock
 HOST-SUFFIX,doubleclick.ctfile.com,AdBlock
-# HOST-SUFFIX,doubleclick.net,AdBlock
+HOST-SUFFIX,doubleclick.net,AdBlock
 HOST-SUFFIX,doubleclick.tv002.com,AdBlock
 HOST-SUFFIX,doubleplay-conf-yql.media.yahoo.com,AdBlock
 HOST-SUFFIX,doubleverify.com,AdBlock
