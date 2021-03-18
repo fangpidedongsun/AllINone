@@ -1,4 +1,30 @@
 
+# > Fox Now
+ USER-AGENT,FOX%20NOW*,GMedia
+ HOST-SUFFIX,fox.com,GMedia
+ HOST-SUFFIX,foxdcg.com,GMedia
+ HOST-SUFFIX,uplynk.com,GMedia
+
+ # > Fox+ (HK|TW|SG)
+ USER-AGENT,FOXPlus*,GMedia
+ HOST-SUFFIX,akamaized.net,GMedia
+ HOST-SUFFIX,foxplus.com,GMedia
+ HOST-SUFFIX,theplatform.com,GMedia
+
+
+ # > BBC iPlayer
+ USER-AGENT,BBCiPlayer*,GMedia
+ HOST-KEYWORD,bbcfmt,GMedia
+ HOST,aod-dash-uk-live.akamaized.net,GMedia
+ HOST,aod-hls-uk-live.akamaized.net,GMedia
+ HOST,vod-dash-uk-live.akamaized.net,GMedia
+ HOST,vod-thumb-uk-live.akamaized.net,GMedia
+ HOST-SUFFIX,bbc.co,GMedia
+ HOST-SUFFIX,bbc.co.uk,GMedia
+ HOST-SUFFIX,bbc.com,GMedia
+ HOST-SUFFIX,bbcfmt.hs.llnwd.net,GMedia
+ HOST-SUFFIX,bbci.co,GMedia
+ HOST-SUFFIX,bbci.co.uk,GMedia
 
 # > Disney Plus
 USER-AGENT,Disney*,GMedia
