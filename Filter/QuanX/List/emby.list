@@ -3,8 +3,8 @@ DOMAIN-SUFFIX,plusmedia.site,Emby
 DOMAIN-SUFFIX,mickeycloud.com,Emby
 DOMAIN-SUFFIX,emby.wtf,Emby
 DOMAIN-SUFFIX,emby.men,Emby
-ip-cidr, 45.154.98.24/32, Emby
-ip-cidr, 38.94.109.97/32, Emby
+IP-CIDR,45.154.98.24/32, Emby
+IP-CIDR,38.94.109.97/32, Emby
 DOMAIN-SUFFIX,youremby.gq,Emby
 DOMAIN-SUFFIX,jmsooo.com,Emby
 DOMAIN-SUFFIX,plusmedia.site,Emby
