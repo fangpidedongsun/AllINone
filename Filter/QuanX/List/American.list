@@ -1,7 +1,7 @@
 # > Apple TV
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
+HOST,np-edge.itunes.apple.com,GMedia
+HOST,play-edge.itunes.apple.com,GMedia
+HOST-SUFFIX,tv.apple.com,GMedia
 
 # > Fox Now
  USER-AGENT,FOX%20NOW*,GMedia
