@@ -34,3 +34,5 @@ IP-CIDR,104.31.128.19/32,Emby
 IP-CIDR,75.2.112.209/32,Emby
 #otakudrive
 IP-CIDR,218.102.240.235/32,Emby
+#dxz https://dxz.plus/posts/emby/
+IP-CIDR,3.0.2.3/32,Emby
