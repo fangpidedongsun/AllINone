@@ -38,3 +38,5 @@ DOMAIN-SUFFIX,viacom.com,GMedia
 DOMAIN-SUFFIX,viacomcbs.com,GMedia
 DOMAIN-SUFFIX,viacomcbspressexpress.com,GMedia
 USER-AGENT,PPlus*,GMedia
+DOMAIN-SUFFIX,kochava.com,GMedia
+DOMAIN-SUFFIX,mobile-collector.newrelic.com,GMedia
