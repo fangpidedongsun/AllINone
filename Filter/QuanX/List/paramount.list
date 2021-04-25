@@ -1,13 +1,6 @@
 # > Paramount+
-USER-AGENT,PPlus*,GMedia
-DOMAIN-SUFFIX,cbsi.com,GMedia
-DOMAIN-SUFFIX,cbsaavideo.com,GMedia
-DOMAIN-SUFFIX,cbsivideo.com,GMedia
-DOMAIN-SUFFIX,paramountplus.com,GMedia
-DOMAIN-SUFFIX,pplusstatic.com,GMedia
-DOMAIN,cbsi.live.ott.irdeto.com,GMedia
-
-# > CBS
+DOMAIN,cbsplaylistserver.aws.syncbak.com,GMedia
+DOMAIN,cbsservice.aws.syncbak.com,GMedia
 DOMAIN-SUFFIX,cbs,GMedia
 DOMAIN-SUFFIX,cbs.com,GMedia
 DOMAIN-SUFFIX,cbsaavideo.com,GMedia
