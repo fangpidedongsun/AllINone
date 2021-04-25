@@ -42,7 +42,7 @@ HOST-SUFFIX,disneyplus.com,GMedia
 HOST-SUFFIX,disney-plus.net,GMedia
 HOST-SUFFIX,dssott.com,GMedia
 HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,GMedia
-
+USER-AGENT,Disney+*,Streaming
 
 # > Hulu(フールー)
 HOST-SUFFIX,happyon.jp,GMedia
@@ -93,7 +93,7 @@ DOMAIN-SUFFIX,getblueshift.com,GMedia
 DOMAIN-SUFFIX,litix.io,GMedia
 DOMAIN-SUFFIX,mobile-collector.newrelic.com,GMedia
 DOMAIN-SUFFIX,uplynk.com,GMedia
-USER-AGENT,Disney+*,Streaming
+
 DOMAIN-SUFFIX,bamgrid.com,Streaming
 DOMAIN-SUFFIX,disneyplus.com,Streaming
 DOMAIN-SUFFIX,disney-plus.net,Streaming
