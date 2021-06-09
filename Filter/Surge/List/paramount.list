@@ -35,3 +35,7 @@ USER-AGENT,cbs*
 DOMAIN-SUFFIX,kochava.com
 DOMAIN-SUFFIX,mobile-collector.newrelic.com
 DOMAIN-SUFFIX,cbs.penthera.com
+DOMAIN-SUFFIX,cbsservice.aws.syncbak.com
+DOMAIN-SUFFIX,pluto.tv
+PROCESS-NAME,com.cbs.app
+PROCESS-NAME,com.showtime.standalone

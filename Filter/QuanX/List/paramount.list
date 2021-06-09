@@ -8,7 +8,6 @@ DOMAIN-SUFFIX,cbs.com,Paramount
 DOMAIN-SUFFIX,cbsaavideo.com,Paramount
 DOMAIN-SUFFIX,cbscorporation.com,Paramount
 DOMAIN-SUFFIX,cbsi.com,Paramount
-DOMAIN-SUFFIX,cbs.penthera.com,Paramount
 DOMAIN-SUFFIX,cbsi.video,Paramount
 DOMAIN-SUFFIX,cbsiam.com,Paramount
 DOMAIN-SUFFIX,cbsig.net,Paramount
@@ -24,8 +23,8 @@ DOMAIN-SUFFIX,cbsstatic.com,Paramount
 DOMAIN-SUFFIX,cbsstore.com,Paramount
 DOMAIN-SUFFIX,cbssvideo.com,Paramount
 DOMAIN-SUFFIX,cbstelevisioncity.com,Paramount
-DOMAIN-SUFFIX,paramount.com,Paramount
-DOMAIN-SUFFIX,paramountplus.com,Paramount
+DOMAIN-SUFFIX,Paramount.com,Paramount
+DOMAIN-SUFFIX,Paramountplus.com,Paramount
 DOMAIN-SUFFIX,pplusstatic.com,Paramount
 DOMAIN-SUFFIX,showtime.com,Paramount
 DOMAIN-SUFFIX,viacbs.com,Paramount
@@ -35,3 +34,10 @@ DOMAIN-SUFFIX,viacomcbspressexpress.com,Paramount
 USER-AGENT,PPlus*,Paramount
 DOMAIN-SUFFIX,kochava.com,Paramount
 DOMAIN-SUFFIX,mobile-collector.newrelic.com,Paramount
+DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com,Paramount
+DOMAIN-SUFFIX,cbsplaylistserver.aws.syncbak.com,Paramount
+DOMAIN-SUFFIX,cbsservice.aws.syncbak.com,Paramount
+DOMAIN-SUFFIX,cbsstatic.com,Paramount
+DOMAIN-SUFFIX,paramount.com,Paramount
+DOMAIN-SUFFIX,pluto.tv,Paramount
+DOMAIN-SUFFIX,cbs.penthera.com,Paramount
