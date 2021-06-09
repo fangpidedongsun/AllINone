@@ -31,5 +31,7 @@ DOMAIN-SUFFIX,viacom.com
 DOMAIN-SUFFIX,viacomcbs.com
 DOMAIN-SUFFIX,viacomcbspressexpress.com
 USER-AGENT,PPlus*
+USER-AGENT,cbs*
 DOMAIN-SUFFIX,kochava.com
 DOMAIN-SUFFIX,mobile-collector.newrelic.com
+DOMAIN-SUFFIX,cbs.penthera.com

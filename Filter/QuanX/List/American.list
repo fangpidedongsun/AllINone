@@ -1,102 +1,102 @@
 # > Apple TV
-HOST,np-edge.itunes.apple.com,GMedia
-HOST,play-edge.itunes.apple.com,GMedia
-HOST-SUFFIX,tv.apple.com,GMedia
+HOST,np-edge.itunes.apple.com,AmericanV
+HOST,play-edge.itunes.apple.com,AmericanV
+HOST-SUFFIX,tv.apple.com,AmericanV
 
 # > Fox Now
- USER-AGENT,FOX%20NOW*,GMedia
- HOST-SUFFIX,fox.com,GMedia
- HOST-SUFFIX,foxdcg.com,GMedia
- HOST-SUFFIX,uplynk.com,GMedia
+ USER-AGENT,FOX%20NOW*,AmericanV
+ HOST-SUFFIX,fox.com,AmericanV
+ HOST-SUFFIX,foxdcg.com,AmericanV
+ HOST-SUFFIX,uplynk.com,AmericanV
 
  # > Fox+ (HK|TW|SG)
- USER-AGENT,FOXPlus*,GMedia
- HOST-SUFFIX,akamaized.net,GMedia
- HOST-SUFFIX,foxplus.com,GMedia
- HOST-SUFFIX,theplatform.com,GMedia
+ USER-AGENT,FOXPlus*,AmericanV
+ HOST-SUFFIX,akamaized.net,AmericanV
+ HOST-SUFFIX,foxplus.com,AmericanV
+ HOST-SUFFIX,theplatform.com,AmericanV
 
 
  # > BBC iPlayer
- USER-AGENT,BBCiPlayer*,GMedia
- HOST-KEYWORD,bbcfmt,GMedia
- HOST,aod-dash-uk-live.akamaized.net,GMedia
- HOST,aod-hls-uk-live.akamaized.net,GMedia
- HOST,vod-dash-uk-live.akamaized.net,GMedia
- HOST,vod-thumb-uk-live.akamaized.net,GMedia
- HOST-SUFFIX,bbc.co,GMedia
- HOST-SUFFIX,bbc.co.uk,GMedia
- HOST-SUFFIX,bbc.com,GMedia
- HOST-SUFFIX,bbcfmt.hs.llnwd.net,GMedia
- HOST-SUFFIX,bbci.co,GMedia
- HOST-SUFFIX,bbci.co.uk,GMedia
+ USER-AGENT,BBCiPlayer*,AmericanV
+ HOST-KEYWORD,bbcfmt,AmericanV
+ HOST,aod-dash-uk-live.akamaized.net,AmericanV
+ HOST,aod-hls-uk-live.akamaized.net,AmericanV
+ HOST,vod-dash-uk-live.akamaized.net,AmericanV
+ HOST,vod-thumb-uk-live.akamaized.net,AmericanV
+ HOST-SUFFIX,bbc.co,AmericanV
+ HOST-SUFFIX,bbc.co.uk,AmericanV
+ HOST-SUFFIX,bbc.com,AmericanV
+ HOST-SUFFIX,bbcfmt.hs.llnwd.net,AmericanV
+ HOST-SUFFIX,bbci.co,AmericanV
+ HOST-SUFFIX,bbci.co.uk,AmericanV
 
 # > Disney Plus
-USER-AGENT,Disney*,GMedia
-HOST,cdn.registerdisney.go.com,GMedia
-HOST,cdn.cdn.unid.go.com,GMedia
-HOST-SUFFIX,bamgrid.com,GMedia
-HOST-SUFFIX,braze.com,GMedia
-HOST,*.conviva.com,GMedia
-HOST-SUFFIX,disney.demdex.net,GMedia
-HOST-SUFFIX,disneyplus.com,GMedia
-HOST-SUFFIX,disney-plus.net,GMedia
-HOST-SUFFIX,dssott.com,GMedia
-HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,GMedia
-USER-AGENT,Disney+*,Streaming
+USER-AGENT,Disney*,AmericanV
+HOST,cdn.registerdisney.go.com,AmericanV
+HOST,cdn.cdn.unid.go.com,AmericanV
+HOST-SUFFIX,bamgrid.com,AmericanV
+HOST-SUFFIX,braze.com,AmericanV
+HOST,*.conviva.com,AmericanV
+HOST-SUFFIX,disney.demdex.net,AmericanV
+HOST-SUFFIX,disneyplus.com,AmericanV
+HOST-SUFFIX,disney-plus.net,AmericanV
+HOST-SUFFIX,dssott.com,AmericanV
+HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,AmericanV
+USER-AGENT,Disney+*,AmericanV
 
 # > Hulu(フールー)
-HOST-SUFFIX,happyon.jp,GMedia
-HOST-SUFFIX,hulu.jp,GMedia
+HOST-SUFFIX,happyon.jp,AmericanV
+HOST-SUFFIX,hulu.jp,AmericanV
 
 # > Hulu
-HOST-SUFFIX,hulu.com,GMedia
-HOST-SUFFIX,huluim.com,GMedia
-HOST-SUFFIX,hulustream.com,GMedia
+HOST-SUFFIX,hulu.com,AmericanV
+HOST-SUFFIX,huluim.com,AmericanV
+HOST-SUFFIX,hulustream.com,AmericanV
 
 
 # > HBO NOW & HBO GO
-HOST,CMAF.CF.US.HBOMAXCDN.COM,GMedia
-USER-AGENT,HBO%20NOW*,GMedia
-HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GMedia
-HOST-SUFFIX,hbo.com,GMedia
-HOST-SUFFIX,hboasia.com,GMedia
-HOST-SUFFIX,hbogo.com,GMedia
-HOST-SUFFIX,hbogoasia.com,GMedia
-HOST-SUFFIX,hbogoasia.hk,GMedia
-HOST-SUFFIX,hbonow.com,GMedia
-HOST-SUFFIX,hbomax.com,GMedia
-USER-AGENT,HBOMAX*,GMedia
+HOST,CMAF.CF.US.HBOMAXCDN.COM,AmericanV
+USER-AGENT,HBO%20NOW*,AmericanV
+HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,AmericanV
+HOST-SUFFIX,hbo.com,AmericanV
+HOST-SUFFIX,hboasia.com,AmericanV
+HOST-SUFFIX,hbogo.com,AmericanV
+HOST-SUFFIX,hbogoasia.com,AmericanV
+HOST-SUFFIX,hbogoasia.hk,AmericanV
+HOST-SUFFIX,hbonow.com,AmericanV
+HOST-SUFFIX,hbomax.com,AmericanV
+USER-AGENT,HBOMAX*,AmericanV
 
 # > HBO GO HKG
-USER-AGENT,HBO%20GO%20PROD%20HKG*,GMedia
-DOMAIN-SUFFIX,hbogoasia.com,GMedia
-DOMAIN-SUFFIX,hbogoasia.hk,GMedia
-DOMAIN,bcbolthboa-a.akamaihd.net,GMedia
-DOMAIN,players.brightcove.net,GMedia
-DOMAIN,s3-ap-southeast-1.amazonaws.com,GMedia
-DOMAIN,dai3fd1oh325y.cloudfront.net,GMedia
-DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,GMedia
-DOMAIN,hboasia1-i.akamaihd.net,GMedia
-DOMAIN,hboasia2-i.akamaihd.net,GMedia
-DOMAIN,hboasia3-i.akamaihd.net,GMedia
-DOMAIN,hboasia4-i.akamaihd.net,GMedia
-DOMAIN,hboasia5-i.akamaihd.net,GMedia
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GMedia
+USER-AGENT,HBO%20GO%20PROD%20HKG*,AmericanV
+DOMAIN-SUFFIX,hbogoasia.com,AmericanV
+DOMAIN-SUFFIX,hbogoasia.hk,AmericanV
+DOMAIN,bcbolthboa-a.akamaihd.net,AmericanV
+DOMAIN,players.brightcove.net,AmericanV
+DOMAIN,s3-ap-southeast-1.amazonaws.com,AmericanV
+DOMAIN,dai3fd1oh325y.cloudfront.net,AmericanV
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,AmericanV
+DOMAIN,hboasia1-i.akamaihd.net,AmericanV
+DOMAIN,hboasia2-i.akamaihd.net,AmericanV
+DOMAIN,hboasia3-i.akamaihd.net,AmericanV
+DOMAIN,hboasia4-i.akamaihd.net,AmericanV
+DOMAIN,hboasia5-i.akamaihd.net,AmericanV
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,AmericanV
 
 # > Discovery Plus
-USER-AGENT,DPlus*,GMedia
-DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com,GMedia
-DOMAIN-SUFFIX,disco-api.com,GMedia
-DOMAIN-SUFFIX,discoveryplus.com,GMedia
-DOMAIN-SUFFIX,fwmrm.net,GMedia
-DOMAIN-SUFFIX,getblueshift.com,GMedia
-DOMAIN-SUFFIX,litix.io,GMedia
-DOMAIN-SUFFIX,mobile-collector.newrelic.com,GMedia
-DOMAIN-SUFFIX,uplynk.com,GMedia
+USER-AGENT,DPlus*,AmericanV
+DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com,AmericanV
+DOMAIN-SUFFIX,disco-api.com,AmericanV
+DOMAIN-SUFFIX,discoveryplus.com,AmericanV
+DOMAIN-SUFFIX,fwmrm.net,AmericanV
+DOMAIN-SUFFIX,getblueshift.com,AmericanV
+DOMAIN-SUFFIX,litix.io,AmericanV
+DOMAIN-SUFFIX,mobile-collector.newrelic.com,AmericanV
+DOMAIN-SUFFIX,uplynk.com,AmericanV
 
-DOMAIN-SUFFIX,bamgrid.com,Streaming
-DOMAIN-SUFFIX,disneyplus.com,Streaming
-DOMAIN-SUFFIX,disney-plus.net,Streaming
-DOMAIN-SUFFIX,disneystreaming.com,Streaming
-DOMAIN-SUFFIX,dssott.com,Streaming
-DOMAIN,cdn.registerdisney.go.com,Streaming
+DOMAIN-SUFFIX,bamgrid.com,AmericanV
+DOMAIN-SUFFIX,disneyplus.com,AmericanV
+DOMAIN-SUFFIX,disney-plus.net,AmericanV
+DOMAIN-SUFFIX,disneyAmericanV.com,AmericanV
+DOMAIN-SUFFIX,dssott.com,AmericanV
+DOMAIN,cdn.registerdisney.go.com,AmericanV
