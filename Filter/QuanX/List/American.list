@@ -1,34 +1,33 @@
 # > Apple TV
-HOST,np-edge.itunes.apple.com,AmericanV
-HOST,play-edge.itunes.apple.com,AmericanV
-HOST-SUFFIX,tv.apple.com,AmericanV
+DOMAIN,np-edge.itunes.apple.com,AmericanV
+DOMAIN,play-edge.itunes.apple.com,AmericanV
+DOMAIN-SUFFIX,tv.apple.com,AmericanV
 
-# > Fox Now
+
+# > Fox Now &Fox+ (HK|TW|SG)
  USER-AGENT,FOX%20NOW*,AmericanV
- HOST-SUFFIX,fox.com,AmericanV
- HOST-SUFFIX,foxdcg.com,AmericanV
- HOST-SUFFIX,uplynk.com,AmericanV
-
- # > Fox+ (HK|TW|SG)
+ DOMAIN-SUFFIX,fox.com,AmericanV
+ DOMAIN-SUFFIX,foxdcg.com,AmericanV
+ DOMAIN-SUFFIX,uplynk.com,AmericanV
  USER-AGENT,FOXPlus*,AmericanV
- HOST-SUFFIX,akamaized.net,AmericanV
- HOST-SUFFIX,foxplus.com,AmericanV
- HOST-SUFFIX,theplatform.com,AmericanV
+ DOMAIN-SUFFIX,akamaized.net,AmericanV
+ DOMAIN-SUFFIX,foxplus.com,AmericanV
+ DOMAIN-SUFFIX,theplatform.com,AmericanV
 
 
  # > BBC iPlayer
  USER-AGENT,BBCiPlayer*,AmericanV
- HOST-KEYWORD,bbcfmt,AmericanV
- HOST,aod-dash-uk-live.akamaized.net,AmericanV
- HOST,aod-hls-uk-live.akamaized.net,AmericanV
- HOST,vod-dash-uk-live.akamaized.net,AmericanV
- HOST,vod-thumb-uk-live.akamaized.net,AmericanV
- HOST-SUFFIX,bbc.co,AmericanV
- HOST-SUFFIX,bbc.co.uk,AmericanV
- HOST-SUFFIX,bbc.com,AmericanV
- HOST-SUFFIX,bbcfmt.hs.llnwd.net,AmericanV
- HOST-SUFFIX,bbci.co,AmericanV
- HOST-SUFFIX,bbci.co.uk,AmericanV
+ DOMAIN-KEYWORD,bbcfmt,AmericanV
+ DOMAIN,aod-dash-uk-live.akamaized.net,AmericanV
+ DOMAIN,aod-hls-uk-live.akamaized.net,AmericanV
+ DOMAIN,vod-dash-uk-live.akamaized.net,AmericanV
+ DOMAIN,vod-thumb-uk-live.akamaized.net,AmericanV
+ DOMAIN-SUFFIX,bbc.co,AmericanV
+ DOMAIN-SUFFIX,bbc.co.uk,AmericanV
+ DOMAIN-SUFFIX,bbc.com,AmericanV
+ DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,AmericanV
+ DOMAIN-SUFFIX,bbci.co,AmericanV
+ DOMAIN-SUFFIX,bbci.co.uk,AmericanV
 
 # > Disney Plus
 USER-AGENT,Disney*,AmericanV
@@ -45,33 +44,24 @@ DOMAIN-SUFFIX,bamgrid.com,AmericanV
 DOMAIN-SUFFIX,dssott.com,AmericanV
 DOMAIN,cdn.registerdisney.go.com,AmericanV
 
-# > Hulu(フールー)
-HOST-SUFFIX,happyon.jp,AmericanV
-HOST-SUFFIX,hulu.jp,AmericanV
-
 # > Hulu
-HOST-SUFFIX,hulu.com,AmericanV
-HOST-SUFFIX,huluim.com,AmericanV
-HOST-SUFFIX,hulustream.com,AmericanV
+DOMAIN-SUFFIX,hulu.com,AmericanV
+DOMAIN-SUFFIX,huluim.com,AmericanV
+DOMAIN-SUFFIX,hulustream.com,AmericanV
 
-
-# > HBO NOW & HBO GO
-HOST,CMAF.CF.US.HBOMAXCDN.COM,AmericanV
+# > HBO Max
+DOMAIN,CMAF.CF.US.HBOMAXCDN.COM,AmericanV
 USER-AGENT,HBO%20NOW*,AmericanV
-HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,AmericanV
-HOST-SUFFIX,hbo.com,AmericanV
-HOST-SUFFIX,hboasia.com,AmericanV
-HOST-SUFFIX,hbogo.com,AmericanV
-HOST-SUFFIX,hbogoasia.com,AmericanV
-HOST-SUFFIX,hbogoasia.hk,AmericanV
-HOST-SUFFIX,hbonow.com,AmericanV
-HOST-SUFFIX,hbomax.com,AmericanV
-USER-AGENT,HBOMAX*,AmericanV
-
-# > HBO GO HKG
-USER-AGENT,HBO%20GO%20PROD%20HKG*,AmericanV
+DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,AmericanV
+DOMAIN-SUFFIX,hbo.com,AmericanV
+DOMAIN-SUFFIX,hboasia.com,AmericanV
+DOMAIN-SUFFIX,hbogo.com,AmericanV
 DOMAIN-SUFFIX,hbogoasia.com,AmericanV
 DOMAIN-SUFFIX,hbogoasia.hk,AmericanV
+DOMAIN-SUFFIX,hbonow.com,AmericanV
+DOMAIN-SUFFIX,hbomax.com,AmericanV
+USER-AGENT,HBOMAX*,AmericanV
+USER-AGENT,HBO%20GO%20PROD%20HKG*,AmericanV
 DOMAIN,bcbolthboa-a.akamaihd.net,AmericanV
 DOMAIN,players.brightcove.net,AmericanV
 DOMAIN,s3-ap-southeast-1.amazonaws.com,AmericanV
