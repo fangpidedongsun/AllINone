@@ -1145,7 +1145,6 @@ HOST-SUFFIX,adimg.deviantart.net,AdBlock
 HOST-SUFFIX,adimg.mobile.sina.cn,AdBlock
 HOST-SUFFIX,adimg.qxlsjw.com,AdBlock
 HOST-SUFFIX,adimg.uimserv.net,AdBlock
-HOST-SUFFIX,adimg.uve.weibo.com,AdBlock
 HOST-SUFFIX,adimg1.chosun.com,AdBlock
 HOST-SUFFIX,adimg3.search.naver.net,AdBlock
 HOST-SUFFIX,adimgs.xici.net,AdBlock
@@ -1444,7 +1443,6 @@ HOST-SUFFIX,alisinak.com,AdBlock
 HOST-SUFFIX,alissl.ucdl.pp.uc.cn,AdBlock
 HOST-SUFFIX,alistatic.cn,AdBlock
 HOST-SUFFIX,alitianxia168.com,AdBlock
-HOST-SUFFIX,alitui.weibo.com,AdBlock
 HOST-SUFFIX,aliunion.cn.yahoo.com,AdBlock
 HOST-SUFFIX,aliyuncss.com,AdBlock
 HOST-SUFFIX,aliyunxin.com,AdBlock
@@ -1921,7 +1919,6 @@ HOST-SUFFIX,biyibia.com,AdBlock
 HOST-SUFFIX,biz.gexing.com,AdBlock
 HOST-SUFFIX,biz.live.xunlei.com,AdBlock
 HOST-SUFFIX,biz.vpon.com,AdBlock
-HOST-SUFFIX,biz.weibo.com,AdBlock
 HOST-SUFFIX,biz37.net,AdBlock
 HOST-SUFFIX,bizanti.youwatch.org,AdBlock
 HOST-SUFFIX,bj.imp.voiceads.cn,AdBlock
@@ -3609,8 +3606,7 @@ HOST-SUFFIX,game.qidian.com,AdBlock
 HOST-SUFFIX,game.res.meizu.com,AdBlock
 HOST-SUFFIX,game.rising.cn,AdBlock
 HOST-SUFFIX,game.subway.uu.cc,AdBlock
-HOST-SUFFIX,game.weibo.cn,AdBlock
-HOST-SUFFIX,game.weibo.com,AdBlock
+
 HOST-SUFFIX,gamead.swjoy.com,AdBlock
 HOST-SUFFIX,gameads.digyourowngrave.com,AdBlock
 HOST-SUFFIX,gamebox.kugou.com,AdBlock
@@ -3782,8 +3778,7 @@ HOST-SUFFIX,gum.criteo.com,AdBlock
 HOST-SUFFIX,guohead.com,AdBlock
 HOST-SUFFIX,guomob.com,AdBlock
 HOST-SUFFIX,guoshennet.com,AdBlock
-HOST-SUFFIX,gw5.push.mcp.weibo.cn,AdBlock
-HOST-SUFFIX,gw6.push.mcp.weibo.cn,AdBlock
+
 HOST-SUFFIX,gw630.com,AdBlock
 HOST-SUFFIX,gx38.cn,AdBlock
 HOST-SUFFIX,gxdhgb.com,AdBlock
@@ -6063,7 +6058,6 @@ HOST-SUFFIX,projectwonderful.com,AdBlock
 HOST-SUFFIX,prom.gome.com.cn,AdBlock
 HOST-SUFFIX,promo.fileforum.com,AdBlock
 HOST-SUFFIX,promos.fling.com,AdBlock
-HOST-SUFFIX,promote.biz.weibo.cn,AdBlock
 HOST-SUFFIX,promote.caixin.com,AdBlock
 HOST-SUFFIX,promote.pair.com,AdBlock
 HOST-SUFFIX,promotion.aliyun.com,AdBlock
@@ -6424,7 +6418,6 @@ HOST-SUFFIX,s.5jjx.net,AdBlock
 HOST-SUFFIX,s.652748.com,AdBlock
 HOST-SUFFIX,s.6travel.com,AdBlock
 HOST-SUFFIX,s.abcache.com,AdBlock
-HOST-SUFFIX,s.alitui.weibo.com,AdBlock
 HOST-SUFFIX,s.baidu.com,AdBlock
 HOST-SUFFIX,s.bmgan.com,AdBlock
 HOST-SUFFIX,s.caduka.cn,AdBlock
@@ -7618,7 +7611,6 @@ HOST-SUFFIX,webstat.kuwo.cn,AdBlock
 HOST-SUFFIX,webstat.ws.126.net,AdBlock
 HOST-SUFFIX,webterren.com,AdBlock
 HOST-SUFFIX,webtrends.yccdn.com,AdBlock
-HOST-SUFFIX,weibomingzi.com,AdBlock
 HOST-SUFFIX,weiguizhizuo.com,AdBlock
 HOST-SUFFIX,weiqiqu.cn,AdBlock
 HOST-SUFFIX,weishi.baidu.com,AdBlock
@@ -8223,7 +8215,6 @@ HOST-SUFFIX,zxr.fzxrjx.com,AdBlock
 HOST-SUFFIX,zxziyuan.com,AdBlock
 HOST-SUFFIX,zybpj.com,AdBlock
 HOST-SUFFIX,zyf.fzdfwy.com,AdBlock
-HOST-SUFFIX,zymo.mps.weibo.com,AdBlock
 HOST-SUFFIX,zymro.com,AdBlock
 HOST-SUFFIX,zytwq.net,AdBlock
 HOST-SUFFIX,zyz.91friend.com,AdBlock
