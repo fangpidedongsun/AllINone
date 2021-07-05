@@ -1,3 +1,0 @@
-hostname = mcs-mimp-web.sf-express.com
-
-https:\/\/mcs-mimp-web\.sf-express\.com\/home url script-request-header https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Others/QX/sf.js
