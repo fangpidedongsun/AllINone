@@ -6,10 +6,10 @@
 # 签到脚本获取cookie
 #> 京东
 #https://bean.m.jd.com/bean/signIndex.action
-#http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 #删除全部cookie
-http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/CheckIn/DeleteCookie.js
+#http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Filter/Surge/Sgmodule/CheckIn/DeleteCookie.js
 
 获取多账号京东Cookie = type=http-request,pattern=^https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,requires-body=1,max-size=0,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js,script-update-interval=0
 
