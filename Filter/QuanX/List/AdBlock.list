@@ -257,6 +257,48 @@ HOST-SUFFIX,union.6.cn,AdBlock
 HOST-SUFFIX,wa.gtimg.com,AdBlock
 HOST-SUFFIX,bfshan.cn,AdBlock
 
+# Ads in apps
+HOST-KEYWORD,admaster,AdBlock
+HOST-KEYWORD,admdfs,AdBlock
+HOST-KEYWORD,adnewnc,AdBlock
+HOST-KEYWORD,adsage,AdBlock
+HOST-KEYWORD,adsame,AdBlock
+HOST-KEYWORD,adsensor,AdBlock
+HOST-KEYWORD,adserver,AdBlock
+HOST-KEYWORD,adservice,AdBlock
+HOST-KEYWORD,adsmogo,AdBlock
+HOST-KEYWORD,adsrvmedia,AdBlock
+HOST-KEYWORD,adsserving,AdBlock
+HOST-KEYWORD,adsystem,AdBlock
+HOST-KEYWORD,advert,AdBlock
+HOST-KEYWORD,adwords,AdBlock
+HOST-KEYWORD,allyes,AdBlock
+HOST-KEYWORD,analysis,AdBlock
+HOST-KEYWORD,analysys,AdBlock
+HOST-KEYWORD,applovin,AdBlock
+HOST-KEYWORD,appsflyer,AdBlock
+HOST-KEYWORD,dnserror,AdBlock
+HOST-KEYWORD,domob,AdBlock
+HOST-KEYWORD,duomeng,AdBlock
+HOST-KEYWORD,dwtrack,AdBlock
+HOST-KEYWORD,fenxi,AdBlock
+HOST-KEYWORD,guanggao,AdBlock
+HOST-KEYWORD,inmobi,AdBlock
+HOST-KEYWORD,lianmeng,AdBlock
+HOST-KEYWORD,mobaders,AdBlock
+HOST-KEYWORD,omgmta,AdBlock
+HOST-KEYWORD,openx,AdBlock
+HOST-KEYWORD,partnerad,AdBlock
+HOST-KEYWORD,securepubads,AdBlock
+HOST-KEYWORD,socdm,AdBlock
+HOST-KEYWORD,supersonicads,AdBlock
+HOST-KEYWORD,taboola,AdBlock
+HOST-KEYWORD,uedas,AdBlock
+HOST-KEYWORD,umtrack,AdBlock
+HOST-KEYWORD,uploadMobileData,AdBlock
+HOST-KEYWORD,wlmonitor,AdBlock
+HOST-KEYWORD,zjtoolbar,AdBlock
+
 HOST-SUFFIX,0.r.msn.com,AdBlock
 HOST-SUFFIX,000dn.com,AdBlock
 HOST-SUFFIX,001union.com,AdBlock
@@ -1103,6 +1145,7 @@ HOST-SUFFIX,adimg.deviantart.net,AdBlock
 HOST-SUFFIX,adimg.mobile.sina.cn,AdBlock
 HOST-SUFFIX,adimg.qxlsjw.com,AdBlock
 HOST-SUFFIX,adimg.uimserv.net,AdBlock
+HOST-SUFFIX,adimg.uve.weibo.com,AdBlock
 HOST-SUFFIX,adimg1.chosun.com,AdBlock
 HOST-SUFFIX,adimg3.search.naver.net,AdBlock
 HOST-SUFFIX,adimgs.xici.net,AdBlock
@@ -1401,6 +1444,7 @@ HOST-SUFFIX,alisinak.com,AdBlock
 HOST-SUFFIX,alissl.ucdl.pp.uc.cn,AdBlock
 HOST-SUFFIX,alistatic.cn,AdBlock
 HOST-SUFFIX,alitianxia168.com,AdBlock
+HOST-SUFFIX,alitui.weibo.com,AdBlock
 HOST-SUFFIX,aliunion.cn.yahoo.com,AdBlock
 HOST-SUFFIX,aliyuncss.com,AdBlock
 HOST-SUFFIX,aliyunxin.com,AdBlock
@@ -1532,6 +1576,7 @@ HOST-SUFFIX,app.3987.com,AdBlock
 HOST-SUFFIX,app.9yyg.cn,AdBlock
 HOST-SUFFIX,app.abc000.today,AdBlock
 HOST-SUFFIX,app.acm.dzwww.com,AdBlock
+HOST-SUFFIX,app.adjust.com,AdBlock
 HOST-SUFFIX,app.eduancm.com,AdBlock
 HOST-SUFFIX,app.houyi.baofeng.net,AdBlock
 HOST-SUFFIX,app.hytdsm.com,AdBlock
@@ -1876,6 +1921,7 @@ HOST-SUFFIX,biyibia.com,AdBlock
 HOST-SUFFIX,biz.gexing.com,AdBlock
 HOST-SUFFIX,biz.live.xunlei.com,AdBlock
 HOST-SUFFIX,biz.vpon.com,AdBlock
+HOST-SUFFIX,biz.weibo.com,AdBlock
 HOST-SUFFIX,biz37.net,AdBlock
 HOST-SUFFIX,bizanti.youwatch.org,AdBlock
 HOST-SUFFIX,bj.imp.voiceads.cn,AdBlock
@@ -2243,6 +2289,7 @@ HOST-SUFFIX,chmae.com,AdBlock
 HOST-SUFFIX,chnhty.com,AdBlock
 HOST-SUFFIX,chuantu.biz,AdBlock
 HOST-SUFFIX,chushoushijian.cn,AdBlock
+HOST-SUFFIX,c-hzgt2.getui.com,AdBlock
 HOST-SUFFIX,ci.csefaazc.net,AdBlock
 HOST-SUFFIX,ciajingman.com,AdBlock
 HOST-SUFFIX,cilidaquan.pw,AdBlock
@@ -2407,7 +2454,7 @@ HOST-SUFFIX,contentabc.com,AdBlock
 HOST-SUFFIX,contentrecommend-out.mobile.sina.cn,AdBlock
 HOST-SUFFIX,conv.youdao.com,AdBlock
 HOST-SUFFIX,conversion.pro.cn,AdBlock
-# HOST-SUFFIX,conviva.com,AdBlock
+HOST-SUFFIX,conviva.com,AdBlock
 HOST-SUFFIX,cooguo.com,AdBlock
 HOST-SUFFIX,cookiemapping.wrating.com,AdBlock
 HOST-SUFFIX,coolguang.com,AdBlock
@@ -2867,6 +2914,10 @@ HOST-SUFFIX,dot.eporner.com,AdBlock
 HOST-SUFFIX,dot2.eporner.com,AdBlock
 HOST-SUFFIX,dotmore.com.tw,AdBlock
 HOST-SUFFIX,dou777.com,AdBlock
+HOST-SUFFIX,doubleclick.com,AdBlock
+HOST-SUFFIX,doubleclick.ctfile.com,AdBlock
+HOST-SUFFIX,doubleclick.net,AdBlock
+HOST-SUFFIX,doubleclick.tv002.com,AdBlock
 HOST-SUFFIX,doubleplay-conf-yql.media.yahoo.com,AdBlock
 HOST-SUFFIX,doubleverify.com,AdBlock
 HOST-SUFFIX,doudao.cn,AdBlock
@@ -2900,7 +2951,8 @@ HOST-SUFFIX,downloada.dewmobile.net,AdBlock
 HOST-SUFFIX,downloadb.dewmobile.net,AdBlock
 HOST-SUFFIX,downmobile.kugou.com,AdBlock
 HOST-SUFFIX,dp.559.cc,AdBlock
-# HOST-SUFFIX,dpm.demdex.net,AdBlock
+HOST-SUFFIX,dp3.qq.com,AdBlock
+HOST-SUFFIX,dpm.demdex.net,AdBlock
 HOST-SUFFIX,dps.499.cn,AdBlock
 HOST-SUFFIX,dps.shouji56.com,AdBlock
 HOST-SUFFIX,dps.wtdtjs.com,AdBlock
@@ -3536,6 +3588,7 @@ HOST-SUFFIX,g.zx-jsp.com,AdBlock
 HOST-SUFFIX,g1.0573ren.com,AdBlock
 HOST-SUFFIX,g1.08160.cn,AdBlock
 HOST-SUFFIX,g1.163.com,AdBlock
+HOST-SUFFIX,g1.tagtic.cn,AdBlock
 HOST-SUFFIX,g1.taijuba.com,AdBlock
 HOST-SUFFIX,g1c5.com,AdBlock
 HOST-SUFFIX,g1f5.com,AdBlock
@@ -3556,7 +3609,8 @@ HOST-SUFFIX,game.qidian.com,AdBlock
 HOST-SUFFIX,game.res.meizu.com,AdBlock
 HOST-SUFFIX,game.rising.cn,AdBlock
 HOST-SUFFIX,game.subway.uu.cc,AdBlock
-
+HOST-SUFFIX,game.weibo.cn,AdBlock
+HOST-SUFFIX,game.weibo.com,AdBlock
 HOST-SUFFIX,gamead.swjoy.com,AdBlock
 HOST-SUFFIX,gameads.digyourowngrave.com,AdBlock
 HOST-SUFFIX,gamebox.kugou.com,AdBlock
@@ -3679,6 +3733,8 @@ HOST-SUFFIX,go-mpulse.net,AdBlock
 HOST-SUFFIX,good.ta80.com,AdBlock
 HOST-SUFFIX,googlecommerce.com,AdBlock
 HOST-SUFFIX,googlesyndication.com,AdBlock
+HOST-SUFFIX,googletagmanager.com,AdBlock
+HOST-SUFFIX,googletagservices.com,AdBlock
 HOST-SUFFIX,goolpter.com,AdBlock
 HOST-SUFFIX,gopig.io,AdBlock
 HOST-SUFFIX,gorgon.youdao.com,AdBlock
@@ -3726,7 +3782,8 @@ HOST-SUFFIX,gum.criteo.com,AdBlock
 HOST-SUFFIX,guohead.com,AdBlock
 HOST-SUFFIX,guomob.com,AdBlock
 HOST-SUFFIX,guoshennet.com,AdBlock
-
+HOST-SUFFIX,gw5.push.mcp.weibo.cn,AdBlock
+HOST-SUFFIX,gw6.push.mcp.weibo.cn,AdBlock
 HOST-SUFFIX,gw630.com,AdBlock
 HOST-SUFFIX,gx38.cn,AdBlock
 HOST-SUFFIX,gxdhgb.com,AdBlock
@@ -4139,7 +4196,7 @@ HOST-SUFFIX,impservice.youdao.com,AdBlock
 HOST-SUFFIX,impservice2.youdao.com,AdBlock
 HOST-SUFFIX,impservicetest.dictapp.youdao.com,AdBlock
 HOST-SUFFIX,impservice-test.dictapp.youdao.com,AdBlock
-# HOST-SUFFIX,imrworldwide.com,AdBlock
+HOST-SUFFIX,imrworldwide.com,AdBlock
 HOST-SUFFIX,in.gyeet.com,AdBlock
 HOST-SUFFIX,in.jxhcyc.com,AdBlock
 HOST-SUFFIX,in.mengpr.com,AdBlock
@@ -4612,7 +4669,7 @@ HOST-SUFFIX,kn.zzdahan.com,AdBlock
 HOST-SUFFIX,knet.cn,AdBlock
 HOST-SUFFIX,knnwdyou.com,AdBlock
 HOST-SUFFIX,kob.adxkj.com,AdBlock
-# HOST-SUFFIX,kochava.com,AdBlock
+HOST-SUFFIX,kochava.com,AdBlock
 HOST-SUFFIX,kod4pc293.com,AdBlock
 HOST-SUFFIX,koowo.com,AdBlock
 HOST-SUFFIX,koukou7.com,AdBlock
@@ -5148,6 +5205,7 @@ HOST-SUFFIX,m.xpjis.com,AdBlock
 HOST-SUFFIX,m.xxkio.com,AdBlock
 HOST-SUFFIX,m.yalayi.com,AdBlock
 HOST-SUFFIX,m.yangjingbang.net,AdBlock
+HOST-SUFFIX,m.yap.yahoo.com,AdBlock
 HOST-SUFFIX,m.yicang8.com,AdBlock
 HOST-SUFFIX,m.yingchengtou.com,AdBlock
 HOST-SUFFIX,m.ynnke.com,AdBlock
@@ -5383,7 +5441,7 @@ HOST-SUFFIX,mo.kugou.com,AdBlock
 HOST-SUFFIX,mo.res.wpscdn.cn,AdBlock
 HOST-SUFFIX,mo.test.haloapps.com,AdBlock
 HOST-SUFFIX,moad.cn,AdBlock
-# HOST-SUFFIX,moatads.com,AdBlock
+HOST-SUFFIX,moatads.com,AdBlock
 HOST-SUFFIX,mob.huimee.net,AdBlock
 HOST-SUFFIX,mobad.ijinshan.com,AdBlock
 HOST-SUFFIX,mobadme.jp,AdBlock
@@ -5972,6 +6030,7 @@ HOST-SUFFIX,poppyta.com,AdBlock
 HOST-SUFFIX,popup.jointreport-switch.com,AdBlock
 HOST-SUFFIX,popup.msn.com,AdBlock
 HOST-SUFFIX,popupad.cn,AdBlock
+HOST-SUFFIX,pos.baidu.com,AdBlock
 HOST-SUFFIX,post.ra.icast.cn,AdBlock
 HOST-SUFFIX,poster.weather.com.cn,AdBlock
 HOST-SUFFIX,powergg.top,AdBlock
@@ -6004,6 +6063,7 @@ HOST-SUFFIX,projectwonderful.com,AdBlock
 HOST-SUFFIX,prom.gome.com.cn,AdBlock
 HOST-SUFFIX,promo.fileforum.com,AdBlock
 HOST-SUFFIX,promos.fling.com,AdBlock
+HOST-SUFFIX,promote.biz.weibo.cn,AdBlock
 HOST-SUFFIX,promote.caixin.com,AdBlock
 HOST-SUFFIX,promote.pair.com,AdBlock
 HOST-SUFFIX,promotion.aliyun.com,AdBlock
@@ -6364,6 +6424,7 @@ HOST-SUFFIX,s.5jjx.net,AdBlock
 HOST-SUFFIX,s.652748.com,AdBlock
 HOST-SUFFIX,s.6travel.com,AdBlock
 HOST-SUFFIX,s.abcache.com,AdBlock
+HOST-SUFFIX,s.alitui.weibo.com,AdBlock
 HOST-SUFFIX,s.baidu.com,AdBlock
 HOST-SUFFIX,s.bmgan.com,AdBlock
 HOST-SUFFIX,s.caduka.cn,AdBlock
@@ -6544,6 +6605,7 @@ HOST-SUFFIX,sdk.open.phone.igexin.com,AdBlock
 HOST-SUFFIX,sdk.open.talk.gepush.com,AdBlock
 HOST-SUFFIX,sdk.open.talk.igexin.com,AdBlock
 HOST-SUFFIX,sdkapp.mobile.sina.cn,AdBlock
+HOST-SUFFIX,sdkapp.uve.weibo.com,AdBlock
 HOST-SUFFIX,sdkclick.mobile.sina.cn,AdBlock
 HOST-SUFFIX,sdkconfig.ad.intl.xiaomi.com,AdBlock
 HOST-SUFFIX,sdkdm.com,AdBlock
@@ -7557,6 +7619,7 @@ HOST-SUFFIX,webstat.kuwo.cn,AdBlock
 HOST-SUFFIX,webstat.ws.126.net,AdBlock
 HOST-SUFFIX,webterren.com,AdBlock
 HOST-SUFFIX,webtrends.yccdn.com,AdBlock
+HOST-SUFFIX,weibomingzi.com,AdBlock
 HOST-SUFFIX,weiguizhizuo.com,AdBlock
 HOST-SUFFIX,weiqiqu.cn,AdBlock
 HOST-SUFFIX,weishi.baidu.com,AdBlock
@@ -8059,7 +8122,7 @@ HOST-SUFFIX,yzh360.com,AdBlock
 HOST-SUFFIX,yzygo.com,AdBlock
 HOST-SUFFIX,yzytb.com,AdBlock
 HOST-SUFFIX,z.clickvip.shop,AdBlock
-# HOST-SUFFIX,z.moatads.com,AdBlock
+HOST-SUFFIX,z.moatads.com,AdBlock
 HOST-SUFFIX,z.nowscore.com,AdBlock
 HOST-SUFFIX,z.sora.yoyi.com.cn,AdBlock
 HOST-SUFFIX,z1.zedo.com,AdBlock
@@ -8161,6 +8224,7 @@ HOST-SUFFIX,zxr.fzxrjx.com,AdBlock
 HOST-SUFFIX,zxziyuan.com,AdBlock
 HOST-SUFFIX,zybpj.com,AdBlock
 HOST-SUFFIX,zyf.fzdfwy.com,AdBlock
+HOST-SUFFIX,zymo.mps.weibo.com,AdBlock
 HOST-SUFFIX,zymro.com,AdBlock
 HOST-SUFFIX,zytwq.net,AdBlock
 HOST-SUFFIX,zyz.91friend.com,AdBlock
@@ -8197,6 +8261,8 @@ HOST,ulog.imap.baidu.com,AdBlock
 HOST,newloc.map.n.shifen.com,AdBlock
 
 # > Bilibili
+HOST,cm.bilibili.com,AdBlock
+HOST,data.bilibili.com,AdBlock
 HOST,miniapp.bilibili.com,AdBlock
 HOST,thirdparty.biliapi.com,AdBlock
 
@@ -8227,6 +8293,7 @@ HOST,sugar.zhihu.com,AdBlock
 HOST-SUFFIX,xdrig.com,AdBlock
 
 IP-CIDR,1.3.0.10/32,AdBlock
+IP-CIDR,10.72.25.0/24,AdBlock
 IP-CIDR,101.201.29.182/32,AdBlock
 IP-CIDR,101.251.211.235/32,AdBlock
 IP-CIDR,103.249.254.113/32,AdBlock
@@ -8239,6 +8306,7 @@ IP-CIDR,106.75.65.92/32,AdBlock
 IP-CIDR,107.21.113.76/32,AdBlock
 IP-CIDR,108.171.248.234/32,AdBlock
 IP-CIDR,111.175.220.160/29,AdBlock
+IP-CIDR,111.175.220.164/32,AdBlock
 IP-CIDR,111.206.22.0/24,AdBlock
 IP-CIDR,111.30.135.167/32,AdBlock
 IP-CIDR,111.63.135.0/24,AdBlock
@@ -8247,16 +8315,21 @@ IP-CIDR,112.124.115.215/32,AdBlock
 IP-CIDR,112.74.95.46/32,AdBlock
 IP-CIDR,113.207.57.24/32,AdBlock
 IP-CIDR,113.57.230.88/32,AdBlock
+IP-CIDR,114.247.28.96/32,AdBlock
 IP-CIDR,114.55.123.44/32,AdBlock
 IP-CIDR,114.95.102.77/32,AdBlock
+IP-CIDR,115.182.16.79/32,AdBlock
 IP-CIDR,115.29.141.121/32,AdBlock
 IP-CIDR,115.29.247.48/32,AdBlock
 IP-CIDR,116.206.22.7/32,AdBlock
 IP-CIDR,116.55.227.242/32,AdBlock
 IP-CIDR,117.144.242.32/32,AdBlock
 IP-CIDR,117.25.133.209/32,AdBlock
+IP-CIDR,118.144.88.126/32,AdBlock
 IP-CIDR,118.144.88.215/28,AdBlock
+IP-CIDR,118.144.88.215/32,AdBlock
 IP-CIDR,119.188.13.0/24,AdBlock
+IP-CIDR,119.4.249.166/32,AdBlock
 IP-CIDR,120.132.57.41/32,AdBlock
 IP-CIDR,120.132.63.203/32,AdBlock
 IP-CIDR,120.197.89.239/32,AdBlock
@@ -8264,6 +8337,7 @@ IP-CIDR,120.198.116.0/24,AdBlock
 IP-CIDR,120.26.151.246/32,AdBlock
 IP-CIDR,120.27.34.156/32,AdBlock
 IP-CIDR,120.55.199.139/32,AdBlock
+IP-CIDR,120.76.189.132/32,AdBlock
 IP-CIDR,120.80.57.123/32,AdBlock
 IP-CIDR,121.15.207.243/32,AdBlock
 IP-CIDR,121.199.73.185/32,AdBlock
@@ -8277,11 +8351,15 @@ IP-CIDR,122.227.254.195/32,AdBlock
 IP-CIDR,122.228.236.165/32,AdBlock
 IP-CIDR,123.125.111.0/24,AdBlock
 IP-CIDR,123.139.154.201/24,AdBlock
+IP-CIDR,123.56.152.96/32,AdBlock
 IP-CIDR,123.57.162.39/32,AdBlock
 IP-CIDR,123.57.94.184/32,AdBlock
 IP-CIDR,123.59.152.170/32,AdBlock
 IP-CIDR,123.59.78.229/32,AdBlock
+IP-CIDR,124.14.21.147/32,AdBlock
+IP-CIDR,124.14.21.151/32,AdBlock
 IP-CIDR,124.160.194.11/32,AdBlock
+IP-CIDR,124.232.160.178/32,AdBlock
 IP-CIDR,125.46.61.28/32,AdBlock
 IP-CIDR,125.89.69.5/32,AdBlock
 IP-CIDR,139.159.32.82/32,AdBlock
@@ -8291,6 +8369,8 @@ IP-CIDR,139.224.74.148/32,AdBlock
 IP-CIDR,146.148.85.61/32,AdBlock
 IP-CIDR,162.212.181.32/32,AdBlock
 IP-CIDR,173.208.177.227/32,AdBlock
+IP-CIDR,175.6.223.15/32,AdBlock
+IP-CIDR,180.166.52.24/32,AdBlock
 IP-CIDR,180.76.155.58/32,AdBlock
 IP-CIDR,180.76.162.60/32,AdBlock
 IP-CIDR,180.76.171.28/32,AdBlock
@@ -8300,6 +8380,7 @@ IP-CIDR,182.92.81.104/32,AdBlock
 IP-CIDR,183.131.79.130/32,AdBlock
 IP-CIDR,183.131.79.30/32,AdBlock
 IP-CIDR,183.59.53.187/29,AdBlock
+IP-CIDR,183.59.53.237/32,AdBlock
 IP-CIDR,183.6.188.226/29,AdBlock
 IP-CIDR,198.40.52.11/32,AdBlock
 IP-CIDR,202.104.1.27/32,AdBlock
@@ -8312,14 +8393,24 @@ IP-CIDR,211.149.225.23/32,AdBlock
 IP-CIDR,211.167.105.131/32,AdBlock
 IP-CIDR,211.98.71.195/29,AdBlock
 IP-CIDR,218.25.246.118/32,AdBlock
+IP-CIDR,218.93.127.37/32,AdBlock
 IP-CIDR,219.234.83.60/32,AdBlock
+IP-CIDR,220.115.251.25/32,AdBlock
+IP-CIDR,220.196.52.141/32,AdBlock
 IP-CIDR,221.179.140.0/24,AdBlock
 IP-CIDR,221.179.183.0/24,AdBlock
 IP-CIDR,221.179.191.0/24,AdBlock
 IP-CIDR,221.179.46.190/25,AdBlock
 IP-CIDR,221.204.213.222/32,AdBlock
+IP-CIDR,221.228.17.152/32,AdBlock
 IP-CIDR,221.228.214.101/32,AdBlock
+IP-CIDR,221.231.6.79/32,AdBlock
+IP-CIDR,222.186.61.91/32,AdBlock
+IP-CIDR,222.186.61.95/32,AdBlock
+IP-CIDR,222.186.61.96/32,AdBlock
+IP-CIDR,222.186.61.97/32,AdBlock
 IP-CIDR,222.187.226.96/32,AdBlock
+IP-CIDR,222.73.156.235/32,AdBlock
 IP-CIDR,223.6.255.99/32,AdBlock
 IP-CIDR,23.235.156.167/32,AdBlock
 IP-CIDR,23.42.186.24/32,AdBlock
@@ -8329,6 +8420,7 @@ IP-CIDR,42.51.146.207/32,AdBlock
 IP-CIDR,45.34.240.72/32,AdBlock
 IP-CIDR,46.165.197.153/32,AdBlock
 IP-CIDR,46.165.197.231/32,AdBlock
+IP-CIDR,47.89.59.182/32,AdBlock
 IP-CIDR,47.90.50.177/32,AdBlock
 IP-CIDR,47.93.103.196/32,AdBlock
 IP-CIDR,47.94.89.32/32,AdBlock
@@ -8346,6 +8438,9 @@ IP-CIDR,61.132.255.212/32,AdBlock
 IP-CIDR,61.132.255.222/25,AdBlock
 IP-CIDR,61.147.184.18/32,AdBlock
 IP-CIDR,61.152.223.15/32,AdBlock
+IP-CIDR,61.160.200.223/32,AdBlock
+IP-CIDR,61.160.200.242/32,AdBlock
+IP-CIDR,61.160.200.252/32,AdBlock
 IP-CIDR,61.174.50.167/25,AdBlock
 IP-CIDR,61.191.12.74/32,AdBlock
 IP-CIDR,61.191.206.4/32,AdBlock
