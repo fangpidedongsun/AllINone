@@ -86,7 +86,7 @@ function CheckIn(CookieKeyFC){
         "Accept-Language": "zh-cn",
         "Connection": "keep-alive",
         "Content-Type": "application/json;charset=utf-8",
-        "Cookie": cookie,
+        "Cookie": CookieKeyFC,
         "Host": "app.mixcapp.com",
         "Origin": "https://m.xiaomiyoupin.com",
         "Referer": "https://app.mixcapp.com/h5/mixctime/templets/sign.html"
