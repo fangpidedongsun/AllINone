@@ -4,7 +4,7 @@
 
 ^https:\/\/app.mixcapp.com\/mixc\/api\/v6\/homepage url script-request-header mcdd.cookie.js
 
-
+^https:\/\/app.mixcapp.com\/mixc\/api\/v2\/member\/sign\/index
 Regex: ^https:\/\/app.mixcapp.com\/mixc\/api\/v6\/homepage
 Host: app.mixcapp.com
 */
@@ -74,6 +74,55 @@ function getcookie() {
      speed.msg("写入" + appName + "Cookie失败‼️", "", "配置错误, 无法读取请求头, ");
      }
   speed.done()
+}
+
+function CheckIn(CookieKeyFC){
+  return new Promise((resolve, reject)=>{
+    let checkinOptions = {
+      url: 'https://app.mixcapp.com/mixc/api/v2/member/sign/index',
+      headers: {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "zh-cn",
+        "Connection": "keep-alive",
+        "Content-Type": "application/json;charset=utf-8",
+        "Cookie": cookie,
+        "Host": "app.mixcapp.com",
+        "Origin": "https://m.xiaomiyoupin.com",
+        "Referer": "https://app.mixcapp.com/h5/mixctime/templets/sign.html"
+      },
+      body: body
+    }
+    magicJS.post(checkinOptions, (err, resp, data)=>{
+      if (err){
+        magicJS.logError(`签到失败，请求异常：${err}`);
+        reject('❌签到失败，请求异常，请查阅日志！');
+      }
+      else{
+        try{
+          let obj = typeof data === 'string'? JSON.parse(data) : data;
+          if (obj.code === 0 && obj.data.code === -1){
+            resolve(['🎉今日已签到过了，不要重复签到哦！！', null, null])
+          }
+          else if (obj.code === 0){
+            magicJS.logInfo(`签到成功，获得红包${obj.data.amount}，优惠券${obj.data.couponInfo.couponDesc.nameDesc}!`)
+            resolve(['🎉签到成功', obj.data.amount, obj.data.couponInfo.couponDesc.nameDesc]);
+          }
+          else if (obj.code === 401){
+            resolve(['❌签到失败，Cookie已过期', null, null]);
+          }
+          else{
+            magicJS.logError(`签到失败，响应异常：${data}`);
+            reject('❌签到失败，响应异常，请查阅日志！');
+          }
+        }
+        catch(err){
+          magicJS.logError(`签到失败，执行异常：${err}，接口响应：${data}`);
+          reject('❌签到失败，执行异常，请查阅日志！');
+        }
+      }
+    })
+  })
 }
 
 function sign() {
