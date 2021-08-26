@@ -8,109 +8,30 @@
 Regex: ^https:\/\/app.mixcapp.com\/mixc\/api\/v6\/homepage
 Host: app.mixcapp.com
 */
-const  appName = '万象汇'
-const  chavy = init()
-const  URL = chavy.getdata("UrlFC")
-const  KEY = chavy.getdata("CookieFC")
-
-let isGetCookie = typeof $request !== 'undefined'
-
-if (isGetCookie) {
-   getcookie()
-} else {
-   takePrize()
+const cookieName = '万象汇'
+const cookieKey = 'chavy_cookie_flyertea'
+const tokenKey = 'chavy_token_flyertea'
+const chavy = init()
+const cookieVal = $request.headers['Cookie']
+if (cookieVal) {
+  if (chavy.setdata(cookieVal, cookieKey)) {
+    chavy.msg(`${cookieName}`, '获取Cookie: 成功', '')
+    chavy.log(`[${cookieName}] 获取Cookie: 成功, cookie: ${cookieVal}`)
+  }
 }
 
-function getcookie() {
-  const url = $request.url;
-  if (url) {
-     const UrlKeyFC = "UrlFC";
-     const UrlValueFC = url;
-     if (chavy.getdata(UrlKeyFC) != (undefined || null)) {
-        if (chavy.getdata(UrlKeyFC) != UrlValueFC) {
-           const url = chavy.setdata(UrlValueFC, UrlKeyFC);
-           if (!url) {
-              chavy.msg("更新" + appName + "Url失败‼️", "", "");
-              } else {
-              chavy.msg("更新" + appName + "Url成功🎉", "", "");
-              }
-           } else {
-           chavy.msg(appName + "Url未变化❗️", "", "");
-           }
-        } else {
-        const url = chavy.setdata(UrlValueFC, UrlKeyFC);
-        if (!url) {
-           chavy.msg("首次写入" + appName + "Url失败‼️", "", "");
-           } else {
-           chavy.msg("首次写入" + appName + "Url成功🎉", "", "");
-           }
-        }
-     } else {
-     chavy.msg("写入" + appName + "Url失败‼️", "", "配置错误, 无法读取URL, ");
-     }
-  if ($request.headers) {
-     const CookieKeyFC = "CookieFC";
-     const CookieValueFC = JSON.stringify($request.headers);
-     if (chavy.getdata(CookieKeyFC) != (undefined || null)) {
-        if (chavy.getdata(CookieKeyFC) != CookieValueFC) {
-           const cookie = chavy.setdata(CookieValueFC, CookieKeyFC);
-           if (!cookie) {
-              chavy.msg("更新" + appName + "Cookie失败‼️", "", "");
-              } else {
-              chavy.msg("更新" + appName + "Cookie成功🎉", "", "");
-              }
-           } else {
-           chavy.msg(appName + "Cookie未变化❗️", "", "");
-           }
-        } else {
-        const cookie = chavy.setdata(CookieValueFC, CookieKeyFC);
-        if (!cookie) {
-           chavy.msg("首次写入" + appName + "Cookie失败‼️", "", "");
-           } else {
-           chavy.msg("首次写入" + appName + "Cookie成功🎉", "", "");
-           }
-        }
-     } else {
-     chavy.msg("写入" + appName + "Cookie失败‼️", "", "配置错误, 无法读取请求头, ");
-     }
-  chavy.done()
+const queryparam = $request.url.split('?')[1]
+if (queryparam) {
+  const params = {}
+  for (param of $request.url.split('?')[1].split('&')) {
+    params[param.split('=')[0]] = param.split('=')[1]
+  }
+  const token = JSON.stringify(params)
+  if (chavy.setdata(token, tokenKey)) {
+    chavy.msg(`${cookieName}`, '获取Token: 成功', '')
+    chavy.log(`[${cookieName}] 获取Token: 成功, token: ${token}`)
+  }
 }
-
-    function takePrize() {
-        return new Promise((resolve) => {
-        setTimeout( ()=>{
-    	let url = {
-    	url: `https://app.mixcapp.com/mixc/api/v2/member/sign/index`,
-        body : body,
-        headers: {
-    	  'Cookie' : KEY,
-    	  'X-Requested-With' : `XMLHttpRequest`,
-    	  'Accept' : `application/json, text/javascript, */*; q=0.01`,
-    	  'Origin' : `https://app.mixcapp.com`,
-    	  'Accept-Encoding' : `gzip, deflate, br`,
-    	  'Content-Type' : `application/x-www-form-urlencoded;charset=UTF-8`,
-    	  'Host' : `app.mixcapp.com`,
-    	  'Connection' : `keep-alive`,
-    	  'Referer' : `https://app.mixcapp.com/h5/mixctime/templets/sign.html`,
-    	  'Accept-Language' : `zh-cn`
-        }
-      }
-        $.post(url, (err, resp, data) => {
-          try {
-            data = JSON.parse(data);
-            $.Prize[PrizeName] = data;
-    		$.Prize[PrizeName].Desc = Desc;
-          } catch (e) {
-            $.logErr(e, resp);
-          } finally {
-            resolve()
-          }
-        })
-        },timeout)
-      })
-    }
-
-
 
 function init() {
   isSurge = () => {
@@ -150,17 +71,9 @@ function init() {
       $task.fetch(url).then((resp) => cb(null, {}, resp.body))
     }
   }
-  put = (url, cb) => {
-    if (isSurge()) {
-      $httpClient.put(url, cb)
-    }
-    if (isQuanX()) {
-      url.method = 'PUT'
-      $task.fetch(url).then((resp) => cb(null, {}, resp.body))
-    }
-  }
   done = (value = {}) => {
     $done(value)
   }
-  return { isSurge, isQuanX, msg, log, getdata, setdata, get, post, put, done }
+  return { isSurge, isQuanX, msg, log, getdata, setdata, get, post, done }
 }
+chavy.done()
