@@ -88,7 +88,7 @@ function CheckIn(CookieKeyFC){
         "Content-Type": "application/json;charset=utf-8",
         "Cookie": CookieKeyFC,
         "Host": "app.mixcapp.com",
-        "Origin": "https://m.xiaomiyoupin.com",
+        "Origin": "https://app.mixcapp.com",
         "Referer": "https://app.mixcapp.com/h5/mixctime/templets/sign.html"
       },
       body: body
