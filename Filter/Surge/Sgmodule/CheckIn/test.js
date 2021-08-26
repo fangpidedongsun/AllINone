@@ -76,7 +76,7 @@ function getcookie() {
   chavy.done()
 }
 
-    function takePrize(body,PrizeName,Desc,timeout = 0) {
+    function takePrize() {
         return new Promise((resolve) => {
         setTimeout( ()=>{
     	let url = {
