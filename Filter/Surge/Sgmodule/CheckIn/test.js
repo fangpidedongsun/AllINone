@@ -18,7 +18,7 @@ let isGetCookie = typeof $request !== 'undefined'
 if (isGetCookie) {
    getcookie()
 } else {
-   sign()
+   CheckIn()
 }
 
 function getcookie() {
