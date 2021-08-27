@@ -26,7 +26,8 @@ function sign() {
   url.headers['X-Requested-With'] = `XMLHttpRequest`
 
   $.get(url, (error, response, data) => {
-    const result = JSON.parse(data)
+    Env.log(`data: ${data}`)
+/*    const result = JSON.parse(data)
     let subTitle = ``
     let detail = ``
     if (result.code == '0') {
@@ -42,7 +43,7 @@ function sign() {
       detail = `说明: ${result.Message.messagestr}`
       $.msg($.name, subTitle, detail)
     }
-    $.done()
+    $.done() */
   })
 }
 // prettier-ignore
