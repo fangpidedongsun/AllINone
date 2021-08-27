@@ -6,7 +6,7 @@ const cookieVal = $.getdata(cookieKey)
 const tokenVal = $.getdata(tokenKey)
 
 let time = new Date().getTime()
-let Date =$.time('YYYY-MM-DD hh:mm:ss')
+let Date =${new Date().Format("YYYY-MM-DD hh:mm:ss")}
 
 sign()
 
