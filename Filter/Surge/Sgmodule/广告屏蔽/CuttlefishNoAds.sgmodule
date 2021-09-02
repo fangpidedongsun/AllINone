@@ -1,6 +1,0 @@
-#!name=Cuttlefish去广告
-
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Cuttlefish/Filter/Advertising.list,REJECT
-RULE-SET,https://raw.githubusercontent.com/fangpidedongsun/Alex0510/master/Cuttlefish/Filter/MyAdRule.list,REJECT
