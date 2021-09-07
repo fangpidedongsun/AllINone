@@ -12,8 +12,8 @@
     },
 
     {
-      "config":"5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=顺丰每日签到, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.qxrewrite,tag=sfexpress_获取Cookie"
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰每日签到, enabled=true",
+      "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/Filter/QuanX/Script/sfexpress_signin.qxrewrite,tag=sfexpress_获取Cookie"
     },
   ]
 }
