@@ -32,9 +32,6 @@
       "config":"20 8 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_sgmh.js, tag=闪购盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"1 1 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_redPacket.js, tag=京东全民开红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true"
-    },
-    {
       "config":"1 7-21/2 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_plantBean.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true"
     },
     {
@@ -134,6 +131,15 @@
     },
     {
       "config":"10 7 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true"
+    },
+    {
+      "config":"5 8 * * * https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值, enabled=true"
+    },
+    {
+      "config":"40 0,2 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js, tag=众筹许愿池, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"1 1,2,23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_redPacket.js, tag=京东全民开红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true"
     },
   ]
 }
