@@ -112,7 +112,7 @@
       "config":"21 3,8 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
-      "config":"5 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+      "config":"5 * * * * https://raw.githubusercontent.com/1994112/123hb/master/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
     {
       "config":"4 2,10 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxlhb.js, tag=京喜领88元红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
@@ -143,6 +143,18 @@
     },
     {
       "config":"5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=什么值得买每日签到, enabled=true"
+    },
+    {
+      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard20.js, tag=开卡脚本, enabled=true"
+    },
+    {
+      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard22.js, tag=开卡脚本2, enabled=true"
+    },
+    {
+      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard23.js, tag=开卡脚本3, enabled=true"
+    },
+    {
+      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard24.js, tag=开卡脚本4, enabled=true"
     },
   ]
 }
