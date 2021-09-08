@@ -35,7 +35,7 @@
       "config":"1 7-21/2 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_plantBean.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true"
     },
     {
-      "config":"15 6-18/6 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_pet.js, tag=东东萌宠, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png, enabled=true"
+      "config":"15 6-18/6 * * * https://raw.githubusercontent.com/1994112/123hb/master/jd_pet.js, tag=东东萌宠, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png, enabled=true"
     },
 
     {
