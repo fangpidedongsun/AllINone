@@ -144,17 +144,6 @@
     {
       "config":"5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=什么值得买每日签到, enabled=true"
     },
-    {
-      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard20.js, tag=开卡脚本, enabled=true"
-    },
-    {
-      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard22.js, tag=开卡脚本2, enabled=true"
-    },
-    {
-      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard23.js, tag=开卡脚本3, enabled=true"
-    },
-    {
-      "config":"5 0 * * * https://raw.githubusercontent.com/1994112/123hb/master/gua_opencard24.js, tag=开卡脚本4, enabled=true"
-    },
+
   ]
 }
