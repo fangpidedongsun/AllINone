@@ -202,5 +202,14 @@
     {
       "config":"20 1,8 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
+    {
+      "config":"1 0,11,21 * * * https://raw.githubusercontent.com/inoyna12/jd28/master/jd_jump.js, tag=跳跳乐瓜分京豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"5 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd_mooncake.js, tag=京喜财富岛合成月饼, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+    },
+    {
+      "config":"cron 12 19 10-17 9 * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_star_shop.js, enabled=true"
+    },
   ]
 }

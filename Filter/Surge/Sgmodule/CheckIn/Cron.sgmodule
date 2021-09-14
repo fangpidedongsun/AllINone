@@ -39,6 +39,7 @@ cron "1 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/script
 东东超市 = type=cron,cronexp="11 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_superMarket.js
 京喜签到 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jx_sign.js
 京东极速版红包 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js
+5 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd_mooncake.js, tag=京喜财富岛合成月饼, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true
 
 
 
@@ -62,6 +63,8 @@ cron "1 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/script
 金贴小程序 = type=cron,cronexp="45 0,12,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna12/jd28/master/jd_jintie_wx.js
 领金贴 = type=cron,cronexp="50 3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna12/jd28/master/jd_jintie.js
 积分换话费 = type=cron,cronexp="33 7,19 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna12/jd28/master/jd_dwapp.js
+跳跳乐瓜分京豆 = type=cron,cronexp="1 0,11,21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna12/jd28/master/jd_jump.js
+
 
 京豆变动通知 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_bean_change.js
 京东国际盲盒 = type=cron,cronexp="0 9,12,20,21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_global_mh.js
