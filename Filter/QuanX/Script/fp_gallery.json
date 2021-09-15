@@ -214,11 +214,5 @@
     {
       "config":"1 18,20 * * * https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_super_mh.js, tag=超级直播间盲盒抽京豆, enabled=true"
     },
-    {
-      "config":"1 13 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_dpqd.js, tag=店铺签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
-    },
-    {
-      "config":"1 13 * * * https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/Filter/Surge/Sgmodule/CheckIn/sign.js, tag=万象汇签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
-    },
   ]
 }
