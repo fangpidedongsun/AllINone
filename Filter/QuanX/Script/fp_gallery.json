@@ -82,9 +82,6 @@
       "config":"16 22 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_small_home.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
     },
     {
-      "config":"11 9 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_rankingList.js, tag=京东排行榜, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true"
-    },
-    {
       "config":"11 9 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_pigPet.js, tag=金融养猪, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true"
     },
     {
