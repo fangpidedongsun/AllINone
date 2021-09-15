@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https:\/\/app.mixcapp.com\/mixc\/api\/v6\/homepage url script-request-header mcdd.cookie.js
+^https:\/\/app.mixcapp.com\/mixc\/api\/v6\/homepage url script-request-header https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/Filter/Surge/Sgmodule/CheckIn/test.js
 
 ^https:\/\/app.mixcapp.com\/mixc\/api\/v2\/member\/sign\/index
 Regex: ^https:\/\/app.mixcapp.com\/mixc\/api\/v6\/homepage
