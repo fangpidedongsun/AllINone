@@ -49,7 +49,7 @@
       "config":"0 9,12,18 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png, enabled=true"
     },
     {
-      "config":"15 0-23/1 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
+      "config":"15 0-23/1 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
     },
     {
       "config":"10 0 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png, enabled=true"
@@ -88,14 +88,14 @@
       "config":"20 9 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joypark_open.js, tag=汪汪乐园开工位, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_joypark_open.png, enabled=true"
     },
     {
-      "config":"10 0-21/3 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
+      "config":"10 0-21/3 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
     },
     {
-      "config":"15 10 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true",
+      "config":"15 10 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/Filter/QuanX/Script/jd_joy_run.qxrewrite,tag=宠汪汪邀请助力与赛跑助力_获取Cookie"
     },
     {
-      "config":"59 7,15,23 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
+      "config":"59 7,15,23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
     },
     {
       "config":"20 7,9,17,20 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joy_park_task.js, tag=汪汪乐园每日任务, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_joypark_task.png, enabled=true"
@@ -104,7 +104,7 @@
       "config":"20 0-23/3 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joy_park.js, tag=汪汪乐园养joy, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_joypark_joy.png, enabled=true"
     },
     {
-      "config":"15 0-23/2 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joy.js, tag=京东宠汪汪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
+      "config":"15 0-23/2 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy.js, tag=京东宠汪汪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
     },
     {
       "config":"45 0,12,22 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_jintie_wx.js,tag=金贴小程序, enabled=true"
@@ -125,7 +125,7 @@
       "config":"10 * * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_dreamFactory.js, tag=京喜工厂, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
     },
     {
-      "config":"2 0-23/4 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config":"2 0-23/4 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"5 0,23 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png, enabled=true"
@@ -143,7 +143,7 @@
       "config":"23 1,12,22 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png, enabled=true"
     },
     {
-      "config":"50 12-14 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config":"10 12-14 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"35 1,23 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
@@ -167,7 +167,7 @@
       "config":"11 * * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true"
     },
     {
-      "config":"21 3,8 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+      "config":"21 3,8 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
     },
     {
       "config":"4 2,10 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_jxlhb.js, tag=京喜领88元红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
@@ -179,13 +179,13 @@
       "config":"20 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"20 0-23/3 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_jxmc.js, tag=惊喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
+      "config":"20 0-23/3 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxmc.js, tag=惊喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
     },
     {
       "config":"10 7 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true"
     },
     {
-      "config":"40 0,2 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_wish.js, tag=众筹许愿池, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config":"40 0,2 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js, tag=众筹许愿池, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"1 1,2,23 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_redPacket.js, tag=京东全民开红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true"
@@ -197,16 +197,16 @@
       "config":"20 1,8 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
     {
-      "config":"1 0,11,21 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_jump.js, tag=跳跳乐瓜分京豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config":"1 0,11,21 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js, tag=跳跳乐瓜分京豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"5 * * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_cfd_mooncake.js, tag=京喜财富岛合成月饼, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+      "config":"5 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd_mooncake.js, tag=京喜财富岛合成月饼, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
     {
       "config":"12 19 10-17 9 * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_star_shop.js, tag=明星小店, enabled=true"
     },
     {
-      "config":"15 3,6 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_connoisseur.js, tag=内容鉴赏官, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config":"15 3,6 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_connoisseur.js, tag=内容鉴赏官, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"1 18,20 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_super_mh.js, tag=超级直播间盲盒抽京豆, enabled=true"
@@ -248,13 +248,19 @@
       "config":"11 9 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_rankingList.js, tag=京东排行榜, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true"
     },
     {
-      "config":"45 0-23/6 * * *  https://raw.githubusercontent.com/inoyna13/jd28/main/jd_sendBeans.js,tag=送豆得豆, enabled=true"
+      "config":"45 0-23/6 * * *  https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_sendBeans.js,tag=送豆得豆, enabled=true"
     },
     {
       "config":"55 23 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"55 6 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_unsubscriLive.js, tag=取关所有主播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"15 3,9 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ddworld.js, tag=东东世界, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"0 0-18/6 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js, tag=京东手机狂欢城, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
   ]
 }
