@@ -8,7 +8,7 @@
     },
     {
       "config":"0 2 * * * https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js, tag=京东价格保护, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/Filter/QuanX/Script/jd_priceProtectRewrite.qxrewrite,tag=京东价格保护_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/jd_priceProtectRewrite.qxrewrite,tag=京东价格保护_获取Cookie"
     },
     {
       "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=联通_签到与抽奖, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
@@ -19,7 +19,7 @@
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰每日签到, enabled=true",
-      "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/Filter/QuanX/Script/sfexpress_signin.qxrewrite,tag=sfexpress_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/sfexpress_signin.qxrewrite,tag=sfexpress_获取Cookie"
     },
     {
       "config":"2 9 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_bean_change.js, tag=京豆变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
@@ -92,7 +92,7 @@
     },
     {
       "config":"15 10 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/Filter/QuanX/Script/jd_joy_run.qxrewrite,tag=宠汪汪邀请助力与赛跑助力_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/jd_joy_run.qxrewrite,tag=宠汪汪邀请助力与赛跑助力_获取Cookie"
     },
     {
       "config":"59 7,15,23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true"
