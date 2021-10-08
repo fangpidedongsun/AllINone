@@ -218,7 +218,7 @@
       "config":"1 8,12,18 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"15 0 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_cfd_loop.js, tag=京喜财富岛热气球挂机, enabled=true"
+      "config":"30 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd_loop.js, tag=京喜财富岛热气球, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
     {
       "config":"59 11,12,23 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
