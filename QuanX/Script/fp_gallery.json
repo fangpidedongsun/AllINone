@@ -236,9 +236,6 @@
       "config":"34 5,18 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_fan.js, tag=jd_fan, enabled=true"
     },
     {
-      "config":"0,30 0-23/1 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_live_redrain.js, tag=超级直播间红包雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
-    },
-    {
       "config":"30 7 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_plus_bean.js,tag=PLUS会员盲盒抽京豆, enabled=true"
     },
     {

@@ -48,7 +48,6 @@ cron "1 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/script
 京喜财富岛热气球 = type=cron,cronexp="30 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd_loop.js
 
 京东排行榜 = type=cron,cronexp=11 9 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_rankingList.js
-超级直播间红包雨 = type=cron,cronexp="0,30 0-23/1 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_live_redrain.js
 东东乐园 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_ddnc_farmpark.js
 京喜财富岛提现 = type=cron,cronexp="59 11,12,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_cfdtx.js
 口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_bookshop.js
