@@ -260,7 +260,7 @@
       "config":"31 2,8 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mf.js, tag=京东小魔方, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js"
+      "config":"5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, tag=哈罗出行签到"
     },
   ]
 }
