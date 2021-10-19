@@ -1,0 +1,6 @@
+#!name=AppleNews
+#!desc=https://cdn.qingjie.me/surge3/rules_ios/reject/D%3FDS%3FDK%3F-REJECT.list,REJECT
+#!desc=https://cdn.qingjie.me/surge3/rules_ios/url-regex/UR-REJECT.list,REJECT
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,PROXY
