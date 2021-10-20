@@ -155,7 +155,7 @@
       "config":"16 22 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_small_home.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
     },
     {
-      "config":"20 0,22 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+      "config":"20 0,22 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"21 3,8 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
@@ -205,7 +205,7 @@
     {
       "config":"5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, tag=哈罗出行签到"
     },
-    
+
 
     {
       "config":"11 1 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_lotteryMachine.js, tag=京东抽奖机, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jdlottery.png, enabled=true"
