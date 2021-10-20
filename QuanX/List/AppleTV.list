@@ -1,0 +1,9 @@
+# > Apple TV
+HOST,hls-amt.itunes.apple.com,AmericanV
+HOST,hls.itunes.apple.com,AmericanV
+HOST,np-edge.itunes.apple.com,AmericanV
+HOST,play-edge.itunes.apple.com,AmericanV
+HOST,uts-api.itunes.apple.com,AmericanV
+HOST-SUFFIX,tv.apple.com,AmericanV
+USER-AGENT,AmericanV*,AmericanV
+USER-AGENT,com.apple.tv*,AmericanV

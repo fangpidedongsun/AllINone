@@ -1,0 +1,15 @@
+# > Disney Plus
+USER-AGENT,Disney*,AmericanV
+USER-AGENT,Disney+*,AmericanV
+DOMAIN,cdn.cdn.unid.go.com,AmericanV
+DOMAIN-SUFFIX,braze.com,AmericanV
+DOMAIN,*.conviva.com,AmericanV
+DOMAIN-SUFFIX,disney.demdex.net,AmericanV
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,AmericanV
+DOMAIN-SUFFIX,disneyplus.com,AmericanV
+DOMAIN-SUFFIX,disney-plus.net,AmericanV
+DOMAIN-SUFFIX,disneystreaming.com,AmericanV
+DOMAIN-SUFFIX,bamgrid.com,AmericanV
+DOMAIN-SUFFIX,dssott.com,AmericanV
+DOMAIN,cdn.registerdisney.go.com,AmericanV
+DOMAIN-SUFFIX,disney.my.sentry.io,AmericanV
