@@ -9,6 +9,9 @@ DOMAIN-SUFFIX,jmsooo.com,Emby
 DOMAIN-SUFFIX,somii.cf,Emby
 DOMAIN-SUFFIX,kozow.com,Emby
 DOMAIN-SUFFIX,otakudrive.life,Emby
+DOMAIN-SUFFIX,plusmedia.site,Emby
+DOMAIN-SUFFIX,emby-cf.plusmedia.site,Emby
+
 IP-CIDR,45.154.98.24/32, Emby
 IP-CIDR,38.94.109.97/32, Emby
 IP-CIDR,51.15.12.229/32, Emby
