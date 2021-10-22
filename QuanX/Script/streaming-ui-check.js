@@ -23,7 +23,7 @@ const BASE_URL_YTB = "https://www.youtube.com/premium";
 const BASE_URL_DISNEY = 'https://www.disneyplus.com';
 const BASE_URL_Dazn = "https://startup.core.indazn.com/misl/v5/Startup";
 const BASE_URL_Param = "https://www.paramountplus.com/"
-const BASE_URL_Disc = "https://www.discoveryplus.com/"
+const BASE_URL_Disc = "https://us1-prod-direct.discoveryplus.com/cms/collections/web-footer?include=default"
 
 const FILM_ID = 81215567
 const link = { "media-url": "https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/southpark/7.png" }
@@ -479,7 +479,7 @@ function testDisc() {
     if (response.statusCode == 200) {
       //reject('Error')
       result["Discovery"] = "<b>Discovery⁺: </b>支持"
-    } else if (response.statusCode == 302) {
+    } else if (response.statusCode == 404) {
       //resolve('Not Available')
       result["Discovery"] = "<b>Discovery⁺: </b>未支持"
     }
