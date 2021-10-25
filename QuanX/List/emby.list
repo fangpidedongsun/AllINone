@@ -1,42 +1,31 @@
 DOMAIN-SUFFIX,emby.nexitally.com,Emby
-DOMAIN-SUFFIX,plusmedia.site,Emby
 DOMAIN-SUFFIX,mickeycloud.com,Emby
-DOMAIN-SUFFIX,emby.wtf,Emby
-DOMAIN-SUFFIX,emby.men,Emby
 DOMAIN-SUFFIX,youremby.gq,Emby
-DOMAIN-SUFFIX,odysseyplus.site,Emby
-DOMAIN-SUFFIX,jmsooo.com,Emby
 DOMAIN-SUFFIX,somii.cf,Emby
 DOMAIN-SUFFIX,kozow.com,Emby
-DOMAIN-SUFFIX,otakudrive.life,Emby
-DOMAIN-SUFFIX,plusmedia.site,Emby
-DOMAIN-SUFFIX,emby-cf.plusmedia.site,Emby
-DOMAIN-SUFFIX,sj.dxz.plus,Emby
 
-IP-CIDR,45.154.98.24/32, Emby
-IP-CIDR,38.94.109.97/32, Emby
-IP-CIDR,51.15.12.229/32, Emby
-IP-CIDR,193.122.126.235/32, Emby
-#Exflux李(普拉斯)
-IP-CIDR,104.21.40.166/32,Emby
-IP-CIDR,172.67.187.113/32,Emby
-#Odyssey AGA
-IP-CIDR,18.163.28.198/32,Emby
-#Odyssey CF
-IP-CIDR,104.21.86.57/32,Emby
-IP-CIDR,172.67.215.90/32,Emby
+#Exflux普拉斯 冬笋不是菜
+DOMAIN-SUFFIX,line.emby.men,Emby
+
+#普拉斯 普拉斯影业,plusisbest
+DOMAIN-SUFFIX,emby.plusmedia.site,Emby
+DOMAIN-SUFFIX,emby-cf.plusmedia.site,Emby
+DOMAIN-SUFFIX,emby.xeton.dev,Emby
+DOMAIN-SUFFIX,jellyfin.xeton.dev,Emby
+DOMAIN-SUFFIX,movie.xeton.dev,Emby
+
+#Odyssey
+DOMAIN-SUFFIX,odysseyplus.site,Emby
+
 #卷毛鼠
-IP-CIDR,104.28.16.1/32,Emby
-IP-CIDR,104.16.216.93/32,Emby
-IP-CIDR,104.28.104.28/32,Emby
-IP-CIDR,162.159.217.153/32,Emby
-IP-CIDR,104.18.128.91/32,Emby
-IP-CIDR,104.16.1.99/32,Emby
-IP-CIDR,104.16.1.4/32,Emby
-IP-CIDR,104.31.128.19/32,Emby
+DOMAIN-SUFFIX,jmsooo.com,Emby
+DOMAIN-SUFFIX,cf1.jmsooo.com,Emby
+
 #终点站 pub2.emby.wtf
-IP-CIDR,75.2.112.209/32,Emby
+DOMAIN-SUFFIX,emby.wtf,Emby
+
 #otakudrive
-IP-CIDR,218.102.240.235/32,Emby
-#dxz https://dxz.plus/posts/emby/
-IP-CIDR,3.0.2.3/32,Emby
+DOMAIN-SUFFIX,otakudrive.life,Emby
+
+#dxz
+DOMAIN-SUFFIX,sj.dxz.plus,Emby
