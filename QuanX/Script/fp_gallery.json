@@ -218,7 +218,7 @@
       "config":"20 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
 
-###################
+
 
     {
       "config":"1 6-22/3 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fcdyj.js, tag=发财大赢家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
