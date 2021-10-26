@@ -52,11 +52,29 @@ cron "1 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/script
 京东手机狂欢城助力 = type=cron,cronexp=10 0,8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity_help.js
 省钱大赢家之翻翻乐 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_big_winner.js
 
+发财大赢家 = type=cron,cronexp="1 6-22/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fcdyj.js
+interCenter渠道店铺签到 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ShopSign.js
+口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_bookshop.js
+京喜财富岛提现 = type=cron,cronexp="59 11,12,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cfdtx.js
+领现金兑换红包 = type=cron,cronexp="0,1,2 0 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_exchange.js
+天天优惠大乐透 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_daydlt.js
+东东乐园 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddnc_farmpark.js
+东东玩家 = type=cron,cronexp="20 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddwj.js
+东东玩家互助 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddwj_help.js
+东东电竞经理 = type=cron,cronexp="0 0-23/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_djjl.js
+店铺签到 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_dpqd.js
+环球挑战赛 = type=cron,cronexp="0 9,12,20,21 8-31 3 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_global.js
+半点京豆雨 = type=cron,cronexp="30 20-23/1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_half_redrain.js
+工业品抽奖机 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_industryLottery.js
+金榜创造营 = type=cron,cronexp="0 8 21-31 5-12 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jbczy.js
+集萌宝得团圆礼包 = type=cron,cronexp="10 8,23 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jika.js
+京东小魔方 = type=cron,cronexp="31 2,8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jmf.js
+京小兑 = type=cron,cronexp="40 8,16,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jxd.js
+
 
 京东排行榜 = type=cron,cronexp=11 9 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_rankingList.js
 东东乐园 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_ddnc_farmpark.js
 京喜财富岛提现 = type=cron,cronexp="59 11,12,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_cfdtx.js
-口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_bookshop.js
 京东排行榜 = type=cron,cronexp=11 9 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_rankingList.js
 京东抽奖机 = type=cron,cronexp=11 1 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_lotteryMachine.js
 京东赚赚 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/inoyna13/jd28/main/jd_jdzz.js

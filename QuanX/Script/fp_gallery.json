@@ -218,6 +218,68 @@
       "config":"20 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
 
+###################
+
+    {
+      "config":"1 6-22/3 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fcdyj.js, tag=发财大赢家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ShopSign.js, tag=interCenter渠道店铺签到,  enabled=true"
+    },
+    {
+      "config":"1 8,12,18 * * *  https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"0,1,2 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cash_exchange.js, tag=领现金兑换红包"
+    },
+    {
+      "config":"59 11,12,23 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+    },
+    {
+      "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_daydlt.js, tag=天天优惠大乐透, enabled=true"
+    },
+    {
+      "config":"30 7 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddnc_farmpark.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"20 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddwj.js, tag= 东东玩家"
+    },
+    {
+      "config":"5 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddwj_help.js, tag= 东东玩家互助"
+    },
+    {
+      "config":"0 0-23/2 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_djjl.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/icon/jd_EsportsManager.png, enabled=true"
+    },
+    {
+      "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_dpqd.js, tag=店铺签到, enabled=true"
+    },
+    {
+      "config":"0 9,12,20,21 8-31 3 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_global.js, tag=环球挑战赛, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"30 20-23/1 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_half_redrain.js, tag=半点京豆雨, enabled=true"
+    },
+    {
+      "config":"13 5,16 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_industrial_task.js, tag=京东工业品任务, enabled=true"
+    },
+    {
+      "config":"10 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_industryLottery.js, tag=工业品抽奖机, enabled=true"
+    },
+    {
+      "config":"0 8 21-31 5-12 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jbczy.js, tag=金榜创造营,  enabled=true"
+    },
+    {
+      "config":"10 8,23 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jika.js, tag=集萌宝得团圆礼包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true"
+    },
+    {
+      "config":"31 2,8 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jmf.js, tag=京东小魔方, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"30 8,16,20 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jxd.js, tag=京小兑, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_jxd.png, enabled=true"
+    },
+
+
+
 
 
 
@@ -263,9 +325,7 @@
     {
       "config":"1 18,20 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_super_mh.js, tag=超级直播间盲盒抽京豆, enabled=true"
     },
-    {
-      "config":"1 8,12,18 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
-    },
+
     {
       "config":"59 11,12,23 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
