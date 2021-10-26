@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,youremby.gq,Emby
 DOMAIN-SUFFIX,somii.cf,Emby
 DOMAIN-SUFFIX,kozow.com,Emby
 
-#Exflux普拉斯 冬笋不是菜
+#Exflux普拉斯
 DOMAIN-SUFFIX,line.emby.men,Emby
 
 #普拉斯 普拉斯影业,plusisbest
@@ -29,3 +29,6 @@ DOMAIN-SUFFIX,otakudrive.life,Emby
 
 #dxz
 DOMAIN-SUFFIX,sj.dxz.plus,Emby
+
+#pornemby
+DOMAIN-SUFFIX,pornemby.club,Emby
