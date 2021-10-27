@@ -277,6 +277,9 @@
     {
       "config":"30 8,16,20 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jxd.js, tag=京小兑, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_jxd.png, enabled=true"
     },
+    {
+      "config":"0 0-23/3 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_tyt.js, tag=柠檬推一推, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
 
 
 
@@ -294,9 +297,6 @@
     },
     {
       "config":"5 0-23/6 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_wsdlb.js, tag=柠檬我是大老板农场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
-    },
-    {
-      "config":"0 6-23/4 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_tyt.js, tag=柠檬推一推, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"23 8,9 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_superBrand.js, tag=特务Z, enabled=true"
