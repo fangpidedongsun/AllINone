@@ -5,21 +5,21 @@ DOMAIN-SUFFIX,somii.cf
 DOMAIN-SUFFIX,kozow.com
 
 #Exflux普拉斯
-DOMAIN-SUFFIX,line.emby.men
+DOMAIN-SUFFIX,emby.men
+IP-CIDR,104.21.40.166/32
 
 #普拉斯 普拉斯影业,plusisbest
-DOMAIN-SUFFIX,emby.plusmedia.site
-DOMAIN-SUFFIX,emby-cf.plusmedia.site
-DOMAIN-SUFFIX,emby.xeton.dev
-DOMAIN-SUFFIX,jellyfin.xeton.dev
-DOMAIN-SUFFIX,movie.xeton.dev
+DOMAIN-SUFFIX,plusmedia.site
+DOMAIN-SUFFIX,xeton.dev,PornEmby
 
 #Odyssey
 DOMAIN-SUFFIX,odysseyplus.site
+IP-CIDR,172.67.139.252/32
 
 #卷毛鼠
 DOMAIN-SUFFIX,jmsooo.com
-DOMAIN-SUFFIX,cf1.jmsooo.com
+IP-CIDR,144.76.203.211/32
+IP-CIDR,104.21.10.125/32
 
 #终点站 pub2.emby.wtf
 DOMAIN-SUFFIX,emby.wtf
@@ -28,4 +28,7 @@ DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,otakudrive.life
 
 #dxz
-DOMAIN-SUFFIX,sj.dxz.plus
+DOMAIN-SUFFIX,dxz.plus
+
+#pornemby
+DOMAIN-SUFFIX,pornemby.club,PornEmby
