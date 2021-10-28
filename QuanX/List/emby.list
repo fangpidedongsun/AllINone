@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,kozow.com,Emby
 
 #Exflux普拉斯
 DOMAIN-SUFFIX,emby.men,Emby
+IP-CIDR,104.21.40.166/32,Emby
 
 #普拉斯 普拉斯影业,plusisbest
 DOMAIN-SUFFIX,plusmedia.site,Emby
