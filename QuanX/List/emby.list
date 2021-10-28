@@ -13,10 +13,12 @@ DOMAIN-SUFFIX,xeton.dev,PornEmby
 
 #Odyssey
 DOMAIN-SUFFIX,odysseyplus.site,Emby
+IP-CIDR,172.67.139.252/32,Emby
 
 #卷毛鼠
 DOMAIN-SUFFIX,jmsooo.com,Emby
 IP-CIDR,144.76.203.211/32,Emby
+IP-CIDR,104.21.10.125/32,Emby
 
 #终点站 pub2.emby.wtf
 DOMAIN-SUFFIX,emby.wtf,Emby
