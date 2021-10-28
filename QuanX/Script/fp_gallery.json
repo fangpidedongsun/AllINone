@@ -251,7 +251,10 @@
       "config":"0 0-23/2 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_djjl.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/icon/jd_EsportsManager.png, enabled=true"
     },
     {
-      "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_dpqd.js, tag=店铺签到, enabled=true"
+      "config":"30 0,23 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_dpqd.js, tag=店铺签到, enabled=true"
+    },
+    {
+      "config":"1 0,17 * * * https://raw.githubusercontent.com/danteswx/fxxk/main/jd_dpqd.js, tag=店铺签到2, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"0 9,12,20,21 8-31 3 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_global.js, tag=环球挑战赛, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
