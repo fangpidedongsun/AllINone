@@ -5,18 +5,15 @@ DOMAIN-SUFFIX,somii.cf,Emby
 DOMAIN-SUFFIX,kozow.com,Emby
 
 #Exflux普拉斯
-DOMAIN-SUFFIX,line.emby.men,Emby
+DOMAIN-SUFFIX,emby.men,Emby
 
 #普拉斯 普拉斯影业,plusisbest
-DOMAIN-SUFFIX,emby.plusmedia.site,Emby
-DOMAIN-SUFFIX,emby-cf.plusmedia.site,Emby
-DOMAIN-SUFFIX,emby.xeton.dev,Emby
-DOMAIN-SUFFIX,jellyfin.xeton.dev,Emby
-DOMAIN-SUFFIX,movie.xeton.dev,Emby
+DOMAIN-SUFFIX,plusmedia.site,Emby
+DOMAIN-SUFFIX,xeton.dev,Emby
 
 #Odyssey
 DOMAIN-SUFFIX,odysseyplus.site,Emby
- 
+
 #卷毛鼠
 DOMAIN-SUFFIX,jmsooo.com,Emby
 DOMAIN-SUFFIX,cf1.jmsooo.com,Emby
@@ -28,7 +25,7 @@ DOMAIN-SUFFIX,emby.wtf,Emby
 DOMAIN-SUFFIX,otakudrive.life,Emby
 
 #dxz
-DOMAIN-SUFFIX,sj.dxz.plus,Emby
+DOMAIN-SUFFIX,dxz.plus,Emby
 
 #pornemby
 DOMAIN-SUFFIX,pornemby.club,PornEmby
