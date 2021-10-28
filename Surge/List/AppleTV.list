@@ -1,0 +1,9 @@
+# > Apple TV
+DOMAIN,hls-amt.itunes.apple.com,AppleTV
+DOMAIN,hls.itunes.apple.com,AppleTV
+DOMAIN,np-edge.itunes.apple.com,AppleTV
+DOMAIN,play-edge.itunes.apple.com,AppleTV
+DOMAIN,uts-api.itunes.apple.com,AppleTV
+DOMAIN-SUFFIX,tv.apple.com,AppleTV
+USER-AGENT,AppleTV*,AppleTV
+USER-AGENT,com.apple.tv*,AppleTV
