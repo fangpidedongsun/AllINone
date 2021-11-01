@@ -73,6 +73,7 @@ interCenter渠道店铺签到 = type=cron,cronexp="0 0 * * *",wake-system=1,time
 发财大赢家 = type=cron,cronexp="1 6-22/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fcdyj.js
 发财挖宝 = type=cron,cronexp="20 1,9,16 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fcwb.j
 整点京豆雨 = type=cron,cronexp="3 0-23/1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_super_redrain.js
+京东超级盒子 = type=cron,cronexp="24 3,13 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cjhz.js
 
 
 
