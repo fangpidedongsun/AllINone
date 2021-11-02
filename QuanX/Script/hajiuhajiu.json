@@ -78,9 +78,6 @@
       "config":"10 8 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jddj_plantBeans.js,tag=京东到家鲜豆庄园,img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
     },
     {
-      "config":"20 1,9,16 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fcwb.js, tag=发财挖宝, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
-    },
-    {
       "config":"0-23/1 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_super_redrain.js, tag=整点京豆雨, enabled=true"
     },
     {
