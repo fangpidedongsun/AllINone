@@ -84,7 +84,7 @@
       "config":"24 3,13 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cjhz.js, tag=京东超级盒子, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
     },
     {
-      "config":"10 9,13,16,19 2-8 11 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_superBrand.js, enabled=true"
+      "config":"10 9,13,16,19,20 2-8 11 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_superBrand.js, tag= 双11特务, enabled=true"
     },
     {
       "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jingsubang.js, tag= 手机竞猜, enabled=true"
