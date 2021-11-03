@@ -15,9 +15,6 @@
       "config":"5 0-23/6 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_wsdlb.js, tag=柠檬我是大老板农场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"23 8,9 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_superBrand.js, tag=特务Z, enabled=true"
-    },
-    {
       "config":"20 9 * * * https://raw.githubusercontent.com/inoyna13/jd28/main/jd_joypark_open.js, tag=汪汪乐园开工位, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_joypark_open.png, enabled=true"
     },
     {
