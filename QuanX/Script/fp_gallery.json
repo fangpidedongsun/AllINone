@@ -11,7 +11,7 @@
       "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/jd_priceProtectRewrite.qxrewrite,tag=京东价格保护_获取Cookie"
     },
     {
-      "config":"20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=联通_签到与抽奖, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
+      "config":"41 0,12,23 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=联通_签到与抽奖, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.qxrewrite, tag=联通_获取cookie, update-interval=86400, opt-parser=false, enabled=true"
     },
     {
