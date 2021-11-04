@@ -89,5 +89,11 @@
     {
       "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jingsubang.js, tag= 手机竞猜, enabled=true"
     },
+    {
+      "config":"40 0,2 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_wishingPool.js, tag=众筹许愿池, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"5 7,12,20 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_star.js, tag=星店长, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_star.png, enabled=true"
+    },
   ]
 }
