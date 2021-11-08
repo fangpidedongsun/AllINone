@@ -117,9 +117,7 @@
     {
       "config":"41 0,12,23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_price.js, tag=京东价格保护, img-url=https://raw.githubusercontent.com/ZCY01/img/master/pricev1.png, enabled=true"
     },
-    {
-      "config":"1 1,2,23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_redPacket.js, tag=京东全民开红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true"
-    },
+
     {
       "config":"45 1,12 * * *  https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_sendBeans.js,tag=送豆得豆, enabled=true"
     },
