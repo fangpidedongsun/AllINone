@@ -21,5 +21,8 @@
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰每日签到, enabled=true",
       "addons":"https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/sfexpress_signin.qxrewrite,tag=sfexpress_获取Cookie"
     },
+    {
+      "config":"50 1 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_hxddsh.js, tag= 焕新带电生活 enabled=true",
+    },
   ]
 }
