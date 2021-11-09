@@ -176,10 +176,10 @@
   ],
   "task": [
     {
-      "config": "30 */2 * * * https://raw.githubusercontent.com/Hyseen/Scripts/master/QuantumultX/DisneyPlusPolicySwitcher/disney_checker.js, tag=Disney+ 解锁检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png, enabled=true"
+      "config": "30 */2 * * * https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/PolicySwitcher/DisneyPlusPolicySwitcher/disney_checker.js, tag=Disney+ 解锁检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png, enabled=true"
     },
     {
-      "config": "0 0 29 2 * https://raw.githubusercontent.com/Hyseen/Scripts/master/QuantumultX/DisneyPlusPolicySwitcher/disney_switcher.js, tag=Disney+ 策略切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png, enabled=false"
+      "config": "0 0 29 2 * https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/PolicySwitcher/DisneyPlusPolicySwitcher/disney_switcher.js, tag=Disney+ 策略切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png, enabled=false"
     },
     {
       "config": "0 */2 * * * https://raw.githubusercontent.com/Hyseen/Scripts/master/QuantumultX/NetflixPolicySwitcher/netflix_checker.js, tag=Netflix 解锁检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png, enabled=true"
