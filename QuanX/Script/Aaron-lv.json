@@ -21,7 +21,7 @@
       "config":"2 0-23/4 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"5 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+      "config":"0 0,6-23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
     {
       "config":"5 0,23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png, enabled=true"
@@ -76,7 +76,7 @@
       "config":"4 2,10 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxlhb.js, tag=京喜领88元红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"20 0-23/3 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxmc.js, tag=惊喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
+      "config":"20 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxmc.js, tag=惊喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
     },
     {
       "config":"0 9,12,18 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png, enabled=true"
@@ -143,7 +143,7 @@
       "config":"11 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true"
     },
     {
-      "config":"10 0,7,23 * * * https://raw.githubusercontent.com/fangpidedongsun/jd_scripts2/master/jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true"
+      "config":"12 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true"
     },
     {
       "config":"55 23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
