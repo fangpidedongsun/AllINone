@@ -112,13 +112,13 @@ DOMAIN,hboasia5-i.akamaihd.net,American
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,American
 
 # > Discovery Plus
-USER-AGENT,DPlus*,American
-DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com,American
-DOMAIN-SUFFIX,disco-api.com,American
-DOMAIN-SUFFIX,discoveryplus.com,American
-DOMAIN-SUFFIX,fwmrm.net,American
-DOMAIN-SUFFIX,getblueshift.com,American
-DOMAIN-SUFFIX,litix.io,American
-DOMAIN-SUFFIX,mobile-collector.newrelic.com,American
-DOMAIN-SUFFIX,uplynk.com,American
-host-keyword, noggin, American
+USER-AGENT,DPlus*,Discovery
+DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com,Discovery
+DOMAIN-SUFFIX,disco-api.com,Discovery
+DOMAIN-SUFFIX,discoveryplus.com,Discovery
+DOMAIN-SUFFIX,fwmrm.net,Discovery
+DOMAIN-SUFFIX,getblueshift.com,Discovery
+DOMAIN-SUFFIX,litix.io,Discovery
+DOMAIN-SUFFIX,mobile-collector.newrelic.com,Discovery
+DOMAIN-SUFFIX,uplynk.com,Discovery
+host-keyword, noggin, Discovery
