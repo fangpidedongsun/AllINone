@@ -24,5 +24,8 @@
     {
       "config":"50 1 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_hxddsh.js, tag= 焕新带电生活 enabled=true",
     },
+    {
+      "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true",
+    },
   ]
 }
