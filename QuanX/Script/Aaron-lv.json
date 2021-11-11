@@ -143,9 +143,6 @@
       "config":"11 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true"
     },
     {
-      "config":"12 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true"
-    },
-    {
       "config":"55 23 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {

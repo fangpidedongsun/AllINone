@@ -98,5 +98,11 @@
     {
       "config":"0 2 1-11 11 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_travel_shop.js, enabled=true"
     },
+    {
+      "config":"0-59/20 0,1 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true"
+    },
+    {
+      "config":"40 0,17 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/jd_fanli.js, tag=京东饭粒, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+    },
   ]
 }
