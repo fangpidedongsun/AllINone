@@ -27,5 +27,6 @@
     {
       "config":"event-interaction https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/PolicySwitcher/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true",
     },
+
   ]
 }
