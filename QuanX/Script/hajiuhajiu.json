@@ -3,22 +3,13 @@
   "description": "https://github.com/fangpidedongsun/jd_scripts2",
   "task": [
     {
-      "config":"0 0,12,18,20 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_redEnvelope.js, enabled=true"
-    },
-    {
       "config":"1 6-22/3 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fcdyj.js, tag=发财大赢家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
-    },
-    {
-      "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ShopSign.js, tag=interCenter渠道店铺签到,  enabled=true"
     },
     {
       "config":"1 8,12,18 * * *  https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
       "config":"0,1,2 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cash_exchange.js, tag=领现金兑换红包"
-    },
-    {
-      "config":"59 11,12,23 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
     {
       "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_daydlt.js, tag=天天优惠大乐透, enabled=true"
