@@ -34,6 +34,7 @@ USER-AGENT,com.apple.tv*,AppleTV
  DOMAIN-SUFFIX,bbci.co.uk,American
 
 # > American
+#hulu
 DOMAIN-SUFFIX,hulu.com,Paramount
 DOMAIN-SUFFIX,huluim.com,Paramount
 DOMAIN-SUFFIX,hulustream.com,Paramount
