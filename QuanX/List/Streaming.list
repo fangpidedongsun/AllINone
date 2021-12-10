@@ -445,6 +445,9 @@ DOMAIN-SUFFIX,otakudrive.life,Emby
 
 #dxz
 DOMAIN-SUFFIX,dxz.plus,Emby
+
+DOMAIN-SUFFIX,ojbk.press,Emby
+
 IP-CIDR,152.70.120.62/32,Emby
 
 
