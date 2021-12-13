@@ -15,9 +15,6 @@
       "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_daydlt.js, tag=天天优惠大乐透, enabled=true"
     },
     {
-      "config":"30 7 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddnc_farmpark.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
-    },
-    {
       "config":"20 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_ddwj.js, tag= 东东玩家"
     },
     {
@@ -95,5 +92,18 @@
     {
       "config":"40 0,17 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_fanli.js, tag=京东饭粒, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
+    {
+      "config":"0 * * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_redrain.js, tag=整点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"30 20-23/1 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_live_redrain.js, tag=半点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"31 8 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_mofang_ex.js, tag=京东小魔方--收集兑换, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+
+
+
+
   ]
 }

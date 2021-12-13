@@ -178,7 +178,11 @@
     {
       "config":"20 * * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
-
-
+    {
+      "config":"10 0,2 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_split.js, tag=年终奖, enabled=true"
+    },
+    {
+      "config":"0 0,12 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_redEnvelope.js, tag=暖暖红包, enabled=true"
+    },
   ]
 }
