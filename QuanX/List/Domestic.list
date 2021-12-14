@@ -1,4 +1,6 @@
 # Domestic.list
+
+host-suffix,cloudmagic.com, Domestic
 # > Bilibili
 host-keyword, bilibili, Domestic
 host-suffix, acg.tv, Domestic
