@@ -19,6 +19,28 @@ USER-AGENT,com.apple.tv*,AppleTV
  DOMAIN-SUFFIX,foxplus.com,American
  DOMAIN-SUFFIX,theplatform.com,American
 
+ # > Amazon Prime Video
+ USER-AGENT,InstantVideo.US*,American
+ USER-AGENT,Prime%20Video*,American
+ DOMAIN-SUFFIX,aiv-cdn.net,American
+ DOMAIN-SUFFIX,amazonaws.co.uk,American
+ DOMAIN-SUFFIX,amazonaws.com,American
+ DOMAIN-SUFFIX,amazonvideo.com,American
+ DOMAIN-SUFFIX,llnwd.net,American
+ DOMAIN-SUFFIX,aiv-delivery.net,American
+ DOMAIN-SUFFIX,primevideo.com,American
+ DOMAIN-SUFFIX,media-amazon.com,American
+ DOMAIN,atv-ps.amazon.com,American
+ DOMAIN,fls-na.amazon.com,American
+ DOMAIN,avodmp4s3ww-a.akamaihd.net,American
+ DOMAIN,d25xi40x97liuc.cloudfront.net,American
+ DOMAIN,dmqdd6hw24ucf.cloudfront.net,American
+ DOMAIN,dmqdd6hw24ucf.cloudfront.net,American
+ DOMAIN,d22qjgkvxw22r6.cloudfront.net,American
+ DOMAIN,d1v5ir2lpwr8os.cloudfront.net,American
+ DOMAIN,d27xxe7juh1us6.cloudfront.net,American
+ DOMAIN-KEYWORD,avoddashs,American
+
 # > BBC iPlayer
  USER-AGENT,BBCiPlayer*,American
  DOMAIN-KEYWORD,bbcfmt,American

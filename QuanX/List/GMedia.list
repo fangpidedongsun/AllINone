@@ -1,25 +1,3 @@
-# > Amazon Prime Video
-USER-AGENT,InstantVideo.US*,GMedia
-USER-AGENT,Prime%20Video*,GMedia
-DOMAIN-SUFFIX,aiv-cdn.net,GMedia
-DOMAIN-SUFFIX,amazonaws.co.uk,GMedia
-DOMAIN-SUFFIX,amazonaws.com,GMedia
-DOMAIN-SUFFIX,amazonvideo.com,GMedia
-DOMAIN-SUFFIX,llnwd.net,GMedia
-DOMAIN-SUFFIX,aiv-delivery.net,GMedia
-DOMAIN-SUFFIX,primevideo.com,GMedia
-DOMAIN-SUFFIX,media-amazon.com,GMedia
-DOMAIN,atv-ps.amazon.com,GMedia
-DOMAIN,fls-na.amazon.com,GMedia
-DOMAIN,avodmp4s3ww-a.akamaihd.net,GMedia
-DOMAIN,d25xi40x97liuc.cloudfront.net,GMedia
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,GMedia
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,GMedia
-DOMAIN,d22qjgkvxw22r6.cloudfront.net,GMedia
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net,GMedia
-DOMAIN,d27xxe7juh1us6.cloudfront.net,GMedia
-DOMAIN-KEYWORD,avoddashs,GMedia
-
 # > ABC
 DOMAIN-SUFFIX,edgedatg.com,GMedia
 DOMAIN-SUFFIX,go.com,GMedia
@@ -38,7 +16,6 @@ DOMAIN-SUFFIX,bahamut.com.tw,GMedia
 DOMAIN-SUFFIX,gamer.com.tw,GMedia
 DOMAIN-SUFFIX,hinet.net,GMedia
 
-# > BBC iPlayer
 
 # > DAZN
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
