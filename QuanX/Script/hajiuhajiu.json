@@ -42,9 +42,6 @@
       "config":"0 8 21-31 5-12 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jbczy.js, tag=金榜创造营,  enabled=true"
     },
     {
-      "config":"10 8,23 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jika.js, tag=集萌宝得团圆礼包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true"
-    },
-    {
       "config":"31 2,8 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jmf.js, tag=京东小魔方, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
@@ -72,7 +69,7 @@
       "config":"24 3,13 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cjhz.js, tag=京东超级盒子, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
     },
     {
-      "config":"10 9,13,16,19,20 2-8 11 * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_superBrand.js, tag= 双11特务, enabled=true"
+      "config":"13 15,19 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_superBrand.js, tag= 双11特务, enabled=true"
     },
     {
       "config":"0 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jingsubang.js, tag= 手机竞猜, enabled=true"
@@ -100,6 +97,22 @@
     },
     {
       "config":"31 8 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_mofang_ex.js, tag=京东小魔方--收集兑换, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+
+    {
+      "config":"10 * * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_daily_egg.js, tag=天天提鹅, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdte.png, enabled=true"
+    },
+    {
+      "config":"15 10 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jfcz.js, tag=见缝插针, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"13 0,6,22 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_health.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"10 0 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png, enabled=true"
+    },
+    {
+      "config":"30 2,9 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jx_sign_xd.js, tag=京喜签到-喜豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
 
 
