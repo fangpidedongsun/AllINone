@@ -1,9 +1,9 @@
-# > Apple TV
-HOST,hls-amt.itunes.apple.com,AppleTV
-HOST,hls.itunes.apple.com,AppleTV
-HOST,np-edge.itunes.apple.com,AppleTV
-HOST,play-edge.itunes.apple.com,AppleTV
-HOST,uts-api.itunes.apple.com,AppleTV
-HOST-SUFFIX,tv.apple.com,AppleTV
-USER-AGENT,AppleTV*,AppleTV
-USER-AGENT,com.apple.tv*,AppleTV
+# > AppleTV
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls.itunes.apple.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN,uts-api.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+USER-AGENT*
+USER-AGENT,com.apple.tv*

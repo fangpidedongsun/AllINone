@@ -1,37 +1,37 @@
-DOMAIN-SUFFIX,emby.nexitally.com,Emby
-DOMAIN-SUFFIX,mickeycloud.com,Emby
-DOMAIN-SUFFIX,youremby.gq,Emby
-DOMAIN-SUFFIX,somii.cf,Emby
-DOMAIN-SUFFIX,kozow.com,Emby
+DOMAIN-SUFFIX,emby.nexitally.com
+DOMAIN-SUFFIX,mickeycloud.com
+DOMAIN-SUFFIX,youremby.gq
+DOMAIN-SUFFIX,somii.cf
+DOMAIN-SUFFIX,kozow.com
 
 #Exflux普拉斯
-DOMAIN-SUFFIX,emby.men,Emby
-IP-CIDR,104.21.40.166/32,Emby
+DOMAIN-SUFFIX,emby.men
+IP-CIDR,104.21.40.166/32
 
 #普拉斯 普拉斯影业,plusisbest
-DOMAIN-SUFFIX,plusmedia.site,Emby
-DOMAIN-SUFFIX,xeton.dev,PornEmby
+DOMAIN-SUFFIX,plusmedia.site
+DOMAIN-SUFFIX,xeton.dev
 
 #Odyssey
-DOMAIN-SUFFIX,odysseyplus.site,Emby
-IP-CIDR,172.67.139.252/32,Emby
+DOMAIN-SUFFIX,odysseyplus.site
+IP-CIDR,172.67.139.252/32
 
 #卷毛鼠
-DOMAIN-SUFFIX,jmsooo.com,Emby
-IP-CIDR,144.76.203.211/32,Emby
-IP-CIDR,104.21.10.125/32,Emby
+DOMAIN-SUFFIX,jmsooo.com
+IP-CIDR,144.76.203.211/32
+IP-CIDR,104.21.10.125/32
 
 #终点站 pub2.emby.wtf
-DOMAIN-SUFFIX,emby.wtf,Emby
+DOMAIN-SUFFIX,emby.wtf
 
 #otakudrive
-DOMAIN-SUFFIX,otakudrive.life,Emby
+DOMAIN-SUFFIX,otakudrive.life
 
 #dxz
-DOMAIN-SUFFIX,dxz.plus,Emby
+DOMAIN-SUFFIX,dxz.plus
 
 #pornemby
-DOMAIN-SUFFIX,pornemby.club,PornEmby
+DOMAIN-SUFFIX,pornemby.club
 
 #HaochiのEMBY公益服
-DOMAIN-SUFFIX, kyarucloud.moe,Emby
+DOMAIN-SUFFIX, kyarucloud.moe
