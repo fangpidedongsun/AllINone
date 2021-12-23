@@ -482,4 +482,7 @@ DOMAIN-SUFFIX,kyarucloud.moe,PornEmby
 
 #超级跑车
 DOMAIN-SUFFIX,cjpc.cc,Emby
+IP-CIDR,139.180.204.182/32,Emby
 IP-CIDR,34.125.176.134/32,Emby
+DOMAIN-SUFFIX,emby.cyou,Emby
+DOMAIN-SUFFIX,tyhlw.org,Emby
