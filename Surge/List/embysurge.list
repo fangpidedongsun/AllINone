@@ -1,3 +1,5 @@
+
+#Emby
 DOMAIN-SUFFIX,emby.nexitally.com
 DOMAIN-SUFFIX,mickeycloud.com
 DOMAIN-SUFFIX,youremby.gq
@@ -21,7 +23,7 @@ DOMAIN-SUFFIX,jmsooo.com
 IP-CIDR,144.76.203.211/32
 IP-CIDR,104.21.10.125/32
 
-#终点站 pub2.emby.wtf
+#终点站
 DOMAIN-SUFFIX,emby.wtf
 
 #otakudrive
@@ -29,6 +31,31 @@ DOMAIN-SUFFIX,otakudrive.life
 
 #dxz
 DOMAIN-SUFFIX,dxz.plus
+DOMAIN-SUFFIX,ojbk.press
+IP-CIDR,152.70.120.62/32
+
+#Misty
+DOMAIN-SUFFIX,aaa.ax
+DOMAIN-SUFFIX,ssky.me
 
 #pornemby
-DOMAIN-SUFFIX,pornemby.club,PornEmby
+DOMAIN-SUFFIX,pornemby.club
+
+#HaochiのEMBY公益服
+DOMAIN-SUFFIX,kyarucloud.moe
+
+#超级跑车
+DOMAIN-SUFFIX,cjpc.cc
+
+#自建
+IP-CIDR,139.180.204.182/32
+IP-CIDR,34.125.176.134/32
+
+#狂热云
+DOMAIN-SUFFIX,emby.cyou
+
+#天演网络 (http://www.tyhlw.org/emby)
+DOMAIN-SUFFIX,tyhlw.org
+
+#卡戎影视
+DOMAIN-SUFFIX,charontv.com
