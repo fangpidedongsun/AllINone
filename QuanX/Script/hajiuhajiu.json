@@ -48,21 +48,6 @@
       "config":"0 0-23/3 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_tyt.js, tag=柠檬推一推, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
     {
-      "config":"25 1 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jddj_bean.js,tag=京东到家鲜豆任务,img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
-    },
-    {
-      "config":"10 8,12,18 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jddj_fruit.js,tag=京东到家果园,img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
-    },
-    {
-      "config":"0-59/32 * * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jddj_fruit_collectWater.js,tag=京东到家果园水车收水滴,img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
-    },
-    {
-      "config":"0-59/31 * * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jddj_getPoints.js,tag=京东到家鲜豆庄园收水滴,img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
-    },
-    {
-      "config":"10 8 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jddj_plantBeans.js,tag=京东到家鲜豆庄园,img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png, enabled=true"
-    },
-    {
       "config":"0-23/1 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_super_redrain.js, tag=整点京豆雨, enabled=true"
     },
     {
@@ -98,10 +83,6 @@
     {
       "config":"31 8 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_mofang_ex.js, tag=京东小魔方--收集兑换, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
-
-    {
-      "config":"10 * * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_daily_egg.js, tag=天天提鹅, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdte.png, enabled=true"
-    },
     {
       "config":"15 10 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_jfcz.js, tag=见缝插针, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
@@ -114,6 +95,26 @@
     {
       "config":"30 2,9 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jx_sign_xd.js, tag=京喜签到-喜豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
     },
+    {
+      "config":"20 * * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
+    },
+    {
+      "config":"10 7 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_bzlshdgt.js, tag=把智能生活带给TA, enabled=true"
+    },
+    {
+      "config":"1 * * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+    },
+    {
+      "config":"59 11,12,23 * * * https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_scripts/jd_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true"
+    },
+
+
+
+
+
+
+
+
 
 
 
