@@ -1,0 +1,35 @@
+#!name=爱奇艺每日签到
+#!desc=最后更新时间 2022-01-27 02:10:54
+#!author=NobyDa
+#!repo=https://github.com/NobyDa/Script/tree/master/iQIYI-DailyBonus
+#!rewrite=0
+#!script=1
+#!force_http_engine_hosts=0
+#!mitm=1
+
+[Rule]
+DOMAIN,console.log("\n爱奇艺-与本机储存cookie相同,跳过写入⚠️")
+DOMAIN,console.log(`\n更新爱奇艺cookie成功!🎉\n检测到频繁通知,已转为输出日志`)
+DOMAIN,console.log(`cookie缺少关键值，需重新获取`),None
+DOMAIN,console.log(`爱奇艺-${checkinmsg}${details}`);,None
+DOMAIN,console.log(`爱奇艺-${lotterymsg}(${s+1})${details}`),None
+DOMAIN,console.log(`爱奇艺-查询失败${error||':无到期数据⚠️'}${details}`),None
+DOMAIN,console.log(`爱奇艺-查询成功:${$nobyda.expire}${details}`),None
+DOMAIN,console.log(`爱奇艺-浏览奖励:\n${data}`),None
+DOMAIN,console.log(`爱奇艺-浏览奖励失败:\n${data}`),None
+DOMAIN,node.request(options,(ERROR
+DOMAIN,node.request.post(options,(ERROR
+DOMAIN,options.headers['x-surge-skip-scripting']=false,None
+DOMAIN,pushmsg.push(checkinmsg);,None
+DOMAIN,pushmsg.push(lotterymsg),None
+DOMAIN,returnconsole.log('\n签到用时:'+end+'秒'),None
+DOMAIN,returnobject.keys(e).foreach((function(a){,None
+DOMAIN,t.join("&"),None
+DOMAIN,t.push("".concat(a,"=").CONCAT(E[A]))
+
+[Script]
+爱奇艺_获取Cookie = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/3d0d9ad1242119a64a06d278129a7dc8.js,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/user\/info\.action
+爱奇艺_每日自动签到 = type=cron,cronexp=20 0 * * *,timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/3d0d9ad1242119a64a06d278129a7dc8.js
+
+[MITM]
+hostname = %APPEND% passport.iqiyi.com

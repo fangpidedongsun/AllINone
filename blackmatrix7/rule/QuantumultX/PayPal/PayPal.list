@@ -1,0 +1,90 @@
+# NAME: PayPal
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-01-18 23:33:29
+# USER-AGENT: 1
+# HOST-SUFFIX: 80
+# HOST-KEYWORD: 1
+# TOTAL: 82
+HOST-SUFFIX,anfutong.cn,PayPal
+HOST-SUFFIX,anfutong.com,PayPal
+HOST-SUFFIX,anfutong.com.cn,PayPal
+HOST-SUFFIX,beibao.cn,PayPal
+HOST-SUFFIX,beibao.com,PayPal
+HOST-SUFFIX,beibao.com.cn,PayPal
+HOST-SUFFIX,bill-safe.com,PayPal
+HOST-SUFFIX,billmelater.com,PayPal
+HOST-SUFFIX,billmelater.info,PayPal
+HOST-SUFFIX,billmelater.net,PayPal
+HOST-SUFFIX,bml.info,PayPal
+HOST-SUFFIX,braintreegateway.com,PayPal
+HOST-SUFFIX,braintreegateway.tv,PayPal
+HOST-SUFFIX,braintreepayments.com,PayPal
+HOST-SUFFIX,braintreepayments.info,PayPal
+HOST-SUFFIX,braintreepayments.org,PayPal
+HOST-SUFFIX,braintreepayments.tv,PayPal
+HOST-SUFFIX,braintreepaymentsolutions.com,PayPal
+HOST-SUFFIX,braintreeps.com,PayPal
+HOST-SUFFIX,briantreepayments.net,PayPal
+HOST-SUFFIX,briantreepayments.tv,PayPal
+HOST-SUFFIX,buyfast-paysmart.net,PayPal
+HOST-SUFFIX,card.io,PayPal
+HOST-SUFFIX,cash2.com,PayPal
+HOST-SUFFIX,cashify.com,PayPal
+HOST-SUFFIX,cashify.net,PayPal
+HOST-SUFFIX,experiencebillmelater.com,PayPal
+HOST-SUFFIX,filipino-music.net,PayPal
+HOST-SUFFIX,getbraintree.com,PayPal
+HOST-SUFFIX,gmoney.org,PayPal
+HOST-SUFFIX,i-o-u.info,PayPal
+HOST-SUFFIX,krakenjs.com,PayPal
+HOST-SUFFIX,loanbuilder.com,PayPal
+HOST-SUFFIX,mywaytopay.info,PayPal
+HOST-SUFFIX,mywaytopay.net,PayPal
+HOST-SUFFIX,pa9pal.com,PayPal
+HOST-SUFFIX,paaypal.com,PayPal
+HOST-SUFFIX,paily.net,PayPal
+HOST-SUFFIX,paily.org,PayPal
+HOST-SUFFIX,paipal.com,PayPal
+HOST-SUFFIX,pavpal.com,PayPal
+HOST-SUFFIX,paydiant.com,PayPal
+HOST-SUFFIX,paylike.com,PayPal
+HOST-SUFFIX,paypa1.com,PayPal
+HOST-SUFFIX,paypa1.org,PayPal
+HOST-SUFFIX,paypaal.com,PayPal
+HOST-SUFFIX,payppal.com,PayPal
+HOST-SUFFIX,payypal.com,PayPal
+HOST-SUFFIX,pdncommunity.com,PayPal
+HOST-SUFFIX,pp-soc.com,PayPal
+HOST-SUFFIX,pppds.com,PayPal
+HOST-SUFFIX,pypl.com,PayPal
+HOST-SUFFIX,pypl.info,PayPal
+HOST-SUFFIX,pypl.net,PayPal
+HOST-SUFFIX,pypl.tv,PayPal
+HOST-SUFFIX,s-xoom.com,PayPal
+HOST-SUFFIX,simility.com,PayPal
+HOST-SUFFIX,swiftbank.info,PayPal
+HOST-SUFFIX,swiftbank.us,PayPal
+HOST-SUFFIX,swiftcapital.com,PayPal
+HOST-SUFFIX,swiftfinancial.com,PayPal
+HOST-SUFFIX,swiftfinancial.info,PayPal
+HOST-SUFFIX,swiftfinancial.net,PayPal
+HOST-SUFFIX,theshoppingexpresslane.net,PayPal
+HOST-SUFFIX,venmo-touch.com,PayPal
+HOST-SUFFIX,venmo.com,PayPal
+HOST-SUFFIX,venmo.info,PayPal
+HOST-SUFFIX,venmo.net,PayPal
+HOST-SUFFIX,venmo.org,PayPal
+HOST-SUFFIX,venmo.s3.amazonaws.com,PayPal
+HOST-SUFFIX,webmoneyinfo.com,PayPal
+HOST-SUFFIX,wiremoneytoirelandwithxoomeasierandcheaper.com,PayPal
+HOST-SUFFIX,wwwxoom.com,PayPal
+HOST-SUFFIX,xn--bnq297cix3a.cn,PayPal
+HOST-SUFFIX,xoom-experience.com,PayPal
+HOST-SUFFIX,xoom.com,PayPal
+HOST-SUFFIX,xoom.io,PayPal
+HOST-SUFFIX,xoom.net.cn,PayPal
+HOST-SUFFIX,xoom.us,PayPal
+HOST-SUFFIX,xoomcom.com,PayPal
+HOST-KEYWORD,paypal,PayPal
+USER-AGENT,PayPal*,PayPal
