@@ -22,7 +22,7 @@
       "config":"event-interaction https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/PolicySwitcher/streaming-ui-check.js, tag=自用解锁查询, img-url=checkmark.seal.system, enabled=true",
     },
     {
-      "config":"0 0,2,9,12,15,17,20,23 * * * https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/jd_priceProtect2.js, tag=顺丰每日签到, enabled=true",
+      "config":"0 0,2,9,12,15,17,20,23 * * * https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/jd_priceProtect2.js, tag=京东价格保护2, enabled=true",
     },
   ]
 }
