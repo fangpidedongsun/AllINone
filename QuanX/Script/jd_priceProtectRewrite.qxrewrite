@@ -1,1 +1,1 @@
-https:\/\/api\.m.jd.com\/api\?appid=siteppM&functionId=siteppM_skuOnceApply url script-request-body https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Rewrite/jd_priceProtectRewrite.js
+https:\/\/api\.m.jd.com\/api\?appid=siteppM&functionId=siteppM_skuOnceApply url script-request-body https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
