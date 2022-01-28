@@ -22,7 +22,8 @@
       "config":"event-interaction https://raw.githubusercontent.com/fangpidedongsun/AllINone/master/QuanX/Script/PolicySwitcher/streaming-ui-check.js, tag=自用解锁查询, img-url=checkmark.seal.system, enabled=true",
     },
     {
-      "config":"0 0,2,9,12,15,17,20,23 * * * https://raw.githubusercontent.com/LingFeng0918/jd_scripts/master/jd_priceProtect.js, tag=京东保价2, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+      "config":"0 0,2,9,12,15,17,20,23 * * * https://raw.githubusercontent.com/dongdongGit/jd-scripts/main/jd_priceProtect.js, tag=京东保价2, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
     },
+
   ]
 }
