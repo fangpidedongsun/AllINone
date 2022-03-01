@@ -2,9 +2,7 @@
   "name": "Aaron-lv task gallery",
   "description": "https://github.com/fangpidedongsun/jd_scripts2",
   "task": [
-    {
-      "config":"5 2,10 1-8 3 * https://raw.githubusercontent.com/feverrun/my_scripts/main/jd_opencard_fls.js, tag=1.29~2.15 京东粉丝联盟福利社 入会赢专享好礼, enabled=true"
-    },
+
     {
       "config":"2 9 * * * https://raw.githubusercontent.com/fangpidedongsun/JDAaron-lv-copy/main/jd_bean_change.js, tag=京豆变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"
     },
