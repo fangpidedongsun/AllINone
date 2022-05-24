@@ -305,7 +305,8 @@ create_rclone_service(){
                 done
                 echo
                 read -p "请输入需要挂载目录的路径（如不是绝对路径则挂载到/mnt/video下）:" path
-
+                if [[ "${path:0:1}" != "/" ]];then
+                        path="/home/fpchild/${path}"
                 fi
                 while [[ 0 ]]
                 do
